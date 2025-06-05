@@ -10,12 +10,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-@Getter
-@Setter
-@ToString
-@EqualsAndHashCode
-@RequiredArgsConstructor
-@Builder
+@Data
 public class Member {
 	private final Long num;
 	private final String id;
