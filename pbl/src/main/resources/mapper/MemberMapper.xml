@@ -6,7 +6,7 @@
   	<insert id="insert">
   	insert into tbl_member(id, pw, name, email) values (#{id}, #{pw}, #{name}, #{email})
   	</insert>
-  	<select id="findByNo" resultType="domain.Member">
+  	<select id="findById" resultType="domain.Member">
   	select * from tbl_member where id = #{id}
   	</select>
   </mapper>
