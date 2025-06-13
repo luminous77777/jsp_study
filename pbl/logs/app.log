@@ -1,60 +1,31 @@
-11:19:19.967 [main] INFO  sqltiming - select * from tbl_member where id = 'test'
- {executed in 7 msec}
-11:19:19.991 [main] INFO  resultsettable - 
-|---|-----|-----|-----|---------|--------------------|
-|no |id   |pw   |name |email    |regdate             |
-|---|-----|-----|-----|---------|--------------------|
-|1  |test |1234 |test |testmail |2025-06-11 18:18:22 |
-|---|-----|-----|-----|---------|--------------------|
-
-11:19:20.008 [main] INFO  MemberService - Member(no=1, id=test, pw=1234, name=test, email=testmail, regdate=2025-06-11 18:18:22)
-11:19:20.015 [main] INFO  MemberService - 10포맷 형식23
-11:52:46.384 [main] INFO  sqltiming - insert into tbl_member(id, pw, name, email) values ('test', '$2a$10$pI3bgj8pq.9DXjFTGG.hb.NFqrIP6wwgIkuHAjsy.Xr63jkvhcL8m', 'test', 'test@mail.com')
- {executed in 7 msec}
-12:08:58.093 [main] INFO  sqltiming - select * from tbl_member where id = 'test'
+15:27:31.587 [main] INFO  sqltiming - select * from tbl_member where id = 'test'
  {executed in 8 msec}
-12:08:58.119 [main] INFO  resultsettable - 
-|---|-----|-------------------------------------------------------------|-----|--------------|--------------------|
-|no |id   |pw                                                           |name |email         |regdate             |
-|---|-----|-------------------------------------------------------------|-----|--------------|--------------------|
-|2  |test |$2a$10$pI3bgj8pq.9DXjFTGG.hb.NFqrIP6wwgIkuHAjsy.Xr63jkvhcL8m |test |test@mail.com |2025-06-12 11:52:46 |
-|---|-----|-------------------------------------------------------------|-----|--------------|--------------------|
+15:27:31.613 [main] INFO  resultsettable - 
+|---|-----|-------------------------------------------------------------|-----|------|--------------------|
+|no |id   |pw                                                           |name |email |regdate             |
+|---|-----|-------------------------------------------------------------|-----|------|--------------------|
+|7  |test |$2a$10$v/tjiprnpsMnVuw3t2XMZ.t7.ux9Gp..4xi2AJ.qmrueZXd99xRKe |test |test  |2025-06-12 16:23:36 |
+|---|-----|-------------------------------------------------------------|-----|------|--------------------|
 
-12:09:29.854 [main] INFO  sqltiming - select * from tbl_member where id = 'test'
- {executed in 8 msec}
-12:09:29.875 [main] INFO  resultsettable - 
-|---|-----|-------------------------------------------------------------|-----|--------------|--------------------|
-|no |id   |pw                                                           |name |email         |regdate             |
-|---|-----|-------------------------------------------------------------|-----|--------------|--------------------|
-|2  |test |$2a$10$pI3bgj8pq.9DXjFTGG.hb.NFqrIP6wwgIkuHAjsy.Xr63jkvhcL8m |test |test@mail.com |2025-06-12 11:52:46 |
-|---|-----|-------------------------------------------------------------|-----|--------------|--------------------|
+15:27:31.823 [main] INFO  MemberService - false
+15:27:31.830 [main] INFO  sqltiming - select * from tbl_member where id = 'test'
+ {executed in 5 msec}
+15:27:31.832 [main] INFO  resultsettable - 
+|---|-----|-------------------------------------------------------------|-----|------|--------------------|
+|no |id   |pw                                                           |name |email |regdate             |
+|---|-----|-------------------------------------------------------------|-----|------|--------------------|
+|7  |test |$2a$10$v/tjiprnpsMnVuw3t2XMZ.t7.ux9Gp..4xi2AJ.qmrueZXd99xRKe |test |test  |2025-06-12 16:23:36 |
+|---|-----|-------------------------------------------------------------|-----|------|--------------------|
 
-12:14:24.842 [main] INFO  sqltiming - select * from tbl_member where id = 'test'
+15:27:31.909 [main] ERROR MemberService - false
+15:33:07.669 [main] INFO  sqltiming - select * from tbl_board where bno = 1
  {executed in 7 msec}
-12:14:24.867 [main] INFO  resultsettable - 
-|---|-----|-------------------------------------------------------------|-----|--------------|--------------------|
-|no |id   |pw                                                           |name |email         |regdate             |
-|---|-----|-------------------------------------------------------------|-----|--------------|--------------------|
-|2  |test |$2a$10$pI3bgj8pq.9DXjFTGG.hb.NFqrIP6wwgIkuHAjsy.Xr63jkvhcL8m |test |test@mail.com |2025-06-12 11:52:46 |
-|---|-----|-------------------------------------------------------------|-----|--------------|--------------------|
+15:33:07.690 [main] INFO  resultsettable - 
+|----|--------|--------|-----|--------------------|--------------------|----|----|
+|bno |title   |content |id   |regdate             |moddate             |cnt |cno |
+|----|--------|--------|-----|--------------------|--------------------|----|----|
+|1   |새똥이가 쓴글 |내용      |test |2025-06-12 17:37:58 |2025-06-12 17:37:58 |0   |2   |
+|----|--------|--------|-----|--------------------|--------------------|----|----|
 
-12:16:10.740 [main] INFO  sqltiming - select * from tbl_member where id = 'test'
- {executed in 8 msec}
-12:16:10.761 [main] INFO  resultsettable - 
-|---|-----|-------------------------------------------------------------|-----|--------------|--------------------|
-|no |id   |pw                                                           |name |email         |regdate             |
-|---|-----|-------------------------------------------------------------|-----|--------------|--------------------|
-|2  |test |$2a$10$pI3bgj8pq.9DXjFTGG.hb.NFqrIP6wwgIkuHAjsy.Xr63jkvhcL8m |test |test@mail.com |2025-06-12 11:52:46 |
-|---|-----|-------------------------------------------------------------|-----|--------------|--------------------|
-
-12:16:10.941 [main] INFO  MemberService - true
-12:16:10.947 [main] INFO  sqltiming - select * from tbl_member where id = 'test'
- {executed in 4 msec}
-12:16:10.950 [main] INFO  resultsettable - 
-|---|-----|-------------------------------------------------------------|-----|--------------|--------------------|
-|no |id   |pw                                                           |name |email         |regdate             |
-|---|-----|-------------------------------------------------------------|-----|--------------|--------------------|
-|2  |test |$2a$10$pI3bgj8pq.9DXjFTGG.hb.NFqrIP6wwgIkuHAjsy.Xr63jkvhcL8m |test |test@mail.com |2025-06-12 11:52:46 |
-|---|-----|-------------------------------------------------------------|-----|--------------|--------------------|
-
-12:16:11.026 [main] INFO  MemberService - false
+15:33:07.708 [main] INFO  BoardService - Board(bno=1, title=새똥이가 쓴글, content=내용, id=test, regdate=2025-06-12 17:37:58, moddate=2025-06-12 17:37:58, cnt=0, cno=2)
+15:42:08.613 [main] INFO  View - null
