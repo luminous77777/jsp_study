@@ -9,4 +9,7 @@
   	<select id="selectOne" resultType="domain.Board">
   		select * from tbl_board where bno = #{bno}
   	</select>
+  	<insert id="insert">
+  	insert into tbl_board (title, content, id, cno) values (#{title}, #{content}, #{id}, #{cno})
+  	</insert>
   </mapper>

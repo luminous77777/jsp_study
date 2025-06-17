@@ -31,5 +31,16 @@ public class BoardService {
 		}
 		return null;
 	}
+
+	public void write(Board board) {
+		try (SqlSession session = MybatisUtil.getSqlSession()){
+			BoardMapper mapper = session.getMapper(BoardMapper.class);
+			mapper.insert(board);
+		} catch (Exception e) {
+			e.getStackTrace();
+		}
+		
+	}
+
 	
 }
