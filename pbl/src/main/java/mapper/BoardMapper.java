@@ -5,13 +5,16 @@ import java.util.List;
 import org.apache.ibatis.annotations.Select;
 
 import domain.Board;
+import domain.dto.Criteria;
 
 public interface BoardMapper {
 	
 	
-	List<Board> list();
+	List<Board> list(Criteria cri);
 	
 	Board selectOne(Long bno);
 
 	void insert(Board board);
+	
+	long getCount(Criteria cri);
 }

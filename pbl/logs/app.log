@@ -1,31 +1,281 @@
-15:27:31.587 [main] INFO  sqltiming - select * from tbl_member where id = 'test'
- {executed in 8 msec}
-15:27:31.613 [main] INFO  resultsettable - 
-|---|-----|-------------------------------------------------------------|-----|------|--------------------|
-|no |id   |pw                                                           |name |email |regdate             |
-|---|-----|-------------------------------------------------------------|-----|------|--------------------|
-|7  |test |$2a$10$v/tjiprnpsMnVuw3t2XMZ.t7.ux9Gp..4xi2AJ.qmrueZXd99xRKe |test |test  |2025-06-12 16:23:36 |
-|---|-----|-------------------------------------------------------------|-----|------|--------------------|
-
-15:27:31.823 [main] INFO  MemberService - false
-15:27:31.830 [main] INFO  sqltiming - select * from tbl_member where id = 'test'
- {executed in 5 msec}
-15:27:31.832 [main] INFO  resultsettable - 
-|---|-----|-------------------------------------------------------------|-----|------|--------------------|
-|no |id   |pw                                                           |name |email |regdate             |
-|---|-----|-------------------------------------------------------------|-----|------|--------------------|
-|7  |test |$2a$10$v/tjiprnpsMnVuw3t2XMZ.t7.ux9Gp..4xi2AJ.qmrueZXd99xRKe |test |test  |2025-06-12 16:23:36 |
-|---|-----|-------------------------------------------------------------|-----|------|--------------------|
-
-15:27:31.909 [main] ERROR MemberService - false
-15:33:07.669 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+10:03:12.721 [main] INFO  Criteria - Criteria(page=1, amount=10)
+10:06:10.619 [main] INFO  Criteria - Criteria(page=1, amount=10)
+10:06:10.624 [main] INFO  Criteria - 10
+10:06:47.030 [main] INFO  Criteria - Criteria(page=1, amount=10)
+10:06:47.036 [main] INFO  Criteria - 0
+10:06:55.287 [main] INFO  Criteria - Criteria(page=2, amount=10)
+10:06:55.292 [main] INFO  Criteria - 10
+10:07:00.190 [main] INFO  Criteria - Criteria(page=3, amount=10)
+10:07:00.195 [main] INFO  Criteria - 20
+10:11:31.568 [main] INFO  Criteria - Criteria(page=1, amount=5)
+10:11:31.573 [main] INFO  Criteria - 0
+10:11:48.080 [main] INFO  Criteria - Criteria(page=1, amount=10)
+10:11:48.085 [main] INFO  Criteria - 0
+10:12:23.329 [main] INFO  Criteria - Criteria(page=1, amount=20)
+10:12:23.334 [main] INFO  Criteria - 0
+10:13:36.485 [main] INFO  Criteria - Criteria(page=2, amount=20)
+10:13:36.490 [main] INFO  Criteria - 20
+10:15:18.606 [main] INFO  Criteria - Criteria(page=2, amount=20)
+10:15:38.762 [main] INFO  Criteria - Criteria(page=2, amount=20)
+10:15:38.767 [main] INFO  Criteria - 22
+10:19:42.249 [main] INFO  Criteria - Criteria(page=2, amount=20)
+10:19:42.254 [main] INFO  Criteria - 20
+10:20:13.570 [main] INFO  Criteria - Criteria(page=1, amount=10)
+10:20:13.575 [main] INFO  Criteria - 0
+10:35:05.364 [main] INFO  Criteria - Criteria(page=1, amount=10)
+10:35:05.369 [main] INFO  Criteria - 0
+10:39:21.172 [main] INFO  sqltiming - select * from tbl_board order by bno desc limit 0 offset 0
  {executed in 7 msec}
-15:33:07.690 [main] INFO  resultsettable - 
-|----|--------|--------|-----|--------------------|--------------------|----|----|
-|bno |title   |content |id   |regdate             |moddate             |cnt |cno |
-|----|--------|--------|-----|--------------------|--------------------|----|----|
-|1   |새똥이가 쓴글 |내용      |test |2025-06-12 17:37:58 |2025-06-12 17:37:58 |0   |2   |
-|----|--------|--------|-----|--------------------|--------------------|----|----|
+10:39:21.186 [main] INFO  resultsettable - 
+|----|------|--------|---|--------|--------|----|----|
+|bno |title |content |id |regdate |moddate |cnt |cno |
+|----|------|--------|---|--------|--------|----|----|
+|----|------|--------|---|--------|--------|----|----|
 
-15:33:07.708 [main] INFO  BoardService - Board(bno=1, title=새똥이가 쓴글, content=내용, id=test, regdate=2025-06-12 17:37:58, moddate=2025-06-12 17:37:58, cnt=0, cno=2)
-15:42:08.613 [main] INFO  View - null
+10:39:41.000 [main] INFO  sqltiming - select * from tbl_board order by bno desc limit 10 offset 0
+ {executed in 8 msec}
+10:39:41.027 [main] INFO  resultsettable - 
+|----|------|--------------|-----|--------------------|--------------------|----|----|
+|bno |title |content       |id   |regdate             |moddate             |cnt |cno |
+|----|------|--------------|-----|--------------------|--------------------|----|----|
+|755 |1번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|754 |2번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|753 |3번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|752 |4번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|751 |5번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|750 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|749 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|748 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|747 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|746 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|----|------|--------------|-----|--------------------|--------------------|----|----|
+
+10:39:41.045 [main] INFO  BoardService - Board(bno=755, title=1번글, content=내용, id=test, regdate=2025-06-18 09:50:54, moddate=2025-06-18 09:50:54, cnt=0, cno=2)
+10:39:41.055 [main] INFO  BoardService - Board(bno=754, title=2번글, content=내용, id=test, regdate=2025-06-18 09:50:54, moddate=2025-06-18 09:50:54, cnt=0, cno=2)
+10:39:41.060 [main] INFO  BoardService - Board(bno=753, title=3번글, content=내용, id=test, regdate=2025-06-18 09:50:54, moddate=2025-06-18 09:50:54, cnt=0, cno=2)
+10:39:41.062 [main] INFO  BoardService - Board(bno=752, title=4번글, content=내용, id=test, regdate=2025-06-18 09:50:54, moddate=2025-06-18 09:50:54, cnt=0, cno=2)
+10:39:41.064 [main] INFO  BoardService - Board(bno=751, title=5번글, content=내용, id=test, regdate=2025-06-18 09:50:54, moddate=2025-06-18 09:50:54, cnt=0, cno=2)
+10:39:41.065 [main] INFO  BoardService - Board(bno=750, title=test, content=<p>test</p>
+, id=test, regdate=2025-06-18 09:50:54, moddate=2025-06-18 09:50:54, cnt=0, cno=2)
+10:39:41.067 [main] INFO  BoardService - Board(bno=749, title=test, content=<p>test</p>
+, id=test, regdate=2025-06-18 09:50:54, moddate=2025-06-18 09:50:54, cnt=0, cno=2)
+10:39:41.071 [main] INFO  BoardService - Board(bno=748, title=test, content=<p>test</p>
+, id=test, regdate=2025-06-18 09:50:54, moddate=2025-06-18 09:50:54, cnt=0, cno=2)
+10:39:41.071 [main] INFO  BoardService - Board(bno=747, title=test, content=<p>test</p>
+, id=test, regdate=2025-06-18 09:50:54, moddate=2025-06-18 09:50:54, cnt=0, cno=2)
+10:39:41.071 [main] INFO  BoardService - Board(bno=746, title=test, content=<p>test</p>
+, id=test, regdate=2025-06-18 09:50:54, moddate=2025-06-18 09:50:54, cnt=0, cno=2)
+10:40:26.117 [main] INFO  sqltiming - select * from tbl_board order by bno desc limit 50 offset 100
+ {executed in 8 msec}
+10:40:26.162 [main] INFO  resultsettable - 
+|----|------|--------------|-----|--------------------|--------------------|----|----|
+|bno |title |content       |id   |regdate             |moddate             |cnt |cno |
+|----|------|--------------|-----|--------------------|--------------------|----|----|
+|655 |5번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|654 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|653 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|652 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|651 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|650 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|649 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|648 |5번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|647 |4번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|646 |3번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|645 |2번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|644 |1번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|643 |1번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|642 |2번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|641 |3번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|640 |4번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|639 |5번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|638 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|637 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|636 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|635 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|634 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|633 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|632 |5번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|631 |4번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|630 |3번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|629 |2번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|628 |1번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|627 |1번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|626 |2번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|625 |3번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|624 |4번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|623 |5번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|622 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|621 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|620 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|619 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|618 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|617 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|616 |5번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|615 |4번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|614 |3번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|613 |2번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|612 |1번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|611 |1번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|610 |2번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|609 |3번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|608 |4번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|607 |5번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|606 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|----|------|--------------|-----|--------------------|--------------------|----|----|
+
+10:40:26.192 [main] INFO  BoardService - 5번글
+10:40:26.194 [main] INFO  BoardService - test
+10:40:26.194 [main] INFO  BoardService - test
+10:40:26.194 [main] INFO  BoardService - test
+10:40:26.194 [main] INFO  BoardService - test
+10:40:26.194 [main] INFO  BoardService - test
+10:40:26.194 [main] INFO  BoardService - test
+10:40:26.194 [main] INFO  BoardService - 5번글
+10:40:26.194 [main] INFO  BoardService - 4번글
+10:40:26.195 [main] INFO  BoardService - 3번글
+10:40:26.195 [main] INFO  BoardService - 2번글
+10:40:26.195 [main] INFO  BoardService - 1번글
+10:40:26.195 [main] INFO  BoardService - 1번글
+10:40:26.195 [main] INFO  BoardService - 2번글
+10:40:26.195 [main] INFO  BoardService - 3번글
+10:40:26.195 [main] INFO  BoardService - 4번글
+10:40:26.195 [main] INFO  BoardService - 5번글
+10:40:26.195 [main] INFO  BoardService - test
+10:40:26.195 [main] INFO  BoardService - test
+10:40:26.195 [main] INFO  BoardService - test
+10:40:26.195 [main] INFO  BoardService - test
+10:40:26.196 [main] INFO  BoardService - test
+10:40:26.196 [main] INFO  BoardService - test
+10:40:26.196 [main] INFO  BoardService - 5번글
+10:40:26.197 [main] INFO  BoardService - 4번글
+10:40:26.197 [main] INFO  BoardService - 3번글
+10:40:26.197 [main] INFO  BoardService - 2번글
+10:40:26.197 [main] INFO  BoardService - 1번글
+10:40:26.197 [main] INFO  BoardService - 1번글
+10:40:26.197 [main] INFO  BoardService - 2번글
+10:40:26.197 [main] INFO  BoardService - 3번글
+10:40:26.197 [main] INFO  BoardService - 4번글
+10:40:26.197 [main] INFO  BoardService - 5번글
+10:40:26.197 [main] INFO  BoardService - test
+10:40:26.197 [main] INFO  BoardService - test
+10:40:26.197 [main] INFO  BoardService - test
+10:40:26.198 [main] INFO  BoardService - test
+10:40:26.198 [main] INFO  BoardService - test
+10:40:26.198 [main] INFO  BoardService - test
+10:40:26.198 [main] INFO  BoardService - 5번글
+10:40:26.198 [main] INFO  BoardService - 4번글
+10:40:26.198 [main] INFO  BoardService - 3번글
+10:40:26.198 [main] INFO  BoardService - 2번글
+10:40:26.198 [main] INFO  BoardService - 1번글
+10:40:26.198 [main] INFO  BoardService - 1번글
+10:40:26.199 [main] INFO  BoardService - 2번글
+10:40:26.199 [main] INFO  BoardService - 3번글
+10:40:26.199 [main] INFO  BoardService - 4번글
+10:40:26.199 [main] INFO  BoardService - 5번글
+10:40:26.199 [main] INFO  BoardService - test
+10:41:54.349 [main] INFO  sqltiming - select * from tbl_board order by bno desc limit 10 offset 0
+ {executed in 12 msec}
+10:41:54.377 [main] INFO  resultsettable - 
+|----|------|--------------|-----|--------------------|--------------------|----|----|
+|bno |title |content       |id   |regdate             |moddate             |cnt |cno |
+|----|------|--------------|-----|--------------------|--------------------|----|----|
+|755 |1번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|754 |2번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|753 |3번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|752 |4번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|751 |5번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|750 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|749 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|748 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|747 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|746 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|----|------|--------------|-----|--------------------|--------------------|----|----|
+
+10:41:54.395 [main] INFO  BoardService - 1번글
+10:41:54.397 [main] INFO  BoardService - 2번글
+10:41:54.397 [main] INFO  BoardService - 3번글
+10:41:54.398 [main] INFO  BoardService - 4번글
+10:41:54.398 [main] INFO  BoardService - 5번글
+10:41:54.398 [main] INFO  BoardService - test
+10:41:54.398 [main] INFO  BoardService - test
+10:41:54.400 [main] INFO  BoardService - test
+10:41:54.401 [main] INFO  BoardService - test
+10:41:54.401 [main] INFO  BoardService - test
+11:15:15.977 [main] INFO  sqltiming - select * from tbl_board 
+  		where cno = 2
+  		order by bno desc 
+  		limit 10 offset 0
+ {executed in 7 msec}
+11:15:16.007 [main] INFO  resultsettable - 
+|----|------|--------------|-----|--------------------|--------------------|----|----|
+|bno |title |content       |id   |regdate             |moddate             |cnt |cno |
+|----|------|--------------|-----|--------------------|--------------------|----|----|
+|755 |1번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|754 |2번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|753 |3번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|752 |4번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|751 |5번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|750 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|749 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|748 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|747 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|746 |test  |<p>test</p>
+ |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
+|----|------|--------------|-----|--------------------|--------------------|----|----|
+
+11:15:16.019 [main] INFO  sqltiming - select count(*) from tbl_board where cno = 2
+ {executed in 6 msec}
+11:15:16.021 [main] INFO  resultsettable - 
+|---------|
+|count(*) |
+|---------|
+|512      |
+|---------|
+
+11:15:16.033 [main] INFO  BoardService - 1번글
+11:15:16.034 [main] INFO  BoardService - 2번글
+11:15:16.035 [main] INFO  BoardService - 3번글
+11:15:16.035 [main] INFO  BoardService - 4번글
+11:15:16.035 [main] INFO  BoardService - 5번글
+11:15:16.035 [main] INFO  BoardService - test
+11:15:16.035 [main] INFO  BoardService - test
+11:15:16.035 [main] INFO  BoardService - test
+11:15:16.035 [main] INFO  BoardService - test
+11:15:16.036 [main] INFO  BoardService - test
+12:14:22.553 [main] INFO  PageDto - PageDto(cri=Criteria(page=1, amount=10, cno=2), total=123, start=1, end=10, left=false, right=false, doubleLeft=false, doubleRight=false)
+12:15:06.329 [main] INFO  PageDto - PageDto(cri=Criteria(page=1, amount=10, cno=2), total=185, start=1, end=10, left=false, right=false, doubleLeft=false, doubleRight=false)
+12:15:30.309 [main] INFO  PageDto - PageDto(cri=Criteria(page=12, amount=10, cno=2), total=185, start=11, end=19, left=false, right=false, doubleLeft=false, doubleRight=false)
+12:15:45.580 [main] INFO  PageDto - PageDto(cri=Criteria(page=9, amount=10, cno=2), total=185, start=1, end=10, left=false, right=false, doubleLeft=false, doubleRight=false)
