@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import domain.dto.Criteria;
 import lombok.extern.slf4j.Slf4j;
 import service.MemberService;
 
@@ -42,7 +43,11 @@ public class Login extends HttpServlet{
 			if(url == null) {
 				resp.sendRedirect(req.getContextPath()+"/index");
 			}else {
-				resp.sendRedirect(URLDecoder.decode(url,"utf-8"));
+				String decodedUrl = URLDecoder.decode(url,"utf-8");
+				Criteria cri = Criteria.init(req);
+				
+				
+				resp.sendRedirect(decodedUrl + "?" + cri.getQs2());
 			}
 			
 		}

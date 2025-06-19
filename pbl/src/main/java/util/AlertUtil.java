@@ -8,6 +8,9 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 public class AlertUtil {
 	public static void alert(String msg, String url, HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		//forward를 해야함 , 예외는 throws
@@ -18,8 +21,9 @@ public class AlertUtil {
 	
 	public static void alert(String msg, String url, HttpServletRequest req, HttpServletResponse resp, boolean isUrl) throws IOException, ServletException {
 		if(isUrl) {
-			url = url + "?url=" + URLEncoder.encode(req.getRequestURL().toString(),"utf-8");
+			url = url + "&url=" + URLEncoder.encode(req.getRequestURL().toString(),"utf-8");
 		}
+		log.info("{}", url);
 		alert(msg, url, req, resp);
 	
 	}

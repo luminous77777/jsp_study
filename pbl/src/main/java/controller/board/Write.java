@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import domain.Board;
+import domain.dto.Criteria;
 import lombok.extern.slf4j.Slf4j;
 import service.BoardService;
 import util.AlertUtil;
@@ -24,11 +25,11 @@ public class Write extends HttpServlet{
 		
 		// session내의  member attr 조회후, null 일경우
 //		Object o = req.getSession().getAttribute("member");
-		
+		Criteria cri = Criteria.init(req);
 		if( req.getSession().getAttribute("member") == null) {
 //			AlertUtil.alert("로그인 후 글 작성해주세요",String.format("%s%s%s",req.getContextPath(),
 //					"/member/login?url=",URLEncoder.encode(req.getRequestURL().toString(),"utf-8")),req, resp);
-			AlertUtil.alert("로그인후 글 작성해주세요", "/member/login", req, resp,true);
+			AlertUtil.alert("로그인후 글 작성해주세요", "/member/login?"+cri.getQs2(), req, resp,true);
 			
 			
 //			resp.setContentType("text/html; charset=utf-8");
@@ -42,16 +43,17 @@ public class Write extends HttpServlet{
 			return;
 		}
 		
-		//
 		
+		req.setAttribute("cri", cri );
 		req.getRequestDispatcher("/WEB-INF/views/board/write.jsp").forward(req, resp);
 	}
 
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		//세션체크
+		Criteria cri = Criteria.init(req);
 		if( req.getSession().getAttribute("member") == null) {
-			AlertUtil.alert("로그인후 글 작성해주세요", "/member/login", req, resp, true);
+			AlertUtil.alert("로그인후 글 작성해주세요", "/member/login?"+cri.getQs2(), req, resp, true);
 			return;
 		}
 		//파라미터 수집
@@ -69,7 +71,7 @@ public class Write extends HttpServlet{
 		
 		
 		//리디렉션 (/board/list)
-		AlertUtil.alert("글이 등록되었습니다", "/board/list?cno=2", req, resp);
+		AlertUtil.alert("글이 등록되었습니다", "/board/list?cno="+cri.getCno() + "&amount="+cri.getAmount(), req, resp);
 	}
 
 }
