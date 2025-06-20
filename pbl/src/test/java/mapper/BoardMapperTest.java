@@ -18,7 +18,7 @@ import util.MybatisUtil;
 @Slf4j
 public class BoardMapperTest {
 	
-	private BoardMapper boardMapper = MybatisUtil.getSqlSession().getMapper(BoardMapper.class);;
+	private BoardMapper boardMapper = MybatisUtil.getSqlSession().getMapper(BoardMapper.class);
 	
 	
 	@Test

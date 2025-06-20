@@ -1,1139 +1,560 @@
-10:49:43.912 [main] INFO  sqltiming - select * from tbl_board where bno = 1
- {executed in 8 msec}
-10:49:43.935 [main] INFO  resultsettable - 
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|bno |title |content |id   |regdate             |moddate             |cnt |cno |
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|1   |1번글   |내용      |test |2025-06-12 17:37:58 |2025-06-12 17:37:58 |0   |2   |
-|----|------|--------|-----|--------------------|--------------------|----|----|
+11:03:54.740 [main] INFO  sqltiming - select * from tbl_reply where rno = 1;
+ {executed in 7 msec}
+11:03:54.771 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|----|--------|-----|--------------------|-----|
 
-10:50:06.378 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+11:03:54.777 [main] INFO  ReplyMapperTest - Reply(rno=1, content=댓글 테스트, id=test, regdate=2025-06-20 10:44:53, bno=1016)
+11:08:19.809 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
  {executed in 8 msec}
-10:50:06.396 [main] INFO  resultsettable - 
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|bno |title |content |id   |regdate             |moddate             |cnt |cno |
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|1   |1번글   |내용      |test |2025-06-12 17:37:58 |2025-06-12 17:37:58 |0   |2   |
-|----|------|--------|-----|--------------------|--------------------|----|----|
+11:08:19.832 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용    |test |2025-06-20 10:45:11 |1016 |
+|4   |댓글 테스트  |test |2025-06-20 10:45:12 |1016 |
+|5   |댓글 테스트  |test |2025-06-20 10:46:03 |1016 |
+|----|--------|-----|--------------------|-----|
 
-10:50:19.197 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+11:08:19.839 [main] INFO  ReplyMapperTest - [Reply(rno=1, content=댓글 테스트, id=test, regdate=2025-06-20 10:44:53, bno=1016), Reply(rno=3, content=수정내용, id=test, regdate=2025-06-20 10:45:11, bno=1016), Reply(rno=4, content=댓글 테스트, id=test, regdate=2025-06-20 10:45:12, bno=1016), Reply(rno=5, content=댓글 테스트, id=test, regdate=2025-06-20 10:46:03, bno=1016)]
+11:08:20.133 [main] INFO  sqltiming - select * from tbl_reply where rno = 1;
+ {executed in 5 msec}
+11:08:20.135 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:08:20.135 [main] INFO  ReplyMapperTest - Reply(rno=1, content=댓글 테스트, id=test, regdate=2025-06-20 10:44:53, bno=1016)
+11:08:46.019 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
+ {executed in 6 msec}
+11:08:46.041 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용    |test |2025-06-20 10:45:11 |1016 |
+|4   |댓글 테스트  |test |2025-06-20 10:45:12 |1016 |
+|5   |댓글 테스트  |test |2025-06-20 10:46:03 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:08:46.048 [main] INFO  ReplyMapperTest - [Reply(rno=1, content=댓글 테스트, id=test, regdate=2025-06-20 10:44:53, bno=1016), Reply(rno=3, content=수정내용, id=test, regdate=2025-06-20 10:45:11, bno=1016), Reply(rno=4, content=댓글 테스트, id=test, regdate=2025-06-20 10:45:12, bno=1016), Reply(rno=5, content=댓글 테스트, id=test, regdate=2025-06-20 10:46:03, bno=1016)]
+11:08:46.109 [main] INFO  sqltiming - select * from tbl_reply where rno = 1;
+ {executed in 5 msec}
+11:08:46.112 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:09:08.774 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
+ {executed in 10 msec}
+11:09:08.795 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용    |test |2025-06-20 10:45:11 |1016 |
+|4   |댓글 테스트  |test |2025-06-20 10:45:12 |1016 |
+|5   |댓글 테스트  |test |2025-06-20 10:46:03 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:09:08.803 [main] INFO  ReplyMapperTest -  댓글 목록 테스트 : [Reply(rno=1, content=댓글 테스트, id=test, regdate=2025-06-20 10:44:53, bno=1016), Reply(rno=3, content=수정내용, id=test, regdate=2025-06-20 10:45:11, bno=1016), Reply(rno=4, content=댓글 테스트, id=test, regdate=2025-06-20 10:45:12, bno=1016), Reply(rno=5, content=댓글 테스트, id=test, regdate=2025-06-20 10:46:03, bno=1016)]
+11:09:08.863 [main] INFO  sqltiming - select * from tbl_reply where rno = 1;
+ {executed in 7 msec}
+11:09:08.865 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:12:30.798 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
+ {executed in 8 msec}
+11:12:30.822 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용    |test |2025-06-20 10:45:11 |1016 |
+|4   |댓글 테스트  |test |2025-06-20 10:45:12 |1016 |
+|5   |댓글 테스트  |test |2025-06-20 10:46:03 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:12:30.829 [main] INFO  ReplyMapperTest -  리스트 댓글 : [Reply(rno=1, content=댓글 테스트, id=test, regdate=2025-06-20 10:44:53, bno=1016), Reply(rno=3, content=수정내용, id=test, regdate=2025-06-20 10:45:11, bno=1016), Reply(rno=4, content=댓글 테스트, id=test, regdate=2025-06-20 10:45:12, bno=1016), Reply(rno=5, content=댓글 테스트, id=test, regdate=2025-06-20 10:46:03, bno=1016)]
+11:12:30.881 [main] INFO  sqltiming - select * from tbl_reply where rno = 1;
+ {executed in 6 msec}
+11:12:30.885 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:12:30.886 [main] INFO  ReplyMapperTest - 단일 댓글 : Reply(rno=1, content=댓글 테스트, id=test, regdate=2025-06-20 10:44:53, bno=1016)
+11:41:16.289 [main] INFO  sqltiming - insert into tbl_reply (content, id, bno) values (NULL, NULL, NULL)
+ {executed in 19 msec}
+11:41:16.627 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
+ {executed in 10 msec}
+11:41:16.675 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용    |test |2025-06-20 10:45:11 |1016 |
+|4   |댓글 테스트  |test |2025-06-20 10:45:12 |1016 |
+|5   |댓글 테스트  |test |2025-06-20 10:46:03 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:41:16.686 [main] INFO  ReplyMapperTest -  리스트 댓글 : [Reply(rno=1, content=댓글 테스트, id=test, regdate=2025-06-20 10:44:53, bno=1016), Reply(rno=3, content=수정내용, id=test, regdate=2025-06-20 10:45:11, bno=1016), Reply(rno=4, content=댓글 테스트, id=test, regdate=2025-06-20 10:45:12, bno=1016), Reply(rno=5, content=댓글 테스트, id=test, regdate=2025-06-20 10:46:03, bno=1016)]
+11:41:16.699 [main] INFO  sqltiming - select * from tbl_reply where rno = 1;
+ {executed in 5 msec}
+11:41:16.702 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:41:16.702 [main] INFO  ReplyMapperTest - 단일 댓글 : Reply(rno=1, content=댓글 테스트, id=test, regdate=2025-06-20 10:44:53, bno=1016)
+11:43:34.604 [main] INFO  sqltiming - insert into tbl_reply (content, id, bno) values (NULL, NULL, NULL)
+ {executed in 61 msec}
+11:43:35.749 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
+ {executed in 28 msec}
+11:43:35.793 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용    |test |2025-06-20 10:45:11 |1016 |
+|4   |댓글 테스트  |test |2025-06-20 10:45:12 |1016 |
+|5   |댓글 테스트  |test |2025-06-20 10:46:03 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:43:35.800 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:43:35.802 [main] INFO  ReplyMapperTest - 수정내용
+11:43:35.802 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:43:35.802 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:43:35.875 [main] INFO  sqltiming - select * from tbl_reply where rno = 1;
+ {executed in 23 msec}
+11:43:35.877 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:43:35.877 [main] INFO  ReplyMapperTest - 단일 댓글 : Reply(rno=1, content=댓글 테스트, id=test, regdate=2025-06-20 10:44:53, bno=1016)
+11:45:30.203 [main] INFO  sqltiming - insert into tbl_reply (content, id, bno) values (NULL, NULL, NULL)
  {executed in 13 msec}
-10:50:19.218 [main] INFO  resultsettable - 
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|bno |title |content |id   |regdate             |moddate             |cnt |cno |
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|1   |1번글   |내용      |test |2025-06-12 17:37:58 |2025-06-12 17:37:58 |0   |2   |
-|----|------|--------|-----|--------------------|--------------------|----|----|
-
-10:50:28.965 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+11:45:30.271 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
  {executed in 8 msec}
-10:50:28.985 [main] INFO  resultsettable - 
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|bno |title |content |id   |regdate             |moddate             |cnt |cno |
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|1   |1번글   |내용      |test |2025-06-12 17:37:58 |2025-06-12 17:37:58 |0   |2   |
-|----|------|--------|-----|--------------------|--------------------|----|----|
+11:45:30.290 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용    |test |2025-06-20 10:45:11 |1016 |
+|4   |댓글 테스트  |test |2025-06-20 10:45:12 |1016 |
+|5   |댓글 테스트  |test |2025-06-20 10:46:03 |1016 |
+|----|--------|-----|--------------------|-----|
 
-10:52:05.540 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+11:45:30.298 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:45:30.300 [main] INFO  ReplyMapperTest - 수정내용
+11:45:30.301 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:45:30.301 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:45:30.331 [main] INFO  sqltiming - select * from tbl_reply where rno = 1;
+ {executed in 7 msec}
+11:45:30.333 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:45:30.334 [main] INFO  ReplyMapperTest - 단일 댓글 : Reply(rno=1, content=댓글 테스트, id=test, regdate=2025-06-20 10:44:53, bno=1016)
+11:45:30.373 [main] INFO  sqltiming - select * from tbl_reply where rno = 4;
+ {executed in 5 msec}
+11:45:30.375 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|4   |댓글 테스트  |test |2025-06-20 10:45:12 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:45:30.382 [main] INFO  sqltiming - update tbl_reply set content ='수정하기' where rno= 4
+ {executed in 6 msec}
+11:45:44.308 [main] INFO  sqltiming - insert into tbl_reply (content, id, bno) values (NULL, NULL, NULL)
+ {executed in 15 msec}
+11:45:44.352 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
+ {executed in 7 msec}
+11:45:44.376 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용    |test |2025-06-20 10:45:11 |1016 |
+|4   |수정하기    |test |2025-06-20 10:45:12 |1016 |
+|5   |댓글 테스트  |test |2025-06-20 10:46:03 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:45:44.384 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:45:44.385 [main] INFO  ReplyMapperTest - 수정내용
+11:45:44.386 [main] INFO  ReplyMapperTest - 수정하기
+11:45:44.386 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:45:44.421 [main] INFO  sqltiming - select * from tbl_reply where rno = 4;
  {executed in 9 msec}
-10:52:05.561 [main] INFO  resultsettable - 
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|bno |title |content |id   |regdate             |moddate             |cnt |cno |
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|1   |1번글   |내용      |test |2025-06-12 17:37:58 |2025-06-12 17:37:58 |0   |2   |
-|----|------|--------|-----|--------------------|--------------------|----|----|
+11:45:44.424 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|4   |수정하기    |test |2025-06-20 10:45:12 |1016 |
+|----|--------|-----|--------------------|-----|
 
-10:52:05.569 [main] INFO  BoardMapperTest - Board(bno=1, title=1번글, content=내용, id=test, regdate=2025-06-12 17:37:58, moddate=2025-06-12 17:37:58, cnt=0, cno=2)
-10:57:31.264 [main] INFO  sqltiming - select * from tbl_board
-
-  		 WHERE cno = 2 
-
-  		order by bno desc 
-  		limit 10 offset 0
- {executed in 8 msec}
-10:57:31.293 [main] INFO  resultsettable - 
-|----|------|--------------|-----|--------------------|--------------------|----|----|
-|bno |title |content       |id   |regdate             |moddate             |cnt |cno |
-|----|------|--------------|-----|--------------------|--------------------|----|----|
-|755 |1번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|754 |2번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|753 |3번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|752 |4번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|751 |5번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|750 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|749 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|748 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|747 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|746 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|----|------|--------------|-----|--------------------|--------------------|----|----|
-
-10:57:31.341 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+11:45:44.424 [main] INFO  ReplyMapperTest - 단일 댓글 : Reply(rno=4, content=수정하기, id=test, regdate=2025-06-20 10:45:12, bno=1016)
+11:45:44.480 [main] INFO  sqltiming - select * from tbl_reply where rno = 4;
  {executed in 6 msec}
-10:57:31.350 [main] INFO  resultsettable - 
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|bno |title |content |id   |regdate             |moddate             |cnt |cno |
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|1   |1번글   |내용      |test |2025-06-12 17:37:58 |2025-06-12 17:37:58 |0   |2   |
-|----|------|--------|-----|--------------------|--------------------|----|----|
+11:45:44.482 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|4   |수정하기    |test |2025-06-20 10:45:12 |1016 |
+|----|--------|-----|--------------------|-----|
 
-10:57:31.351 [main] INFO  BoardMapperTest - Board(bno=1, title=1번글, content=내용, id=test, regdate=2025-06-12 17:37:58, moddate=2025-06-12 17:37:58, cnt=0, cno=2)
-11:00:30.134 [main] INFO  sqltiming - select * from tbl_board
+11:45:44.490 [main] INFO  sqltiming - update tbl_reply set content ='수정하기' where rno= 4
+ {executed in 7 msec}
+11:46:52.336 [main] INFO  sqltiming - insert into tbl_reply (content, id, bno) values ('매퍼 테스트 등록 글', 'test', 1016)
+ {executed in 57 msec}
+11:46:52.540 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
+ {executed in 37 msec}
+11:46:52.558 [main] INFO  resultsettable - 
+|----|------------|-----|--------------------|-----|
+|rno |content     |id   |regdate             |bno  |
+|----|------------|-----|--------------------|-----|
+|1   |댓글 테스트      |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용        |test |2025-06-20 10:45:11 |1016 |
+|4   |수정하기        |test |2025-06-20 10:45:12 |1016 |
+|5   |댓글 테스트      |test |2025-06-20 10:46:03 |1016 |
+|10  |매퍼 테스트 등록 글 |test |2025-06-20 11:46:52 |1016 |
+|----|------------|-----|--------------------|-----|
 
-  		 WHERE cno = 2 
-
-  		order by bno desc 
-  		limit 10 offset 0
+11:46:52.565 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:46:52.567 [main] INFO  ReplyMapperTest - 수정내용
+11:46:52.567 [main] INFO  ReplyMapperTest - 수정하기
+11:46:52.567 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:46:52.567 [main] INFO  ReplyMapperTest - 매퍼 테스트 등록 글
+11:46:52.620 [main] INFO  sqltiming - select * from tbl_reply where rno = 4;
  {executed in 9 msec}
-11:00:30.161 [main] INFO  resultsettable - 
-|----|------|--------------|-----|--------------------|--------------------|----|----|
-|bno |title |content       |id   |regdate             |moddate             |cnt |cno |
-|----|------|--------------|-----|--------------------|--------------------|----|----|
-|755 |1번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|754 |2번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|753 |3번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|752 |4번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|751 |5번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|750 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|749 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|748 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|747 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|746 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|----|------|--------------|-----|--------------------|--------------------|----|----|
+11:46:52.621 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|4   |수정하기    |test |2025-06-20 10:45:12 |1016 |
+|----|--------|-----|--------------------|-----|
 
-11:00:30.168 [main] INFO  BoardMapperTest - 1번글
-11:00:30.170 [main] INFO  BoardMapperTest - 2번글
-11:00:30.170 [main] INFO  BoardMapperTest - 3번글
-11:00:30.170 [main] INFO  BoardMapperTest - 4번글
-11:00:30.170 [main] INFO  BoardMapperTest - 5번글
-11:00:30.170 [main] INFO  BoardMapperTest - test
-11:00:30.170 [main] INFO  BoardMapperTest - test
-11:00:30.171 [main] INFO  BoardMapperTest - test
-11:00:30.171 [main] INFO  BoardMapperTest - test
-11:00:30.172 [main] INFO  BoardMapperTest - test
-11:00:30.206 [main] INFO  sqltiming - select * from tbl_board where bno = 1
- {executed in 5 msec}
-11:00:30.210 [main] INFO  resultsettable - 
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|bno |title |content |id   |regdate             |moddate             |cnt |cno |
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|1   |1번글   |내용      |test |2025-06-12 17:37:58 |2025-06-12 17:37:58 |0   |2   |
-|----|------|--------|-----|--------------------|--------------------|----|----|
-
-11:00:30.210 [main] INFO  BoardMapperTest - Board(bno=1, title=1번글, content=내용, id=test, regdate=2025-06-12 17:37:58, moddate=2025-06-12 17:37:58, cnt=0, cno=2)
-11:09:53.338 [main] INFO  sqltiming - select * from tbl_board
-
-  		 WHERE cno = 2 
-
-  		order by bno desc 
-  		limit 10 offset 0
- {executed in 8 msec}
-11:09:53.365 [main] INFO  resultsettable - 
-|----|------|--------------|-----|--------------------|--------------------|----|----|
-|bno |title |content       |id   |regdate             |moddate             |cnt |cno |
-|----|------|--------------|-----|--------------------|--------------------|----|----|
-|755 |1번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|754 |2번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|753 |3번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|752 |4번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|751 |5번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|750 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|749 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|748 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|747 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|746 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|----|------|--------------|-----|--------------------|--------------------|----|----|
-
-11:09:53.373 [main] INFO  BoardMapperTest - 1번글
-11:09:53.375 [main] INFO  BoardMapperTest - 2번글
-11:09:53.376 [main] INFO  BoardMapperTest - 3번글
-11:09:53.376 [main] INFO  BoardMapperTest - 4번글
-11:09:53.376 [main] INFO  BoardMapperTest - 5번글
-11:09:53.376 [main] INFO  BoardMapperTest - test
-11:09:53.376 [main] INFO  BoardMapperTest - test
-11:09:53.376 [main] INFO  BoardMapperTest - test
-11:09:53.376 [main] INFO  BoardMapperTest - test
-11:09:53.376 [main] INFO  BoardMapperTest - test
-11:09:53.410 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+11:46:52.622 [main] INFO  ReplyMapperTest - 단일 댓글 : Reply(rno=4, content=수정하기, id=test, regdate=2025-06-20 10:45:12, bno=1016)
+11:46:52.663 [main] INFO  sqltiming - select * from tbl_reply where rno = 4;
  {executed in 6 msec}
-11:09:53.424 [main] INFO  resultsettable - 
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|bno |title |content |id   |regdate             |moddate             |cnt |cno |
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|1   |1번글   |내용      |test |2025-06-12 17:37:58 |2025-06-12 17:37:58 |0   |2   |
-|----|------|--------|-----|--------------------|--------------------|----|----|
+11:46:52.664 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|4   |수정하기    |test |2025-06-20 10:45:12 |1016 |
+|----|--------|-----|--------------------|-----|
 
-11:09:53.425 [main] INFO  BoardMapperTest - Board(bno=1, title=1번글, content=내용, id=test, regdate=2025-06-12 17:37:58, moddate=2025-06-12 17:37:58, cnt=0, cno=2)
-11:10:09.352 [main] INFO  sqltiming - select * from tbl_board
-
-  		 WHERE cno = 2 
-
-  		order by bno desc 
-  		limit 10 offset 0
- {executed in 8 msec}
-11:10:09.387 [main] INFO  resultsettable - 
-|----|------|--------------|-----|--------------------|--------------------|----|----|
-|bno |title |content       |id   |regdate             |moddate             |cnt |cno |
-|----|------|--------------|-----|--------------------|--------------------|----|----|
-|755 |1번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|754 |2번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|753 |3번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|752 |4번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|751 |5번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|750 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|749 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|748 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|747 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|746 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|----|------|--------------|-----|--------------------|--------------------|----|----|
-
-11:10:09.395 [main] INFO  BoardMapperTest - 1번글
-11:10:09.397 [main] INFO  BoardMapperTest - 2번글
-11:10:09.397 [main] INFO  BoardMapperTest - 3번글
-11:10:09.397 [main] INFO  BoardMapperTest - 4번글
-11:10:09.397 [main] INFO  BoardMapperTest - 5번글
-11:10:09.397 [main] INFO  BoardMapperTest - test
-11:10:09.397 [main] INFO  BoardMapperTest - test
-11:10:09.397 [main] INFO  BoardMapperTest - test
-11:10:09.397 [main] INFO  BoardMapperTest - test
-11:10:09.397 [main] INFO  BoardMapperTest - test
-11:10:09.447 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+11:46:52.670 [main] INFO  sqltiming - update tbl_reply set content ='수정하기' where rno= 4
  {executed in 5 msec}
-11:10:09.449 [main] INFO  resultsettable - 
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|bno |title |content |id   |regdate             |moddate             |cnt |cno |
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|1   |1번글   |내용      |test |2025-06-12 17:37:58 |2025-06-12 17:37:58 |0   |2   |
-|----|------|--------|-----|--------------------|--------------------|----|----|
-
-11:10:09.450 [main] INFO  BoardMapperTest - Board(bno=1, title=1번글, content=내용, id=test, regdate=2025-06-12 17:37:58, moddate=2025-06-12 17:37:58, cnt=0, cno=2)
-11:11:30.575 [main] INFO  sqltiming - select * from tbl_board
-
-  		 WHERE cno = 2 
-
-  		order by bno desc 
-  		limit 10 offset 0
+11:47:03.132 [main] INFO  sqltiming - insert into tbl_reply (content, id, bno) values ('매퍼 테스트 등록 글', 'test', 1016)
+ {executed in 6 msec}
+11:47:03.175 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
  {executed in 7 msec}
-11:11:30.601 [main] INFO  resultsettable - 
-|----|------|--------------|-----|--------------------|--------------------|----|----|
-|bno |title |content       |id   |regdate             |moddate             |cnt |cno |
-|----|------|--------------|-----|--------------------|--------------------|----|----|
-|755 |1번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|754 |2번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|753 |3번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|752 |4번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|751 |5번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|750 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|749 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|748 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|747 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|746 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|----|------|--------------|-----|--------------------|--------------------|----|----|
+11:47:03.200 [main] INFO  resultsettable - 
+|----|------------|-----|--------------------|-----|
+|rno |content     |id   |regdate             |bno  |
+|----|------------|-----|--------------------|-----|
+|1   |댓글 테스트      |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용        |test |2025-06-20 10:45:11 |1016 |
+|4   |수정하기        |test |2025-06-20 10:45:12 |1016 |
+|5   |댓글 테스트      |test |2025-06-20 10:46:03 |1016 |
+|10  |매퍼 테스트 등록 글 |test |2025-06-20 11:46:52 |1016 |
+|11  |매퍼 테스트 등록 글 |test |2025-06-20 11:47:03 |1016 |
+|----|------------|-----|--------------------|-----|
 
-11:11:30.610 [main] INFO  BoardMapperTest - 1번글
-11:11:30.613 [main] INFO  BoardMapperTest - 2번글
-11:11:30.614 [main] INFO  BoardMapperTest - 3번글
-11:11:30.614 [main] INFO  BoardMapperTest - 4번글
-11:11:30.614 [main] INFO  BoardMapperTest - 5번글
-11:11:30.614 [main] INFO  BoardMapperTest - test
-11:11:30.614 [main] INFO  BoardMapperTest - test
-11:11:30.614 [main] INFO  BoardMapperTest - test
-11:11:30.614 [main] INFO  BoardMapperTest - test
-11:11:30.614 [main] INFO  BoardMapperTest - test
-11:11:30.654 [main] INFO  sqltiming - select * from tbl_board where bno = 1
+11:47:03.207 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:47:03.209 [main] INFO  ReplyMapperTest - 수정내용
+11:47:03.209 [main] INFO  ReplyMapperTest - 수정하기
+11:47:03.209 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:47:03.209 [main] INFO  ReplyMapperTest - 매퍼 테스트 등록 글
+11:47:03.209 [main] INFO  ReplyMapperTest - 매퍼 테스트 등록 글
+11:47:03.536 [main] INFO  sqltiming - select * from tbl_reply where rno = 4;
+ {executed in 293 msec}
+11:47:03.541 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|4   |수정하기    |test |2025-06-20 10:45:12 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:47:03.542 [main] INFO  ReplyMapperTest - 단일 댓글 : Reply(rno=4, content=수정하기, id=test, regdate=2025-06-20 10:45:12, bno=1016)
+11:47:03.813 [main] INFO  sqltiming - select * from tbl_reply where rno = 4;
+ {executed in 250 msec}
+11:47:03.815 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|4   |수정하기    |test |2025-06-20 10:45:12 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:47:03.826 [main] INFO  sqltiming - update tbl_reply set content ='수정하기' where rno= 4
+ {executed in 10 msec}
+11:47:51.981 [main] INFO  sqltiming - insert into tbl_reply (content, id, bno) values ('매퍼 테스트 등록 글', 'test', 1016)
+ {executed in 30 msec}
+11:47:52.054 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
+ {executed in 30 msec}
+11:47:52.073 [main] INFO  resultsettable - 
+|----|------------|-----|--------------------|-----|
+|rno |content     |id   |regdate             |bno  |
+|----|------------|-----|--------------------|-----|
+|1   |댓글 테스트      |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용        |test |2025-06-20 10:45:11 |1016 |
+|4   |수정하기        |test |2025-06-20 10:45:12 |1016 |
+|5   |댓글 테스트      |test |2025-06-20 10:46:03 |1016 |
+|10  |매퍼 테스트 등록 글 |test |2025-06-20 11:46:52 |1016 |
+|11  |매퍼 테스트 등록 글 |test |2025-06-20 11:47:03 |1016 |
+|12  |매퍼 테스트 등록 글 |test |2025-06-20 11:47:51 |1016 |
+|----|------------|-----|--------------------|-----|
+
+11:47:52.079 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:47:52.080 [main] INFO  ReplyMapperTest - 수정내용
+11:47:52.080 [main] INFO  ReplyMapperTest - 수정하기
+11:47:52.080 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:47:52.080 [main] INFO  ReplyMapperTest - 매퍼 테스트 등록 글
+11:47:52.080 [main] INFO  ReplyMapperTest - 매퍼 테스트 등록 글
+11:47:52.081 [main] INFO  ReplyMapperTest - 매퍼 테스트 등록 글
+11:47:52.087 [main] INFO  sqltiming - select * from tbl_reply where rno = 4;
+ {executed in 4 msec}
+11:47:52.089 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|4   |수정하기    |test |2025-06-20 10:45:12 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:47:52.089 [main] INFO  ReplyMapperTest - 단일 댓글 : Reply(rno=4, content=수정하기, id=test, regdate=2025-06-20 10:45:12, bno=1016)
+11:47:52.134 [main] INFO  sqltiming - delete from tbl_reply where rno =5
+ {executed in 6 msec}
+11:47:52.392 [main] INFO  sqltiming - select * from tbl_reply where rno = 4;
  {executed in 7 msec}
-11:11:30.658 [main] INFO  resultsettable - 
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|bno |title |content |id   |regdate             |moddate             |cnt |cno |
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|1   |1번글   |내용      |test |2025-06-12 17:37:58 |2025-06-12 17:37:58 |0   |2   |
-|----|------|--------|-----|--------------------|--------------------|----|----|
+11:47:52.394 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|4   |수정하기    |test |2025-06-20 10:45:12 |1016 |
+|----|--------|-----|--------------------|-----|
 
-11:11:30.665 [main] INFO  BoardMapperTest - Board(bno=1, title=1번글, content=내용, id=test, regdate=2025-06-12 17:37:58, moddate=2025-06-12 17:37:58, cnt=0, cno=2)
-11:11:30.679 [main] INFO  BoardMapperTest - [T]
-11:12:51.657 [main] INFO  sqltiming - select * from tbl_board
-
-  		 WHERE cno = 2 
-
-  		order by bno desc 
-  		limit 10 offset 0
+11:47:52.400 [main] INFO  sqltiming - update tbl_reply set content ='수정하기' where rno= 4
+ {executed in 6 msec}
+11:48:30.637 [main] INFO  sqltiming - delete from tbl_reply where rno =5
+ {executed in 5 msec}
+11:48:48.638 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
  {executed in 8 msec}
-11:12:51.684 [main] INFO  resultsettable - 
-|----|------|--------------|-----|--------------------|--------------------|----|----|
-|bno |title |content       |id   |regdate             |moddate             |cnt |cno |
-|----|------|--------------|-----|--------------------|--------------------|----|----|
-|755 |1번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|754 |2번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|753 |3번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|752 |4번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|751 |5번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|750 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|749 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|748 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|747 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|746 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|----|------|--------------|-----|--------------------|--------------------|----|----|
+11:48:48.660 [main] INFO  resultsettable - 
+|----|------------|-----|--------------------|-----|
+|rno |content     |id   |regdate             |bno  |
+|----|------------|-----|--------------------|-----|
+|1   |댓글 테스트      |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용        |test |2025-06-20 10:45:11 |1016 |
+|4   |수정하기        |test |2025-06-20 10:45:12 |1016 |
+|10  |매퍼 테스트 등록 글 |test |2025-06-20 11:46:52 |1016 |
+|11  |매퍼 테스트 등록 글 |test |2025-06-20 11:47:03 |1016 |
+|12  |매퍼 테스트 등록 글 |test |2025-06-20 11:47:51 |1016 |
+|----|------------|-----|--------------------|-----|
 
-11:12:51.693 [main] INFO  BoardMapperTest - 1번글
-11:12:51.695 [main] INFO  BoardMapperTest - 2번글
-11:12:51.695 [main] INFO  BoardMapperTest - 3번글
-11:12:51.695 [main] INFO  BoardMapperTest - 4번글
-11:12:51.695 [main] INFO  BoardMapperTest - 5번글
-11:12:51.695 [main] INFO  BoardMapperTest - test
-11:12:51.696 [main] INFO  BoardMapperTest - test
-11:12:51.696 [main] INFO  BoardMapperTest - test
-11:12:51.696 [main] INFO  BoardMapperTest - test
-11:12:51.696 [main] INFO  BoardMapperTest - test
-11:12:51.743 [main] INFO  sqltiming - select * from tbl_board where bno = 1
- {executed in 7 msec}
-11:12:51.753 [main] INFO  resultsettable - 
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|bno |title |content |id   |regdate             |moddate             |cnt |cno |
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|1   |1번글   |내용      |test |2025-06-12 17:37:58 |2025-06-12 17:37:58 |0   |2   |
-|----|------|--------|-----|--------------------|--------------------|----|----|
+11:48:48.666 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:48:48.668 [main] INFO  ReplyMapperTest - 수정내용
+11:48:48.668 [main] INFO  ReplyMapperTest - 수정하기
+11:48:48.668 [main] INFO  ReplyMapperTest - 매퍼 테스트 등록 글
+11:48:48.668 [main] INFO  ReplyMapperTest - 매퍼 테스트 등록 글
+11:48:48.668 [main] INFO  ReplyMapperTest - 매퍼 테스트 등록 글
+11:49:16.715 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
+ {executed in 8 msec}
+11:49:16.735 [main] INFO  resultsettable - 
+|----|------------|-----|--------------------|-----|
+|rno |content     |id   |regdate             |bno  |
+|----|------------|-----|--------------------|-----|
+|1   |댓글 테스트      |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용        |test |2025-06-20 10:45:11 |1016 |
+|4   |수정하기        |test |2025-06-20 10:45:12 |1016 |
+|10  |매퍼 테스트 등록 글 |test |2025-06-20 11:46:52 |1016 |
+|11  |매퍼 테스트 등록 글 |test |2025-06-20 11:47:03 |1016 |
+|12  |매퍼 테스트 등록 글 |test |2025-06-20 11:47:51 |1016 |
+|----|------------|-----|--------------------|-----|
 
-11:12:51.754 [main] INFO  BoardMapperTest - Board(bno=1, title=1번글, content=내용, id=test, regdate=2025-06-12 17:37:58, moddate=2025-06-12 17:37:58, cnt=0, cno=2)
-11:12:51.763 [main] INFO  BoardMapperTest - [T, C, I]
-11:13:29.190 [main] INFO  BoardMapperTest - [T, C, I]
-11:13:47.622 [main] INFO  sqltiming - select * from tbl_board
-
-  		 WHERE cno = 2 
-
-  		order by bno desc 
-  		limit 10 offset 0
+11:49:16.742 [main] INFO  ReplyMapperTest - 1 댓글 테스트
+11:49:16.743 [main] INFO  ReplyMapperTest - 3 수정내용
+11:49:16.743 [main] INFO  ReplyMapperTest - 4 수정하기
+11:49:16.744 [main] INFO  ReplyMapperTest - 10 매퍼 테스트 등록 글
+11:49:16.744 [main] INFO  ReplyMapperTest - 11 매퍼 테스트 등록 글
+11:49:16.744 [main] INFO  ReplyMapperTest - 12 매퍼 테스트 등록 글
+11:49:24.842 [main] INFO  sqltiming - delete from tbl_reply where rno =10
+ {executed in 8 msec}
+11:49:31.344 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
  {executed in 9 msec}
-11:13:47.648 [main] INFO  resultsettable - 
-|----|------|--------------|-----|--------------------|--------------------|----|----|
-|bno |title |content       |id   |regdate             |moddate             |cnt |cno |
-|----|------|--------------|-----|--------------------|--------------------|----|----|
-|755 |1번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|754 |2번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|753 |3번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|752 |4번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|751 |5번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|750 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|749 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|748 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|747 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|746 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|----|------|--------------|-----|--------------------|--------------------|----|----|
+11:49:31.367 [main] INFO  resultsettable - 
+|----|------------|-----|--------------------|-----|
+|rno |content     |id   |regdate             |bno  |
+|----|------------|-----|--------------------|-----|
+|1   |댓글 테스트      |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용        |test |2025-06-20 10:45:11 |1016 |
+|4   |수정하기        |test |2025-06-20 10:45:12 |1016 |
+|11  |매퍼 테스트 등록 글 |test |2025-06-20 11:47:03 |1016 |
+|12  |매퍼 테스트 등록 글 |test |2025-06-20 11:47:51 |1016 |
+|----|------------|-----|--------------------|-----|
 
-11:13:47.658 [main] INFO  BoardMapperTest - 1번글
-11:13:47.660 [main] INFO  BoardMapperTest - 2번글
-11:13:47.660 [main] INFO  BoardMapperTest - 3번글
-11:13:47.660 [main] INFO  BoardMapperTest - 4번글
-11:13:47.660 [main] INFO  BoardMapperTest - 5번글
-11:13:47.660 [main] INFO  BoardMapperTest - test
-11:13:47.660 [main] INFO  BoardMapperTest - test
-11:13:47.660 [main] INFO  BoardMapperTest - test
-11:13:47.660 [main] INFO  BoardMapperTest - test
-11:13:47.660 [main] INFO  BoardMapperTest - test
-11:13:47.698 [main] INFO  sqltiming - select * from tbl_board where bno = 1
- {executed in 5 msec}
-11:13:47.709 [main] INFO  resultsettable - 
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|bno |title |content |id   |regdate             |moddate             |cnt |cno |
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|1   |1번글   |내용      |test |2025-06-12 17:37:58 |2025-06-12 17:37:58 |0   |2   |
-|----|------|--------|-----|--------------------|--------------------|----|----|
-
-11:13:47.713 [main] INFO  BoardMapperTest - Board(bno=1, title=1번글, content=내용, id=test, regdate=2025-06-12 17:37:58, moddate=2025-06-12 17:37:58, cnt=0, cno=2)
-11:13:47.723 [main] INFO  BoardMapperTest - [T, C, I]
-11:16:55.188 [main] INFO  sqltiming - select * from tbl_board
-
-  		 WHERE cno = 2 
-
-  		order by bno desc 
-  		limit 10 offset 0
- {executed in 18 msec}
-11:16:55.212 [main] INFO  resultsettable - 
-|----|------|--------------|-----|--------------------|--------------------|----|----|
-|bno |title |content       |id   |regdate             |moddate             |cnt |cno |
-|----|------|--------------|-----|--------------------|--------------------|----|----|
-|755 |1번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|754 |2번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|753 |3번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|752 |4번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|751 |5번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|750 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|749 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|748 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|747 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|746 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|----|------|--------------|-----|--------------------|--------------------|----|----|
-
-11:16:55.220 [main] INFO  BoardMapperTest - 1번글
-11:16:55.222 [main] INFO  BoardMapperTest - 2번글
-11:16:55.223 [main] INFO  BoardMapperTest - 3번글
-11:16:55.223 [main] INFO  BoardMapperTest - 4번글
-11:16:55.223 [main] INFO  BoardMapperTest - 5번글
-11:16:55.223 [main] INFO  BoardMapperTest - test
-11:16:55.223 [main] INFO  BoardMapperTest - test
-11:16:55.223 [main] INFO  BoardMapperTest - test
-11:16:55.223 [main] INFO  BoardMapperTest - test
-11:16:55.223 [main] INFO  BoardMapperTest - test
-11:16:55.271 [main] INFO  sqltiming - select * from tbl_board where bno = 1
- {executed in 6 msec}
-11:16:55.274 [main] INFO  resultsettable - 
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|bno |title |content |id   |regdate             |moddate             |cnt |cno |
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|1   |1번글   |내용      |test |2025-06-12 17:37:58 |2025-06-12 17:37:58 |0   |2   |
-|----|------|--------|-----|--------------------|--------------------|----|----|
-
-11:16:55.275 [main] INFO  BoardMapperTest - Board(bno=1, title=1번글, content=내용, id=test, regdate=2025-06-12 17:37:58, moddate=2025-06-12 17:37:58, cnt=0, cno=2)
-11:16:55.285 [main] INFO  BoardMapperTest - [T, C, I]
-11:16:55.335 [main] INFO  sqltiming - select * from tbl_board
-
-  		 WHERE cno = 2
-
-  				and (
-
-  						title like concat('%', '제목', '%')
-
-  					or
-  						content like concat('%', '제목', '%')
-
-  					or
-  						id like concat('%', '제목', '%')
-
-  				) 
-
-  		order by bno desc 
-  		limit 10 offset 0
- {executed in 16 msec}
-11:16:55.337 [main] INFO  resultsettable - 
-|----|------|--------|---|--------|--------|----|----|
-|bno |title |content |id |regdate |moddate |cnt |cno |
-|----|------|--------|---|--------|--------|----|----|
-|----|------|--------|---|--------|--------|----|----|
-
-11:18:25.848 [main] INFO  BoardMapperTest - [T, C, I]
-11:18:25.908 [main] INFO  sqltiming - select * from tbl_board
-
-  		 WHERE cno = 2
-
-  				and (
-
-  						title like concat('%', '제목', '%')
-
-  					or
-  						content like concat('%', '제목', '%')
-
-  					or
-  						id like concat('%', '제목', '%')
-
-  				) 
-
-  		order by bno desc 
-  		limit 10 offset 0
- {executed in 8 msec}
-11:18:25.920 [main] INFO  resultsettable - 
-|----|------|--------|---|--------|--------|----|----|
-|bno |title |content |id |regdate |moddate |cnt |cno |
-|----|------|--------|---|--------|--------|----|----|
-|----|------|--------|---|--------|--------|----|----|
-
-11:34:14.197 [main] INFO  sqltiming - select * from tbl_board
-
-  		 WHERE cno = 2 
-
-  		order by bno desc 
-  		limit 10 offset 0
+11:49:31.374 [main] INFO  ReplyMapperTest - 1 댓글 테스트
+11:49:31.376 [main] INFO  ReplyMapperTest - 3 수정내용
+11:49:31.376 [main] INFO  ReplyMapperTest - 4 수정하기
+11:49:31.376 [main] INFO  ReplyMapperTest - 11 매퍼 테스트 등록 글
+11:49:31.377 [main] INFO  ReplyMapperTest - 12 매퍼 테스트 등록 글
+11:58:15.368 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
  {executed in 9 msec}
-11:34:14.227 [main] INFO  resultsettable - 
-|----|------|--------------|-----|--------------------|--------------------|----|----|
-|bno |title |content       |id   |regdate             |moddate             |cnt |cno |
-|----|------|--------------|-----|--------------------|--------------------|----|----|
-|755 |1번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|754 |2번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|753 |3번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|752 |4번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|751 |5번글   |내용            |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|750 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|749 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|748 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|747 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|746 |test  |<p>test</p>
- |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |
-|----|------|--------------|-----|--------------------|--------------------|----|----|
+11:58:15.390 [main] INFO  resultsettable - 
+|----|------------|-----|--------------------|-----|
+|rno |content     |id   |regdate             |bno  |
+|----|------------|-----|--------------------|-----|
+|1   |댓글 테스트      |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용        |test |2025-06-20 10:45:11 |1016 |
+|4   |수정하기        |test |2025-06-20 10:45:12 |1016 |
+|11  |매퍼 테스트 등록 글 |test |2025-06-20 11:47:03 |1016 |
+|12  |매퍼 테스트 등록 글 |test |2025-06-20 11:47:51 |1016 |
+|----|------------|-----|--------------------|-----|
 
-11:34:14.237 [main] INFO  BoardMapperTest - 1번글
-11:34:14.238 [main] INFO  BoardMapperTest - 2번글
-11:34:14.239 [main] INFO  BoardMapperTest - 3번글
-11:34:14.239 [main] INFO  BoardMapperTest - 4번글
-11:34:14.239 [main] INFO  BoardMapperTest - 5번글
-11:34:14.239 [main] INFO  BoardMapperTest - test
-11:34:14.239 [main] INFO  BoardMapperTest - test
-11:34:14.239 [main] INFO  BoardMapperTest - test
-11:34:14.239 [main] INFO  BoardMapperTest - test
-11:34:14.239 [main] INFO  BoardMapperTest - test
-11:34:14.264 [main] INFO  sqltiming - select * from tbl_board where bno = 1
- {executed in 5 msec}
-11:34:14.267 [main] INFO  resultsettable - 
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|bno |title |content |id   |regdate             |moddate             |cnt |cno |
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|1   |1번글   |내용      |test |2025-06-12 17:37:58 |2025-06-12 17:37:58 |0   |2   |
-|----|------|--------|-----|--------------------|--------------------|----|----|
-
-11:34:14.268 [main] INFO  BoardMapperTest - Board(bno=1, title=1번글, content=내용, id=test, regdate=2025-06-12 17:37:58, moddate=2025-06-12 17:37:58, cnt=0, cno=2)
-11:34:14.278 [main] INFO  BoardMapperTest - [T, I]
-11:34:14.295 [main] INFO  sqltiming - select * from tbl_board
-
-  		 WHERE cno = 2
-
-  				and (
-
-  						title like concat('%', '제목', '%')
-
-  					or
-  						id like concat('%', '제목', '%')
-
-  				) 
-
-  		order by bno desc 
-  		limit 10 offset 0
+12:48:03.902 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
  {executed in 7 msec}
-11:34:14.296 [main] INFO  resultsettable - 
-|----|------|--------|---|--------|--------|----|----|
-|bno |title |content |id |regdate |moddate |cnt |cno |
-|----|------|--------|---|--------|--------|----|----|
-|----|------|--------|---|--------|--------|----|----|
+12:48:03.923 [main] INFO  resultsettable - 
+|----|------------|-----|--------------------|-----|
+|rno |content     |id   |regdate             |bno  |
+|----|------------|-----|--------------------|-----|
+|1   |댓글 테스트      |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용        |test |2025-06-20 10:45:11 |1016 |
+|4   |수정하기        |test |2025-06-20 10:45:12 |1016 |
+|11  |매퍼 테스트 등록 글 |test |2025-06-20 11:47:03 |1016 |
+|12  |매퍼 테스트 등록 글 |test |2025-06-20 11:47:51 |1016 |
+|----|------------|-----|--------------------|-----|
 
-15:52:09.880 [main] INFO  sqltiming - select * from tbl_board
-
-  	 WHERE cno = 2 
-
-  		order by bno desc 
-  		limit 10 offset 0
+12:48:03.929 [main] INFO  ReplyMapperTest - 1 댓글 테스트
+12:48:03.932 [main] INFO  ReplyMapperTest - 3 수정내용
+12:48:03.932 [main] INFO  ReplyMapperTest - 4 수정하기
+12:48:03.932 [main] INFO  ReplyMapperTest - 11 매퍼 테스트 등록 글
+12:48:03.932 [main] INFO  ReplyMapperTest - 12 매퍼 테스트 등록 글
+13:03:51.528 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016 
+  	and rno < 1016 
+  	order by rno desc limit 5;
  {executed in 8 msec}
-15:52:09.909 [main] INFO  resultsettable - 
-|-----|-------|----------------|-----|--------------------|--------------------|----|----|
-|bno  |title  |content         |id   |regdate             |moddate             |cnt |cno |
-|-----|-------|----------------|-----|--------------------|--------------------|----|----|
-|1020 |제목수정   |내용 수정           |test |2025-06-19 12:59:01 |2025-06-19 15:11:26 |0   |2   |
-|1019 |테스트    |<p>테스트</p>
-    |test |2025-06-19 12:58:45 |2025-06-19 12:58:45 |0   |2   |
-|1018 |제2 테스트 |<p>테스트</p>
-    |test |2025-06-19 12:55:37 |2025-06-19 12:55:37 |0   |2   |
-|1017 |테스트    |<p>테스트</p>
-    |test |2025-06-19 12:55:25 |2025-06-19 12:55:25 |0   |2   |
-|1016 |test   |<p>setset</p>
- |test |2025-06-19 12:51:07 |2025-06-19 12:51:07 |0   |2   |
-|1015 |test   |<p>setset</p>
- |test |2025-06-19 12:50:57 |2025-06-19 12:50:57 |0   |2   |
-|1014 |test   |<p>setset</p>
- |test |2025-06-19 12:34:53 |2025-06-19 12:34:53 |0   |2   |
-|1013 |       |                |test |2025-06-19 12:25:06 |2025-06-19 12:25:06 |0   |2   |
-|1012 |       |                |test |2025-06-19 12:06:57 |2025-06-19 12:06:57 |0   |2   |
-|1011 |       |                |test |2025-06-19 12:05:50 |2025-06-19 12:05:50 |0   |2   |
-|-----|-------|----------------|-----|--------------------|--------------------|----|----|
+13:03:51.554 [main] INFO  resultsettable - 
+|----|------------|-----|--------------------|-----|
+|rno |content     |id   |regdate             |bno  |
+|----|------------|-----|--------------------|-----|
+|94  |매퍼 테스트 등록 글 |test |2025-06-20 12:57:49 |1016 |
+|93  |매퍼 테스트 등록 글 |test |2025-06-20 12:57:49 |1016 |
+|88  |수정하기        |test |2025-06-20 12:57:49 |1016 |
+|87  |수정내용        |test |2025-06-20 12:57:49 |1016 |
+|86  |댓글 테스트      |test |2025-06-20 12:57:49 |1016 |
+|----|------------|-----|--------------------|-----|
 
-15:52:09.915 [main] INFO  BoardMapperTest - 제목수정
-15:52:09.917 [main] INFO  BoardMapperTest - 테스트
-15:52:09.917 [main] INFO  BoardMapperTest - 제2 테스트
-15:52:09.917 [main] INFO  BoardMapperTest - 테스트
-15:52:09.917 [main] INFO  BoardMapperTest - test
-15:52:09.917 [main] INFO  BoardMapperTest - test
-15:52:09.917 [main] INFO  BoardMapperTest - test
-15:52:09.917 [main] INFO  BoardMapperTest - 
-15:52:09.917 [main] INFO  BoardMapperTest - 
-15:52:09.918 [main] INFO  BoardMapperTest - 
-15:52:09.941 [main] INFO  sqltiming - select * from tbl_board where bno = 1
- {executed in 5 msec}
-15:52:09.943 [main] INFO  resultsettable - 
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|bno |title |content |id   |regdate             |moddate             |cnt |cno |
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|1   |1번글   |내용      |test |2025-06-12 17:37:58 |2025-06-12 17:37:58 |0   |2   |
-|----|------|--------|-----|--------------------|--------------------|----|----|
-
-15:52:09.944 [main] INFO  BoardMapperTest - Board(bno=1, title=1번글, content=내용, id=test, regdate=2025-06-12 17:37:58, moddate=2025-06-12 17:37:58, cnt=0, cno=2)
-15:52:09.951 [main] INFO  BoardMapperTest - [T, I]
-15:52:09.974 [main] INFO  sqltiming - select * from tbl_board
-
-  	 WHERE cno = 2
-
-  				and (
-
-  						title like concat('%', '제목', '%')
-
-  					or
-  						id like concat('%', '제목', '%')
-
-  				) 
-
-  		order by bno desc 
-  		limit 10 offset 0
- {executed in 6 msec}
-15:52:09.977 [main] INFO  resultsettable - 
-|-----|------|--------|-----|--------------------|--------------------|----|----|
-|bno  |title |content |id   |regdate             |moddate             |cnt |cno |
-|-----|------|--------|-----|--------------------|--------------------|----|----|
-|1020 |제목수정  |내용 수정   |test |2025-06-19 12:59:01 |2025-06-19 15:11:26 |0   |2   |
-|-----|------|--------|-----|--------------------|--------------------|----|----|
-
-15:52:09.977 [main] INFO  BoardMapperTest - 제목수정
-15:52:10.022 [main] INFO  sqltiming - select * from tbl_board where bno = 1020
- {executed in 6 msec}
-15:52:10.025 [main] INFO  resultsettable - 
-|-----|------|--------|-----|--------------------|--------------------|----|----|
-|bno  |title |content |id   |regdate             |moddate             |cnt |cno |
-|-----|------|--------|-----|--------------------|--------------------|----|----|
-|1020 |제목수정  |내용 수정   |test |2025-06-19 12:59:01 |2025-06-19 15:11:26 |0   |2   |
-|-----|------|--------|-----|--------------------|--------------------|----|----|
-
-15:52:10.031 [main] WARN  ErrorPacket - Error: 1064-42000: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.
-  	content = '내용 수정',
-  	moddate = now(),
-  	cno = 2,
-  	where bno ...' at line 2
-15:52:10.032 [main] ERROR audit - 4. PreparedStatement.execute() update tbl_board set
-  	title = '제목만 수정하기 테스트'.
-  	content = '내용 수정',
-  	moddate = now(),
-  	cno = 2,
-  	where bno = 1020
-
-java.sql.SQLSyntaxErrorException: (conn=3020) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.
-  	content = '내용 수정',
-  	moddate = now(),
-  	cno = 2,
-  	where bno ...' at line 2
-	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
-	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
-	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
-	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1364)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1303)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1222)
-	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1146)
-	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:87)
-	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:232)
-	at net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy.execute(PreparedStatementSpy.java:443)
-	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
-	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
-	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
-	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
-	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
-	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
-	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
-	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
-	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
-	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
-	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.update(Unknown Source)
-	at mapper.BoardMapperTest.testUpdate(BoardMapperTest.java:74)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:775)
-	at org.junit.platform.commons.support.ReflectionSupport.invokeMethod(ReflectionSupport.java:479)
-	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:161)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:152)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:91)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:112)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:94)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:93)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:87)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:216)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:212)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:201)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:170)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:94)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:59)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:142)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:58)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:94)
-	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
-	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$2(InterceptingLauncher.java:47)
-	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
-	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:46)
-	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
-	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:70)
-	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:100)
-	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:520)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:748)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:443)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:211)
-15:52:10.036 [main] ERROR sqlonly - 4. PreparedStatement.execute() update tbl_board set
-  	title = '제목만 수정하기 테스트'.
-  	content = '내용 수정',
-  	moddate = now(),
-  	cno = 2,
-  	where bno = 1020
-
-java.sql.SQLSyntaxErrorException: (conn=3020) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.
-  	content = '내용 수정',
-  	moddate = now(),
-  	cno = 2,
-  	where bno ...' at line 2
-	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
-	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
-	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
-	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1364)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1303)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1222)
-	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1146)
-	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:87)
-	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:232)
-	at net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy.execute(PreparedStatementSpy.java:443)
-	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
-	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
-	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
-	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
-	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
-	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
-	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
-	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
-	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
-	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
-	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.update(Unknown Source)
-	at mapper.BoardMapperTest.testUpdate(BoardMapperTest.java:74)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:775)
-	at org.junit.platform.commons.support.ReflectionSupport.invokeMethod(ReflectionSupport.java:479)
-	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:161)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:152)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:91)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:112)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:94)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:93)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:87)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:216)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:212)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:201)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:170)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:94)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:59)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:142)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:58)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:94)
-	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
-	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$2(InterceptingLauncher.java:47)
-	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
-	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:46)
-	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
-	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:70)
-	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:100)
-	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:520)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:748)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:443)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:211)
-15:52:10.037 [main] ERROR sqltiming - 4. PreparedStatement.execute() FAILED! update tbl_board set
-  	title = '제목만 수정하기 테스트'.
-  	content = '내용 수정',
-  	moddate = now(),
-  	cno = 2,
-  	where bno = 1020
- {FAILED after 6 msec}
-java.sql.SQLSyntaxErrorException: (conn=3020) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.
-  	content = '내용 수정',
-  	moddate = now(),
-  	cno = 2,
-  	where bno ...' at line 2
-	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
-	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
-	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
-	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1364)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1303)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1222)
-	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1146)
-	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:87)
-	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:232)
-	at net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy.execute(PreparedStatementSpy.java:443)
-	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
-	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
-	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
-	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
-	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
-	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
-	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
-	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
-	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
-	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
-	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.update(Unknown Source)
-	at mapper.BoardMapperTest.testUpdate(BoardMapperTest.java:74)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:775)
-	at org.junit.platform.commons.support.ReflectionSupport.invokeMethod(ReflectionSupport.java:479)
-	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:161)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:152)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:91)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:112)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:94)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:93)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:87)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:216)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:212)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:201)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:170)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:94)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:59)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:142)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:58)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:94)
-	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
-	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$2(InterceptingLauncher.java:47)
-	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
-	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:46)
-	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
-	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:70)
-	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:100)
-	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:520)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:748)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:443)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:211)
-15:54:13.886 [main] INFO  sqltiming - select * from tbl_board
-
-  	 WHERE cno = 2 
-
-  		order by bno desc 
-  		limit 10 offset 0
+13:03:51.564 [main] INFO  ReplyMapperTest - 94 매퍼 테스트 등록 글
+13:03:51.567 [main] INFO  ReplyMapperTest - 93 매퍼 테스트 등록 글
+13:03:51.567 [main] INFO  ReplyMapperTest - 88 수정하기
+13:03:51.567 [main] INFO  ReplyMapperTest - 87 수정내용
+13:03:51.568 [main] INFO  ReplyMapperTest - 86 댓글 테스트
+13:07:50.895 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016 
+  	and rno < 35 
+  	order by rno desc limit 5;
  {executed in 8 msec}
-15:54:13.916 [main] INFO  resultsettable - 
-|-----|-------|----------------|-----|--------------------|--------------------|----|----|
-|bno  |title  |content         |id   |regdate             |moddate             |cnt |cno |
-|-----|-------|----------------|-----|--------------------|--------------------|----|----|
-|1020 |제목수정   |내용 수정           |test |2025-06-19 12:59:01 |2025-06-19 15:11:26 |0   |2   |
-|1019 |테스트    |<p>테스트</p>
-    |test |2025-06-19 12:58:45 |2025-06-19 12:58:45 |0   |2   |
-|1018 |제2 테스트 |<p>테스트</p>
-    |test |2025-06-19 12:55:37 |2025-06-19 12:55:37 |0   |2   |
-|1017 |테스트    |<p>테스트</p>
-    |test |2025-06-19 12:55:25 |2025-06-19 12:55:25 |0   |2   |
-|1016 |test   |<p>setset</p>
- |test |2025-06-19 12:51:07 |2025-06-19 12:51:07 |0   |2   |
-|1015 |test   |<p>setset</p>
- |test |2025-06-19 12:50:57 |2025-06-19 12:50:57 |0   |2   |
-|1014 |test   |<p>setset</p>
- |test |2025-06-19 12:34:53 |2025-06-19 12:34:53 |0   |2   |
-|1013 |       |                |test |2025-06-19 12:25:06 |2025-06-19 12:25:06 |0   |2   |
-|1012 |       |                |test |2025-06-19 12:06:57 |2025-06-19 12:06:57 |0   |2   |
-|1011 |       |                |test |2025-06-19 12:05:50 |2025-06-19 12:05:50 |0   |2   |
-|-----|-------|----------------|-----|--------------------|--------------------|----|----|
+13:07:50.915 [main] INFO  resultsettable - 
+|----|------------|-----|--------------------|-----|
+|rno |content     |id   |regdate             |bno  |
+|----|------------|-----|--------------------|-----|
+|30  |수정하기        |test |2025-06-20 12:57:49 |1016 |
+|29  |수정내용        |test |2025-06-20 12:57:49 |1016 |
+|28  |댓글 테스트      |test |2025-06-20 12:57:49 |1016 |
+|21  |매퍼 테스트 등록 글 |test |2025-06-20 12:57:48 |1016 |
+|20  |매퍼 테스트 등록 글 |test |2025-06-20 12:57:48 |1016 |
+|----|------------|-----|--------------------|-----|
 
-15:54:13.924 [main] INFO  BoardMapperTest - 제목수정
-15:54:13.926 [main] INFO  BoardMapperTest - 테스트
-15:54:13.926 [main] INFO  BoardMapperTest - 제2 테스트
-15:54:13.926 [main] INFO  BoardMapperTest - 테스트
-15:54:13.926 [main] INFO  BoardMapperTest - test
-15:54:13.926 [main] INFO  BoardMapperTest - test
-15:54:13.926 [main] INFO  BoardMapperTest - test
-15:54:13.926 [main] INFO  BoardMapperTest - 
-15:54:13.926 [main] INFO  BoardMapperTest - 
-15:54:13.927 [main] INFO  BoardMapperTest - 
-15:54:13.949 [main] INFO  sqltiming - select * from tbl_board where bno = 1
- {executed in 5 msec}
-15:54:13.953 [main] INFO  resultsettable - 
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|bno |title |content |id   |regdate             |moddate             |cnt |cno |
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|1   |1번글   |내용      |test |2025-06-12 17:37:58 |2025-06-12 17:37:58 |0   |2   |
-|----|------|--------|-----|--------------------|--------------------|----|----|
+13:07:50.922 [main] INFO  ReplyMapperTest - 30 수정하기
+13:07:50.923 [main] INFO  ReplyMapperTest - 29 수정내용
+13:07:50.924 [main] INFO  ReplyMapperTest - 28 댓글 테스트
+13:07:50.924 [main] INFO  ReplyMapperTest - 21 매퍼 테스트 등록 글
+13:07:50.924 [main] INFO  ReplyMapperTest - 20 매퍼 테스트 등록 글
+13:10:43.101 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016 
 
-15:54:13.953 [main] INFO  BoardMapperTest - Board(bno=1, title=1번글, content=내용, id=test, regdate=2025-06-12 17:37:58, moddate=2025-06-12 17:37:58, cnt=0, cno=2)
-15:54:13.969 [main] INFO  BoardMapperTest - [T, I]
-15:54:13.989 [main] INFO  sqltiming - select * from tbl_board
-
-  	 WHERE cno = 2
-
-  				and (
-
-  						title like concat('%', '제목', '%')
-
-  					or
-  						id like concat('%', '제목', '%')
-
-  				) 
-
-  		order by bno desc 
-  		limit 10 offset 0
- {executed in 6 msec}
-15:54:13.991 [main] INFO  resultsettable - 
-|-----|------|--------|-----|--------------------|--------------------|----|----|
-|bno  |title |content |id   |regdate             |moddate             |cnt |cno |
-|-----|------|--------|-----|--------------------|--------------------|----|----|
-|1020 |제목수정  |내용 수정   |test |2025-06-19 12:59:01 |2025-06-19 15:11:26 |0   |2   |
-|-----|------|--------|-----|--------------------|--------------------|----|----|
-
-15:54:13.992 [main] INFO  BoardMapperTest - 제목수정
-15:54:14.033 [main] INFO  sqltiming - select * from tbl_board where bno = 1020
- {executed in 6 msec}
-15:54:14.035 [main] INFO  resultsettable - 
-|-----|------|--------|-----|--------------------|--------------------|----|----|
-|bno  |title |content |id   |regdate             |moddate             |cnt |cno |
-|-----|------|--------|-----|--------------------|--------------------|----|----|
-|1020 |제목수정  |내용 수정   |test |2025-06-19 12:59:01 |2025-06-19 15:11:26 |0   |2   |
-|-----|------|--------|-----|--------------------|--------------------|----|----|
-
-15:54:14.043 [main] INFO  sqltiming - update tbl_board set
-	title = '제목만 수정하기 테스트',
-	content = '내용 수정',
-	moddate = now(),
-	cno = 2
-	where bno = 1020;
- {executed in 7 msec}
-15:54:29.266 [main] INFO  sqltiming - select * from tbl_board
-
-  	 WHERE cno = 2 
-
-  		order by bno desc 
-  		limit 10 offset 0
+  	and rno < 35 
+  	order by rno desc limit 5;
  {executed in 8 msec}
-15:54:29.306 [main] INFO  resultsettable - 
-|-----|-------|----------------|-----|--------------------|--------------------|----|----|
-|bno  |title  |content         |id   |regdate             |moddate             |cnt |cno |
-|-----|-------|----------------|-----|--------------------|--------------------|----|----|
-|1020 |제목수정   |내용 수정           |test |2025-06-19 12:59:01 |2025-06-19 15:54:21 |0   |2   |
-|1019 |테스트    |<p>테스트</p>
-    |test |2025-06-19 12:58:45 |2025-06-19 12:58:45 |0   |2   |
-|1018 |제2 테스트 |<p>테스트</p>
-    |test |2025-06-19 12:55:37 |2025-06-19 12:55:37 |0   |2   |
-|1017 |테스트    |<p>테스트</p>
-    |test |2025-06-19 12:55:25 |2025-06-19 12:55:25 |0   |2   |
-|1016 |test   |<p>setset</p>
- |test |2025-06-19 12:51:07 |2025-06-19 12:51:07 |0   |2   |
-|1015 |test   |<p>setset</p>
- |test |2025-06-19 12:50:57 |2025-06-19 12:50:57 |0   |2   |
-|1014 |test   |<p>setset</p>
- |test |2025-06-19 12:34:53 |2025-06-19 12:34:53 |0   |2   |
-|1013 |       |                |test |2025-06-19 12:25:06 |2025-06-19 12:25:06 |0   |2   |
-|1012 |       |                |test |2025-06-19 12:06:57 |2025-06-19 12:06:57 |0   |2   |
-|1011 |       |                |test |2025-06-19 12:05:50 |2025-06-19 12:05:50 |0   |2   |
-|-----|-------|----------------|-----|--------------------|--------------------|----|----|
+13:10:43.122 [main] INFO  resultsettable - 
+|----|------------|-----|--------------------|-----|
+|rno |content     |id   |regdate             |bno  |
+|----|------------|-----|--------------------|-----|
+|30  |수정하기        |test |2025-06-20 12:57:49 |1016 |
+|29  |수정내용        |test |2025-06-20 12:57:49 |1016 |
+|28  |댓글 테스트      |test |2025-06-20 12:57:49 |1016 |
+|21  |매퍼 테스트 등록 글 |test |2025-06-20 12:57:48 |1016 |
+|20  |매퍼 테스트 등록 글 |test |2025-06-20 12:57:48 |1016 |
+|----|------------|-----|--------------------|-----|
 
-15:54:29.313 [main] INFO  BoardMapperTest - 제목수정
-15:54:29.315 [main] INFO  BoardMapperTest - 테스트
-15:54:29.315 [main] INFO  BoardMapperTest - 제2 테스트
-15:54:29.315 [main] INFO  BoardMapperTest - 테스트
-15:54:29.315 [main] INFO  BoardMapperTest - test
-15:54:29.315 [main] INFO  BoardMapperTest - test
-15:54:29.315 [main] INFO  BoardMapperTest - test
-15:54:29.315 [main] INFO  BoardMapperTest - 
-15:54:29.317 [main] INFO  BoardMapperTest - 
-15:54:29.317 [main] INFO  BoardMapperTest - 
-15:54:29.348 [main] INFO  sqltiming - select * from tbl_board where bno = 1
- {executed in 6 msec}
-15:54:29.350 [main] INFO  resultsettable - 
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|bno |title |content |id   |regdate             |moddate             |cnt |cno |
-|----|------|--------|-----|--------------------|--------------------|----|----|
-|1   |1번글   |내용      |test |2025-06-12 17:37:58 |2025-06-12 17:37:58 |0   |2   |
-|----|------|--------|-----|--------------------|--------------------|----|----|
+13:10:43.129 [main] INFO  ReplyMapperTest - 30 수정하기
+13:10:43.131 [main] INFO  ReplyMapperTest - 29 수정내용
+13:10:43.131 [main] INFO  ReplyMapperTest - 28 댓글 테스트
+13:10:43.131 [main] INFO  ReplyMapperTest - 21 매퍼 테스트 등록 글
+13:10:43.131 [main] INFO  ReplyMapperTest - 20 매퍼 테스트 등록 글
+13:12:29.136 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016 
 
-15:54:29.351 [main] INFO  BoardMapperTest - Board(bno=1, title=1번글, content=내용, id=test, regdate=2025-06-12 17:37:58, moddate=2025-06-12 17:37:58, cnt=0, cno=2)
-15:54:29.364 [main] INFO  BoardMapperTest - [T, I]
-15:54:29.380 [main] INFO  sqltiming - select * from tbl_board
+  	and rno < 35 
 
-  	 WHERE cno = 2
+  	order by rno desc limit 5;
+ {executed in 8 msec}
+13:12:29.157 [main] INFO  resultsettable - 
+|----|------------|-----|--------------------|-----|
+|rno |content     |id   |regdate             |bno  |
+|----|------------|-----|--------------------|-----|
+|30  |수정하기        |test |2025-06-20 12:57:49 |1016 |
+|29  |수정내용        |test |2025-06-20 12:57:49 |1016 |
+|28  |댓글 테스트      |test |2025-06-20 12:57:49 |1016 |
+|21  |매퍼 테스트 등록 글 |test |2025-06-20 12:57:48 |1016 |
+|20  |매퍼 테스트 등록 글 |test |2025-06-20 12:57:48 |1016 |
+|----|------------|-----|--------------------|-----|
 
-  				and (
+13:12:29.164 [main] INFO  ReplyMapperTest - 30 수정하기
+13:12:29.166 [main] INFO  ReplyMapperTest - 29 수정내용
+13:12:29.166 [main] INFO  ReplyMapperTest - 28 댓글 테스트
+13:12:29.166 [main] INFO  ReplyMapperTest - 21 매퍼 테스트 등록 글
+13:12:29.166 [main] INFO  ReplyMapperTest - 20 매퍼 테스트 등록 글
+13:13:01.775 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016 
 
-  						title like concat('%', '제목', '%')
+  	order by rno desc limit 5;
+ {executed in 11 msec}
+13:13:01.796 [main] INFO  resultsettable - 
+|----|------------|-----|--------------------|-----|
+|rno |content     |id   |regdate             |bno  |
+|----|------------|-----|--------------------|-----|
+|94  |매퍼 테스트 등록 글 |test |2025-06-20 12:57:49 |1016 |
+|93  |매퍼 테스트 등록 글 |test |2025-06-20 12:57:49 |1016 |
+|88  |수정하기        |test |2025-06-20 12:57:49 |1016 |
+|87  |수정내용        |test |2025-06-20 12:57:49 |1016 |
+|86  |댓글 테스트      |test |2025-06-20 12:57:49 |1016 |
+|----|------------|-----|--------------------|-----|
 
-  					or
-  						id like concat('%', '제목', '%')
-
-  				) 
-
-  		order by bno desc 
-  		limit 10 offset 0
- {executed in 6 msec}
-15:54:29.382 [main] INFO  resultsettable - 
-|-----|------|--------|-----|--------------------|--------------------|----|----|
-|bno  |title |content |id   |regdate             |moddate             |cnt |cno |
-|-----|------|--------|-----|--------------------|--------------------|----|----|
-|1020 |제목수정  |내용 수정   |test |2025-06-19 12:59:01 |2025-06-19 15:54:21 |0   |2   |
-|-----|------|--------|-----|--------------------|--------------------|----|----|
-
-15:54:29.383 [main] INFO  BoardMapperTest - 제목수정
-15:54:29.396 [main] INFO  sqltiming - select * from tbl_board where bno = 1020
- {executed in 6 msec}
-15:54:29.398 [main] INFO  resultsettable - 
-|-----|------|--------|-----|--------------------|--------------------|----|----|
-|bno  |title |content |id   |regdate             |moddate             |cnt |cno |
-|-----|------|--------|-----|--------------------|--------------------|----|----|
-|1020 |제목수정  |내용 수정   |test |2025-06-19 12:59:01 |2025-06-19 15:54:21 |0   |2   |
-|-----|------|--------|-----|--------------------|--------------------|----|----|
-
-15:54:29.406 [main] INFO  sqltiming - update tbl_board set
-	title = '제목만 수정하기 테스트',
-	content = '내용 수정',
-	moddate = now(),
-	cno = 2
-	where bno = 1020;
- {executed in 7 msec}
+13:13:01.803 [main] INFO  ReplyMapperTest - 94 매퍼 테스트 등록 글
+13:13:01.805 [main] INFO  ReplyMapperTest - 93 매퍼 테스트 등록 글
+13:13:01.805 [main] INFO  ReplyMapperTest - 88 수정하기
+13:13:01.805 [main] INFO  ReplyMapperTest - 87 수정내용
+13:13:01.805 [main] INFO  ReplyMapperTest - 86 댓글 테스트
+14:47:52.627 [main] INFO  sqltiming - delete from tbl_reply where rno =122
+ {executed in 9 msec}
