@@ -25,7 +25,11 @@
   <!-- 댓글 등록 -->
   <insert id="insert">
   insert into tbl_reply (content, id, bno) values (#{content}, #{id}, #{bno})
+  <selectKey resultType="long" keyProperty="rno" order="AFTER">
+  	select max(rno) from tbl_reply
+  </selectKey>
   </insert>
+  
   
   <!-- 댓글 수정 -->
    

@@ -82,10 +82,13 @@ public class ReplyServlet extends HttpServlet{
 		//insert의 목적
 		String ret= String.join("", req.getReader().lines().toList());
 		Reply reply = new Gson().fromJson(ret, Reply.class);
+		
+		// 이 시점 rno > null
 		new ReplyService().register(reply);
+		// 이 시점 rno < not null
 		
 		resp.setContentType("application/json; charset=utf-8");
-		resp.getWriter().print(new Gson().toJson(Map.of("result",true)));
+		resp.getWriter().print(new Gson().toJson(Map.of("result",true,"reply",reply)));
 	}
 
 	@Override

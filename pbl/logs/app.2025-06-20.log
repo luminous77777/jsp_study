@@ -1,0 +1,560 @@
+11:03:54.740 [main] INFO  sqltiming - select * from tbl_reply where rno = 1;
+ {executed in 7 msec}
+11:03:54.771 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:03:54.777 [main] INFO  ReplyMapperTest - Reply(rno=1, content=댓글 테스트, id=test, regdate=2025-06-20 10:44:53, bno=1016)
+11:08:19.809 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
+ {executed in 8 msec}
+11:08:19.832 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용    |test |2025-06-20 10:45:11 |1016 |
+|4   |댓글 테스트  |test |2025-06-20 10:45:12 |1016 |
+|5   |댓글 테스트  |test |2025-06-20 10:46:03 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:08:19.839 [main] INFO  ReplyMapperTest - [Reply(rno=1, content=댓글 테스트, id=test, regdate=2025-06-20 10:44:53, bno=1016), Reply(rno=3, content=수정내용, id=test, regdate=2025-06-20 10:45:11, bno=1016), Reply(rno=4, content=댓글 테스트, id=test, regdate=2025-06-20 10:45:12, bno=1016), Reply(rno=5, content=댓글 테스트, id=test, regdate=2025-06-20 10:46:03, bno=1016)]
+11:08:20.133 [main] INFO  sqltiming - select * from tbl_reply where rno = 1;
+ {executed in 5 msec}
+11:08:20.135 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:08:20.135 [main] INFO  ReplyMapperTest - Reply(rno=1, content=댓글 테스트, id=test, regdate=2025-06-20 10:44:53, bno=1016)
+11:08:46.019 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
+ {executed in 6 msec}
+11:08:46.041 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용    |test |2025-06-20 10:45:11 |1016 |
+|4   |댓글 테스트  |test |2025-06-20 10:45:12 |1016 |
+|5   |댓글 테스트  |test |2025-06-20 10:46:03 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:08:46.048 [main] INFO  ReplyMapperTest - [Reply(rno=1, content=댓글 테스트, id=test, regdate=2025-06-20 10:44:53, bno=1016), Reply(rno=3, content=수정내용, id=test, regdate=2025-06-20 10:45:11, bno=1016), Reply(rno=4, content=댓글 테스트, id=test, regdate=2025-06-20 10:45:12, bno=1016), Reply(rno=5, content=댓글 테스트, id=test, regdate=2025-06-20 10:46:03, bno=1016)]
+11:08:46.109 [main] INFO  sqltiming - select * from tbl_reply where rno = 1;
+ {executed in 5 msec}
+11:08:46.112 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:09:08.774 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
+ {executed in 10 msec}
+11:09:08.795 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용    |test |2025-06-20 10:45:11 |1016 |
+|4   |댓글 테스트  |test |2025-06-20 10:45:12 |1016 |
+|5   |댓글 테스트  |test |2025-06-20 10:46:03 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:09:08.803 [main] INFO  ReplyMapperTest -  댓글 목록 테스트 : [Reply(rno=1, content=댓글 테스트, id=test, regdate=2025-06-20 10:44:53, bno=1016), Reply(rno=3, content=수정내용, id=test, regdate=2025-06-20 10:45:11, bno=1016), Reply(rno=4, content=댓글 테스트, id=test, regdate=2025-06-20 10:45:12, bno=1016), Reply(rno=5, content=댓글 테스트, id=test, regdate=2025-06-20 10:46:03, bno=1016)]
+11:09:08.863 [main] INFO  sqltiming - select * from tbl_reply where rno = 1;
+ {executed in 7 msec}
+11:09:08.865 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:12:30.798 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
+ {executed in 8 msec}
+11:12:30.822 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용    |test |2025-06-20 10:45:11 |1016 |
+|4   |댓글 테스트  |test |2025-06-20 10:45:12 |1016 |
+|5   |댓글 테스트  |test |2025-06-20 10:46:03 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:12:30.829 [main] INFO  ReplyMapperTest -  리스트 댓글 : [Reply(rno=1, content=댓글 테스트, id=test, regdate=2025-06-20 10:44:53, bno=1016), Reply(rno=3, content=수정내용, id=test, regdate=2025-06-20 10:45:11, bno=1016), Reply(rno=4, content=댓글 테스트, id=test, regdate=2025-06-20 10:45:12, bno=1016), Reply(rno=5, content=댓글 테스트, id=test, regdate=2025-06-20 10:46:03, bno=1016)]
+11:12:30.881 [main] INFO  sqltiming - select * from tbl_reply where rno = 1;
+ {executed in 6 msec}
+11:12:30.885 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:12:30.886 [main] INFO  ReplyMapperTest - 단일 댓글 : Reply(rno=1, content=댓글 테스트, id=test, regdate=2025-06-20 10:44:53, bno=1016)
+11:41:16.289 [main] INFO  sqltiming - insert into tbl_reply (content, id, bno) values (NULL, NULL, NULL)
+ {executed in 19 msec}
+11:41:16.627 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
+ {executed in 10 msec}
+11:41:16.675 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용    |test |2025-06-20 10:45:11 |1016 |
+|4   |댓글 테스트  |test |2025-06-20 10:45:12 |1016 |
+|5   |댓글 테스트  |test |2025-06-20 10:46:03 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:41:16.686 [main] INFO  ReplyMapperTest -  리스트 댓글 : [Reply(rno=1, content=댓글 테스트, id=test, regdate=2025-06-20 10:44:53, bno=1016), Reply(rno=3, content=수정내용, id=test, regdate=2025-06-20 10:45:11, bno=1016), Reply(rno=4, content=댓글 테스트, id=test, regdate=2025-06-20 10:45:12, bno=1016), Reply(rno=5, content=댓글 테스트, id=test, regdate=2025-06-20 10:46:03, bno=1016)]
+11:41:16.699 [main] INFO  sqltiming - select * from tbl_reply where rno = 1;
+ {executed in 5 msec}
+11:41:16.702 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:41:16.702 [main] INFO  ReplyMapperTest - 단일 댓글 : Reply(rno=1, content=댓글 테스트, id=test, regdate=2025-06-20 10:44:53, bno=1016)
+11:43:34.604 [main] INFO  sqltiming - insert into tbl_reply (content, id, bno) values (NULL, NULL, NULL)
+ {executed in 61 msec}
+11:43:35.749 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
+ {executed in 28 msec}
+11:43:35.793 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용    |test |2025-06-20 10:45:11 |1016 |
+|4   |댓글 테스트  |test |2025-06-20 10:45:12 |1016 |
+|5   |댓글 테스트  |test |2025-06-20 10:46:03 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:43:35.800 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:43:35.802 [main] INFO  ReplyMapperTest - 수정내용
+11:43:35.802 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:43:35.802 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:43:35.875 [main] INFO  sqltiming - select * from tbl_reply where rno = 1;
+ {executed in 23 msec}
+11:43:35.877 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:43:35.877 [main] INFO  ReplyMapperTest - 단일 댓글 : Reply(rno=1, content=댓글 테스트, id=test, regdate=2025-06-20 10:44:53, bno=1016)
+11:45:30.203 [main] INFO  sqltiming - insert into tbl_reply (content, id, bno) values (NULL, NULL, NULL)
+ {executed in 13 msec}
+11:45:30.271 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
+ {executed in 8 msec}
+11:45:30.290 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용    |test |2025-06-20 10:45:11 |1016 |
+|4   |댓글 테스트  |test |2025-06-20 10:45:12 |1016 |
+|5   |댓글 테스트  |test |2025-06-20 10:46:03 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:45:30.298 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:45:30.300 [main] INFO  ReplyMapperTest - 수정내용
+11:45:30.301 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:45:30.301 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:45:30.331 [main] INFO  sqltiming - select * from tbl_reply where rno = 1;
+ {executed in 7 msec}
+11:45:30.333 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:45:30.334 [main] INFO  ReplyMapperTest - 단일 댓글 : Reply(rno=1, content=댓글 테스트, id=test, regdate=2025-06-20 10:44:53, bno=1016)
+11:45:30.373 [main] INFO  sqltiming - select * from tbl_reply where rno = 4;
+ {executed in 5 msec}
+11:45:30.375 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|4   |댓글 테스트  |test |2025-06-20 10:45:12 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:45:30.382 [main] INFO  sqltiming - update tbl_reply set content ='수정하기' where rno= 4
+ {executed in 6 msec}
+11:45:44.308 [main] INFO  sqltiming - insert into tbl_reply (content, id, bno) values (NULL, NULL, NULL)
+ {executed in 15 msec}
+11:45:44.352 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
+ {executed in 7 msec}
+11:45:44.376 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|1   |댓글 테스트  |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용    |test |2025-06-20 10:45:11 |1016 |
+|4   |수정하기    |test |2025-06-20 10:45:12 |1016 |
+|5   |댓글 테스트  |test |2025-06-20 10:46:03 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:45:44.384 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:45:44.385 [main] INFO  ReplyMapperTest - 수정내용
+11:45:44.386 [main] INFO  ReplyMapperTest - 수정하기
+11:45:44.386 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:45:44.421 [main] INFO  sqltiming - select * from tbl_reply where rno = 4;
+ {executed in 9 msec}
+11:45:44.424 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|4   |수정하기    |test |2025-06-20 10:45:12 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:45:44.424 [main] INFO  ReplyMapperTest - 단일 댓글 : Reply(rno=4, content=수정하기, id=test, regdate=2025-06-20 10:45:12, bno=1016)
+11:45:44.480 [main] INFO  sqltiming - select * from tbl_reply where rno = 4;
+ {executed in 6 msec}
+11:45:44.482 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|4   |수정하기    |test |2025-06-20 10:45:12 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:45:44.490 [main] INFO  sqltiming - update tbl_reply set content ='수정하기' where rno= 4
+ {executed in 7 msec}
+11:46:52.336 [main] INFO  sqltiming - insert into tbl_reply (content, id, bno) values ('매퍼 테스트 등록 글', 'test', 1016)
+ {executed in 57 msec}
+11:46:52.540 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
+ {executed in 37 msec}
+11:46:52.558 [main] INFO  resultsettable - 
+|----|------------|-----|--------------------|-----|
+|rno |content     |id   |regdate             |bno  |
+|----|------------|-----|--------------------|-----|
+|1   |댓글 테스트      |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용        |test |2025-06-20 10:45:11 |1016 |
+|4   |수정하기        |test |2025-06-20 10:45:12 |1016 |
+|5   |댓글 테스트      |test |2025-06-20 10:46:03 |1016 |
+|10  |매퍼 테스트 등록 글 |test |2025-06-20 11:46:52 |1016 |
+|----|------------|-----|--------------------|-----|
+
+11:46:52.565 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:46:52.567 [main] INFO  ReplyMapperTest - 수정내용
+11:46:52.567 [main] INFO  ReplyMapperTest - 수정하기
+11:46:52.567 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:46:52.567 [main] INFO  ReplyMapperTest - 매퍼 테스트 등록 글
+11:46:52.620 [main] INFO  sqltiming - select * from tbl_reply where rno = 4;
+ {executed in 9 msec}
+11:46:52.621 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|4   |수정하기    |test |2025-06-20 10:45:12 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:46:52.622 [main] INFO  ReplyMapperTest - 단일 댓글 : Reply(rno=4, content=수정하기, id=test, regdate=2025-06-20 10:45:12, bno=1016)
+11:46:52.663 [main] INFO  sqltiming - select * from tbl_reply where rno = 4;
+ {executed in 6 msec}
+11:46:52.664 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|4   |수정하기    |test |2025-06-20 10:45:12 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:46:52.670 [main] INFO  sqltiming - update tbl_reply set content ='수정하기' where rno= 4
+ {executed in 5 msec}
+11:47:03.132 [main] INFO  sqltiming - insert into tbl_reply (content, id, bno) values ('매퍼 테스트 등록 글', 'test', 1016)
+ {executed in 6 msec}
+11:47:03.175 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
+ {executed in 7 msec}
+11:47:03.200 [main] INFO  resultsettable - 
+|----|------------|-----|--------------------|-----|
+|rno |content     |id   |regdate             |bno  |
+|----|------------|-----|--------------------|-----|
+|1   |댓글 테스트      |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용        |test |2025-06-20 10:45:11 |1016 |
+|4   |수정하기        |test |2025-06-20 10:45:12 |1016 |
+|5   |댓글 테스트      |test |2025-06-20 10:46:03 |1016 |
+|10  |매퍼 테스트 등록 글 |test |2025-06-20 11:46:52 |1016 |
+|11  |매퍼 테스트 등록 글 |test |2025-06-20 11:47:03 |1016 |
+|----|------------|-----|--------------------|-----|
+
+11:47:03.207 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:47:03.209 [main] INFO  ReplyMapperTest - 수정내용
+11:47:03.209 [main] INFO  ReplyMapperTest - 수정하기
+11:47:03.209 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:47:03.209 [main] INFO  ReplyMapperTest - 매퍼 테스트 등록 글
+11:47:03.209 [main] INFO  ReplyMapperTest - 매퍼 테스트 등록 글
+11:47:03.536 [main] INFO  sqltiming - select * from tbl_reply where rno = 4;
+ {executed in 293 msec}
+11:47:03.541 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|4   |수정하기    |test |2025-06-20 10:45:12 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:47:03.542 [main] INFO  ReplyMapperTest - 단일 댓글 : Reply(rno=4, content=수정하기, id=test, regdate=2025-06-20 10:45:12, bno=1016)
+11:47:03.813 [main] INFO  sqltiming - select * from tbl_reply where rno = 4;
+ {executed in 250 msec}
+11:47:03.815 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|4   |수정하기    |test |2025-06-20 10:45:12 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:47:03.826 [main] INFO  sqltiming - update tbl_reply set content ='수정하기' where rno= 4
+ {executed in 10 msec}
+11:47:51.981 [main] INFO  sqltiming - insert into tbl_reply (content, id, bno) values ('매퍼 테스트 등록 글', 'test', 1016)
+ {executed in 30 msec}
+11:47:52.054 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
+ {executed in 30 msec}
+11:47:52.073 [main] INFO  resultsettable - 
+|----|------------|-----|--------------------|-----|
+|rno |content     |id   |regdate             |bno  |
+|----|------------|-----|--------------------|-----|
+|1   |댓글 테스트      |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용        |test |2025-06-20 10:45:11 |1016 |
+|4   |수정하기        |test |2025-06-20 10:45:12 |1016 |
+|5   |댓글 테스트      |test |2025-06-20 10:46:03 |1016 |
+|10  |매퍼 테스트 등록 글 |test |2025-06-20 11:46:52 |1016 |
+|11  |매퍼 테스트 등록 글 |test |2025-06-20 11:47:03 |1016 |
+|12  |매퍼 테스트 등록 글 |test |2025-06-20 11:47:51 |1016 |
+|----|------------|-----|--------------------|-----|
+
+11:47:52.079 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:47:52.080 [main] INFO  ReplyMapperTest - 수정내용
+11:47:52.080 [main] INFO  ReplyMapperTest - 수정하기
+11:47:52.080 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:47:52.080 [main] INFO  ReplyMapperTest - 매퍼 테스트 등록 글
+11:47:52.080 [main] INFO  ReplyMapperTest - 매퍼 테스트 등록 글
+11:47:52.081 [main] INFO  ReplyMapperTest - 매퍼 테스트 등록 글
+11:47:52.087 [main] INFO  sqltiming - select * from tbl_reply where rno = 4;
+ {executed in 4 msec}
+11:47:52.089 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|4   |수정하기    |test |2025-06-20 10:45:12 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:47:52.089 [main] INFO  ReplyMapperTest - 단일 댓글 : Reply(rno=4, content=수정하기, id=test, regdate=2025-06-20 10:45:12, bno=1016)
+11:47:52.134 [main] INFO  sqltiming - delete from tbl_reply where rno =5
+ {executed in 6 msec}
+11:47:52.392 [main] INFO  sqltiming - select * from tbl_reply where rno = 4;
+ {executed in 7 msec}
+11:47:52.394 [main] INFO  resultsettable - 
+|----|--------|-----|--------------------|-----|
+|rno |content |id   |regdate             |bno  |
+|----|--------|-----|--------------------|-----|
+|4   |수정하기    |test |2025-06-20 10:45:12 |1016 |
+|----|--------|-----|--------------------|-----|
+
+11:47:52.400 [main] INFO  sqltiming - update tbl_reply set content ='수정하기' where rno= 4
+ {executed in 6 msec}
+11:48:30.637 [main] INFO  sqltiming - delete from tbl_reply where rno =5
+ {executed in 5 msec}
+11:48:48.638 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
+ {executed in 8 msec}
+11:48:48.660 [main] INFO  resultsettable - 
+|----|------------|-----|--------------------|-----|
+|rno |content     |id   |regdate             |bno  |
+|----|------------|-----|--------------------|-----|
+|1   |댓글 테스트      |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용        |test |2025-06-20 10:45:11 |1016 |
+|4   |수정하기        |test |2025-06-20 10:45:12 |1016 |
+|10  |매퍼 테스트 등록 글 |test |2025-06-20 11:46:52 |1016 |
+|11  |매퍼 테스트 등록 글 |test |2025-06-20 11:47:03 |1016 |
+|12  |매퍼 테스트 등록 글 |test |2025-06-20 11:47:51 |1016 |
+|----|------------|-----|--------------------|-----|
+
+11:48:48.666 [main] INFO  ReplyMapperTest - 댓글 테스트
+11:48:48.668 [main] INFO  ReplyMapperTest - 수정내용
+11:48:48.668 [main] INFO  ReplyMapperTest - 수정하기
+11:48:48.668 [main] INFO  ReplyMapperTest - 매퍼 테스트 등록 글
+11:48:48.668 [main] INFO  ReplyMapperTest - 매퍼 테스트 등록 글
+11:48:48.668 [main] INFO  ReplyMapperTest - 매퍼 테스트 등록 글
+11:49:16.715 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
+ {executed in 8 msec}
+11:49:16.735 [main] INFO  resultsettable - 
+|----|------------|-----|--------------------|-----|
+|rno |content     |id   |regdate             |bno  |
+|----|------------|-----|--------------------|-----|
+|1   |댓글 테스트      |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용        |test |2025-06-20 10:45:11 |1016 |
+|4   |수정하기        |test |2025-06-20 10:45:12 |1016 |
+|10  |매퍼 테스트 등록 글 |test |2025-06-20 11:46:52 |1016 |
+|11  |매퍼 테스트 등록 글 |test |2025-06-20 11:47:03 |1016 |
+|12  |매퍼 테스트 등록 글 |test |2025-06-20 11:47:51 |1016 |
+|----|------------|-----|--------------------|-----|
+
+11:49:16.742 [main] INFO  ReplyMapperTest - 1 댓글 테스트
+11:49:16.743 [main] INFO  ReplyMapperTest - 3 수정내용
+11:49:16.743 [main] INFO  ReplyMapperTest - 4 수정하기
+11:49:16.744 [main] INFO  ReplyMapperTest - 10 매퍼 테스트 등록 글
+11:49:16.744 [main] INFO  ReplyMapperTest - 11 매퍼 테스트 등록 글
+11:49:16.744 [main] INFO  ReplyMapperTest - 12 매퍼 테스트 등록 글
+11:49:24.842 [main] INFO  sqltiming - delete from tbl_reply where rno =10
+ {executed in 8 msec}
+11:49:31.344 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
+ {executed in 9 msec}
+11:49:31.367 [main] INFO  resultsettable - 
+|----|------------|-----|--------------------|-----|
+|rno |content     |id   |regdate             |bno  |
+|----|------------|-----|--------------------|-----|
+|1   |댓글 테스트      |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용        |test |2025-06-20 10:45:11 |1016 |
+|4   |수정하기        |test |2025-06-20 10:45:12 |1016 |
+|11  |매퍼 테스트 등록 글 |test |2025-06-20 11:47:03 |1016 |
+|12  |매퍼 테스트 등록 글 |test |2025-06-20 11:47:51 |1016 |
+|----|------------|-----|--------------------|-----|
+
+11:49:31.374 [main] INFO  ReplyMapperTest - 1 댓글 테스트
+11:49:31.376 [main] INFO  ReplyMapperTest - 3 수정내용
+11:49:31.376 [main] INFO  ReplyMapperTest - 4 수정하기
+11:49:31.376 [main] INFO  ReplyMapperTest - 11 매퍼 테스트 등록 글
+11:49:31.377 [main] INFO  ReplyMapperTest - 12 매퍼 테스트 등록 글
+11:58:15.368 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
+ {executed in 9 msec}
+11:58:15.390 [main] INFO  resultsettable - 
+|----|------------|-----|--------------------|-----|
+|rno |content     |id   |regdate             |bno  |
+|----|------------|-----|--------------------|-----|
+|1   |댓글 테스트      |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용        |test |2025-06-20 10:45:11 |1016 |
+|4   |수정하기        |test |2025-06-20 10:45:12 |1016 |
+|11  |매퍼 테스트 등록 글 |test |2025-06-20 11:47:03 |1016 |
+|12  |매퍼 테스트 등록 글 |test |2025-06-20 11:47:51 |1016 |
+|----|------------|-----|--------------------|-----|
+
+12:48:03.902 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016;
+ {executed in 7 msec}
+12:48:03.923 [main] INFO  resultsettable - 
+|----|------------|-----|--------------------|-----|
+|rno |content     |id   |regdate             |bno  |
+|----|------------|-----|--------------------|-----|
+|1   |댓글 테스트      |test |2025-06-20 10:44:53 |1016 |
+|3   |수정내용        |test |2025-06-20 10:45:11 |1016 |
+|4   |수정하기        |test |2025-06-20 10:45:12 |1016 |
+|11  |매퍼 테스트 등록 글 |test |2025-06-20 11:47:03 |1016 |
+|12  |매퍼 테스트 등록 글 |test |2025-06-20 11:47:51 |1016 |
+|----|------------|-----|--------------------|-----|
+
+12:48:03.929 [main] INFO  ReplyMapperTest - 1 댓글 테스트
+12:48:03.932 [main] INFO  ReplyMapperTest - 3 수정내용
+12:48:03.932 [main] INFO  ReplyMapperTest - 4 수정하기
+12:48:03.932 [main] INFO  ReplyMapperTest - 11 매퍼 테스트 등록 글
+12:48:03.932 [main] INFO  ReplyMapperTest - 12 매퍼 테스트 등록 글
+13:03:51.528 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016 
+  	and rno < 1016 
+  	order by rno desc limit 5;
+ {executed in 8 msec}
+13:03:51.554 [main] INFO  resultsettable - 
+|----|------------|-----|--------------------|-----|
+|rno |content     |id   |regdate             |bno  |
+|----|------------|-----|--------------------|-----|
+|94  |매퍼 테스트 등록 글 |test |2025-06-20 12:57:49 |1016 |
+|93  |매퍼 테스트 등록 글 |test |2025-06-20 12:57:49 |1016 |
+|88  |수정하기        |test |2025-06-20 12:57:49 |1016 |
+|87  |수정내용        |test |2025-06-20 12:57:49 |1016 |
+|86  |댓글 테스트      |test |2025-06-20 12:57:49 |1016 |
+|----|------------|-----|--------------------|-----|
+
+13:03:51.564 [main] INFO  ReplyMapperTest - 94 매퍼 테스트 등록 글
+13:03:51.567 [main] INFO  ReplyMapperTest - 93 매퍼 테스트 등록 글
+13:03:51.567 [main] INFO  ReplyMapperTest - 88 수정하기
+13:03:51.567 [main] INFO  ReplyMapperTest - 87 수정내용
+13:03:51.568 [main] INFO  ReplyMapperTest - 86 댓글 테스트
+13:07:50.895 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016 
+  	and rno < 35 
+  	order by rno desc limit 5;
+ {executed in 8 msec}
+13:07:50.915 [main] INFO  resultsettable - 
+|----|------------|-----|--------------------|-----|
+|rno |content     |id   |regdate             |bno  |
+|----|------------|-----|--------------------|-----|
+|30  |수정하기        |test |2025-06-20 12:57:49 |1016 |
+|29  |수정내용        |test |2025-06-20 12:57:49 |1016 |
+|28  |댓글 테스트      |test |2025-06-20 12:57:49 |1016 |
+|21  |매퍼 테스트 등록 글 |test |2025-06-20 12:57:48 |1016 |
+|20  |매퍼 테스트 등록 글 |test |2025-06-20 12:57:48 |1016 |
+|----|------------|-----|--------------------|-----|
+
+13:07:50.922 [main] INFO  ReplyMapperTest - 30 수정하기
+13:07:50.923 [main] INFO  ReplyMapperTest - 29 수정내용
+13:07:50.924 [main] INFO  ReplyMapperTest - 28 댓글 테스트
+13:07:50.924 [main] INFO  ReplyMapperTest - 21 매퍼 테스트 등록 글
+13:07:50.924 [main] INFO  ReplyMapperTest - 20 매퍼 테스트 등록 글
+13:10:43.101 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016 
+
+  	and rno < 35 
+  	order by rno desc limit 5;
+ {executed in 8 msec}
+13:10:43.122 [main] INFO  resultsettable - 
+|----|------------|-----|--------------------|-----|
+|rno |content     |id   |regdate             |bno  |
+|----|------------|-----|--------------------|-----|
+|30  |수정하기        |test |2025-06-20 12:57:49 |1016 |
+|29  |수정내용        |test |2025-06-20 12:57:49 |1016 |
+|28  |댓글 테스트      |test |2025-06-20 12:57:49 |1016 |
+|21  |매퍼 테스트 등록 글 |test |2025-06-20 12:57:48 |1016 |
+|20  |매퍼 테스트 등록 글 |test |2025-06-20 12:57:48 |1016 |
+|----|------------|-----|--------------------|-----|
+
+13:10:43.129 [main] INFO  ReplyMapperTest - 30 수정하기
+13:10:43.131 [main] INFO  ReplyMapperTest - 29 수정내용
+13:10:43.131 [main] INFO  ReplyMapperTest - 28 댓글 테스트
+13:10:43.131 [main] INFO  ReplyMapperTest - 21 매퍼 테스트 등록 글
+13:10:43.131 [main] INFO  ReplyMapperTest - 20 매퍼 테스트 등록 글
+13:12:29.136 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016 
+
+  	and rno < 35 
+
+  	order by rno desc limit 5;
+ {executed in 8 msec}
+13:12:29.157 [main] INFO  resultsettable - 
+|----|------------|-----|--------------------|-----|
+|rno |content     |id   |regdate             |bno  |
+|----|------------|-----|--------------------|-----|
+|30  |수정하기        |test |2025-06-20 12:57:49 |1016 |
+|29  |수정내용        |test |2025-06-20 12:57:49 |1016 |
+|28  |댓글 테스트      |test |2025-06-20 12:57:49 |1016 |
+|21  |매퍼 테스트 등록 글 |test |2025-06-20 12:57:48 |1016 |
+|20  |매퍼 테스트 등록 글 |test |2025-06-20 12:57:48 |1016 |
+|----|------------|-----|--------------------|-----|
+
+13:12:29.164 [main] INFO  ReplyMapperTest - 30 수정하기
+13:12:29.166 [main] INFO  ReplyMapperTest - 29 수정내용
+13:12:29.166 [main] INFO  ReplyMapperTest - 28 댓글 테스트
+13:12:29.166 [main] INFO  ReplyMapperTest - 21 매퍼 테스트 등록 글
+13:12:29.166 [main] INFO  ReplyMapperTest - 20 매퍼 테스트 등록 글
+13:13:01.775 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016 
+
+  	order by rno desc limit 5;
+ {executed in 11 msec}
+13:13:01.796 [main] INFO  resultsettable - 
+|----|------------|-----|--------------------|-----|
+|rno |content     |id   |regdate             |bno  |
+|----|------------|-----|--------------------|-----|
+|94  |매퍼 테스트 등록 글 |test |2025-06-20 12:57:49 |1016 |
+|93  |매퍼 테스트 등록 글 |test |2025-06-20 12:57:49 |1016 |
+|88  |수정하기        |test |2025-06-20 12:57:49 |1016 |
+|87  |수정내용        |test |2025-06-20 12:57:49 |1016 |
+|86  |댓글 테스트      |test |2025-06-20 12:57:49 |1016 |
+|----|------------|-----|--------------------|-----|
+
+13:13:01.803 [main] INFO  ReplyMapperTest - 94 매퍼 테스트 등록 글
+13:13:01.805 [main] INFO  ReplyMapperTest - 93 매퍼 테스트 등록 글
+13:13:01.805 [main] INFO  ReplyMapperTest - 88 수정하기
+13:13:01.805 [main] INFO  ReplyMapperTest - 87 수정내용
+13:13:01.805 [main] INFO  ReplyMapperTest - 86 댓글 테스트
+14:47:52.627 [main] INFO  sqltiming - delete from tbl_reply where rno =122
+ {executed in 9 msec}
