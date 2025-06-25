@@ -1,5 +1,7 @@
 package domain;
 
+import org.apache.ibatis.type.Alias;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -7,8 +9,7 @@ import lombok.NoArgsConstructor;
 
 @Data
 @Builder
-@NoArgsConstructor
-@AllArgsConstructor
+@Alias("attach")
 public class Attach {
 	
 	private String uuid;
@@ -19,13 +20,8 @@ public class Attach {
 	private Long rno;
 	private int odr;
 	
-	public Attach(String uuid, String path, boolean image, String origin, Long bno, Long rno) {
-		super();
-		this.uuid = uuid;
-		this.path = path;
-		this.image = image;
-		this.origin = origin;
-		this.bno = bno;
-		this.rno = rno;
+	public String getInfo() {
+		String[] strs = {"uuid=" + uuid, "path=" + path, "origin=" + origin};
+		return String.join("&", strs);
 	}
 }

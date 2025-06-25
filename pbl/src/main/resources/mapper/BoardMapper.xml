@@ -48,6 +48,9 @@
   	<!-- 글 등록 -->
   	<insert id="insert">
   	insert into tbl_board (title, content, id, cno) values (#{title}, #{content}, #{id}, #{cno})
+  	<selectKey keyProperty="bno" resultType="long" order="AFTER">
+  	select max(bno) from tbl_board
+  	</selectKey>
   	</insert>
   	
   	<!-- 게시글 갯수 -->

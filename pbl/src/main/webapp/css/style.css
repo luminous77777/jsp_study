@@ -43,6 +43,10 @@
         main .account > div a:hover {text-decoration: underline;}
         main .account > div i {display: inline-block; width: 1px; height: 12px; background-color: #d3d5d7; margin: 4px 12px 0; vertical-align: top;}
         main::after{display: block; content: ''; clear: both;}
+		
+		.attach-area i {cursor: pointer;}
+		.attach-thumb div div {background: no-repeat center;}
+
 
         /* misc */
         .arrow-area i {position: fixed; bottom: 100px; right: 100px; font-size: 3em; display: none;
