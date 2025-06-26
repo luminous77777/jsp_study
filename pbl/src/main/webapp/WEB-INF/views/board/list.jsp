@@ -84,7 +84,10 @@
 							<div class="col-1 small">${board.bno}</div>
 							<div class="col-1 small">${board.cno}</div>
 							<div class="col text-start fw-bold text-black">${board.title}<span
-									class="small text-danger fw-bold">1</span>
+									class="small text-danger fw-bold">  ${board.replyCnt}</span>
+									<c:if test="${board.attachCnt > 0}">
+									<i class="fa-solid fa-paperclip text-nyted"></i>
+									</c:if>
 							</div>
 							<div class="col-1  small">
 								<span class="small"> <fmt:parseDate

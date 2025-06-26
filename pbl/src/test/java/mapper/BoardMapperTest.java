@@ -31,10 +31,26 @@ public class BoardMapperTest {
 	@DisplayName("단일 게시글 조회용 테스트")
 	public void testSelectOne() {
 		// given
-		Long bno = 1L;
+		Long bno = 1025L;
 		
 		// when
-		Board board = boardMapper.selectOne(1L);
+		Board board = boardMapper.selectOne(bno);
+		
+		//then~ actual, expect
+		assertNotNull(board);
+		
+		log.info("{}", board);
+	}
+	
+	@Test
+	@DisplayName("단일 게시글 조회수 테스트")
+	public void testViews() {
+		// given
+		Long bno = 1023L;
+		
+		// when
+		Board board = boardMapper.selectOne(bno);
+		boardMapper.increseCnt(bno);
 		
 		//then~ actual, expect
 		assertNotNull(board);
@@ -48,7 +64,7 @@ public class BoardMapperTest {
 	public void testLiset() {
 		Criteria cri = new Criteria(1,10,2);
 		List<Board> list = boardMapper.list(cri);
-		list.forEach(b -> log.info("{}", b.getTitle()));
+		list.forEach(b -> log.info("{} {} {}", b.getAttachCnt(), b.getReplyCnt(), b.getAttachs()));
 		
 		
 	}

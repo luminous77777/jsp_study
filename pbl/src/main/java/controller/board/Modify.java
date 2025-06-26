@@ -2,7 +2,9 @@ package controller.board;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.lang.reflect.Type;
 import java.net.URLEncoder;
+import java.util.List;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -10,6 +12,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
+import domain.Attach;
 import domain.Board;
 import domain.dto.Criteria;
 import lombok.extern.slf4j.Slf4j;
@@ -52,16 +58,26 @@ public class Modify extends HttpServlet {
 			return;
 		}
 		//파라미터 수집
+		String title = req.getParameter("title");
+		String content = req.getParameter("content");
+		String id = req.getParameter("id");
+		Integer cno = cri.getCno();
+		Long bno = Long.valueOf(req.getParameter("bno"));
+		String encodedStr = req.getParameter("encodedStr");
+		Type type = new TypeToken<List<Attach>>() {}.getType();
+		List<Attach> list =  new Gson().fromJson(encodedStr, type);
 		
 		
-		String bno = req.getParameter("bno");
-		if(req.getParameter("bno") == null) {
-			AlertUtil.alert("잘못된 접근입니다", "/board/list", req, resp);
-			return;
-		}
+//		if(req.getParameter("bno") == null) {
+//			AlertUtil.alert("잘못된 접근입니다", "/board/list", req, resp);
+//			return;
+//		}
 		
-		BoardService service = new BoardService();
-		service.remove(Long.valueOf(req.getParameter("bno")));
+		log.info("{}",list);
+		Board board = Board.builder().attachs(list).title(title).content(content).cno(cno).bno(bno).build();
+		log.info("{}",board);
+		//서비스 호출
+		new BoardService().modify(board);
 		AlertUtil.alert("글이 수정되었습니다", "/board/list?" + cri.getQs2(), req, resp);
 	}
 }

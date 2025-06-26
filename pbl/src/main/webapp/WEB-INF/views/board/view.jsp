@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,6 +20,7 @@
         <main>
             <div>
                 <div class="small border-bottom border-3 border-primary p-0 pb-2">
+                
                     <a href="#" class="small"> <span class="test-primary">자유게시판</span><span class="text-dark">카테고리</span></a>
                 </div>
                 <div class="small p-0 py-2">
@@ -38,7 +40,9 @@
                 </div>
 
                 <div>
-                    <div class="p-0 py-5 ps-1 small border-bottom border-1 border-muted"><p>${board.content}</p></div>
+                    <div class="p-0 py-5 ps-1 small border-bottom border-1 border-muted">
+                    <p>${board.content}</p>
+                    </div>
                 </div>
                 <div class="mt-5">
                     <a href="list?${cri.qs2}" class="btn btn-secondary btn-sm"> <i class="fa-solid fa-list-ul"></i> 목록</a>
@@ -53,6 +57,38 @@
                 </div>
             </div>
             
+            <c:if test="${not empty board.attachs}">
+            <div class="d-grid my-2 attach-area">
+					<div class="small my-1"><i class="fa-solid fa-paperclip"></i>첨부파일</div>
+					<!--  <label class="btn btn-info">파일 첨부 <input type="file" multiple="" class="d-none" id="f1"></label>-->
+						<ul class="list-group my-3 attach-list">
+							<c:forEach items="${board.attachs}" var="a">
+							<li class="list-group-item d-flex align-items-center justify-content-between" 
+							data-uuid="${a.uuid}" 
+							data-origin="${a.origin}" 
+							data-image="${a.image}" 
+							data-path="${a.path}" 
+							data-size="${a.size}"
+							data-odr="${a.odr}">
+								<a href="/pbl/download?uuid=9055e8dc-1c2e-4aa7-a154-a11b32b14b97.png&amp;origin=로그인.png&amp;path=2025/06/26">로그인.png</a>
+								<!--<i class="fa-regular fa-circle-xmark float-end text-danger"></i>-->
+							</li>
+							</c:forEach>
+						</ul>
+					
+					<div class="row justify-content-around w-75 mx-auto attach-thumb">
+						<c:forEach items="${board.attachs}" var="a">
+						<c:if test="${a.image}">
+						<div class="my-2 col-12 col-sm-4 col-lg-2" data-uuid="${a.uuid}">
+							<div class="my-2 bg-primary" style="height: 150px; background-size: cover; background-image:url('/pbl/display?uuid=t_${a.uuid}&amp;path=${a.path}')">
+								<%-- <i class="fa-regular fa-circle-xmark float-end text-danger m-2"></i>--%>
+							</div>
+						</div>
+						</c:if>
+						</c:forEach>
+					</div>
+				</div>
+            </c:if>
             <div class="small p-0 py-2 border-top border-bottom border-1 border-muted mt-4 clearfix d-flex align-items-center d-flex ">
             	<div class="col">
             		<i class="fa-regular fa-comment-dots"></i><span class="px-1 text-primary">Reply</span>

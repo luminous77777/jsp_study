@@ -98,6 +98,7 @@ public class UploadFile extends HttpServlet{
 					.image(image)
 					.path(path)
 					.odr(odr++)
+					.size(fileSize)
 			.build());
 //			log.info("{} :: {}", contentDispostion, contentType);
 		}

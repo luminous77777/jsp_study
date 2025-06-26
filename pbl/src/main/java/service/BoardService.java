@@ -29,7 +29,11 @@ public class BoardService {
 	public Board findBy(Long bno) {
 		try (SqlSession session = MybatisUtil.getSqlSession()){
 			BoardMapper mapper = session.getMapper(BoardMapper.class);
-			return mapper.selectOne(bno);
+//			AttachMapper attachMapper = session.getMapper(AttachMapper.class);
+			mapper.increseCnt(bno);
+			Board board = mapper.selectOne(bno);
+//			board.setAttachs(attachMapper.list(bno));
+			return board;
 		} catch (Exception e) {
 			e.getStackTrace();
 		}
@@ -37,7 +41,8 @@ public class BoardService {
 	}
 
 	public void write(Board board) {
-		try (SqlSession session = MybatisUtil.getSqlSession(false)){ //트렌젝션하게 작동
+		SqlSession session = MybatisUtil.getSqlSession(false);
+		try { //트렌젝션하게 작동
 			BoardMapper mapper = session.getMapper(BoardMapper.class);
 			mapper.insert(board);
 			AttachMapper attachMapper = session.getMapper(AttachMapper.class);
@@ -47,7 +52,10 @@ public class BoardService {
 			});
 			session.commit();
 		} catch (Exception e) {
-			e.getStackTrace();
+			session.rollback();
+			e.printStackTrace();
+		} finally {
+			session.close();
 		}
 		
 	}
@@ -63,11 +71,27 @@ public class BoardService {
 	}
 
 	public void modify(Board board) {
-		try (SqlSession session = MybatisUtil.getSqlSession()){
+		SqlSession session = MybatisUtil.getSqlSession(false);
+		try { //트렌젝션하게 작동
 			BoardMapper mapper = session.getMapper(BoardMapper.class);
 			mapper.update(board);
+			
+			AttachMapper attachMapper = session.getMapper(AttachMapper.class);
+			//기본 첨부파일 메타데이터 제거
+			attachMapper.deleteByBno(board.getBno());
+			
+			//새로 첨부파일 메타데이터 등록
+			board.getAttachs().forEach(a -> {
+				a.setBno(board.getBno());
+				attachMapper.insert(a);
+			});
+			
+			session.commit();
 		} catch (Exception e) {
-			e.getStackTrace();
+			session.rollback();
+			e.printStackTrace();
+		} finally {
+			session.close();
 		}
 	}
 	
