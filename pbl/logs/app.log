@@ -1,385 +1,59 @@
-11:53:58.764 [main] INFO  sqltiming - select bno, title, content, id, regdate, moddate,cnt, cno, 
-  		(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt,
-  		(select count(*) from tbl_attach a where a.bno = b.bno) attachCnt,
-		(select uuid from tbl_attach a where a.bno = b.bno and image = 1 order by odr limit 1) uuid,
-		(select path from tbl_attach a where a.bno = b.bno and image =1 order by odr limit 1 ) path
-  		from tbl_board b
-
-  	 WHERE cno = 2 
-
-  		order by bno desc 
-  		limit 10 offset 0
- {executed in 9 msec}
-11:53:58.794 [main] INFO  resultsettable - 
-|-----|-----------|-------------------|-----|--------------------|--------------------|----|----|---------|----------|-----------------------------------------|-----------|
-|bno  |title      |content            |id   |regdate             |moddate             |cnt |cno |replycnt |attachcnt |uuid                                     |path       |
-|-----|-----------|-------------------|-----|--------------------|--------------------|----|----|---------|----------|-----------------------------------------|-----------|
-|1026 |파일 없음      |<p>파일 없음</p>
-     |test |2025-06-26 09:37:16 |2025-06-26 09:37:16 |0   |2   |0        |0         |null                                     |null       |
-|1025 |ㅁㅇㄹ        |<p>ㅁㅇㄹ</p>
-       |test |2025-06-25 13:14:06 |2025-06-25 13:14:06 |0   |2   |0        |3         |1b056280-9e60-46ec-9036-ca48e1a8b83b.png |2025/06/25 |
-|1024 |파일 업로드 테스트 |<p>파일업로드 테스트</p>
- |test |2025-06-25 13:11:48 |2025-06-25 13:11:48 |0   |2   |3        |2         |e4f49170-6058-449c-9643-848dc6a1edca.png |2025/06/25 |
-|1023 |첨부파일 테스트   |<p>첨부파일 테스트</p>
-  |test |2025-06-25 12:48:27 |2025-06-25 12:48:27 |0   |2   |0        |0         |null                                     |null       |
-|1016 |test       |<p>setset</p>
-    |test |2025-06-19 12:51:07 |2025-06-19 12:51:07 |0   |2   |18       |0         |null                                     |null       |
-|1012 |수정하기 2     |<p>수정하기 수정하기</p>
- |test |2025-06-19 12:06:57 |2025-06-19 16:08:28 |0   |2   |1        |0         |null                                     |null       |
-|755  |1번글        |내용                 |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |0        |0         |null                                     |null       |
-|754  |2번글        |내용                 |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |0        |0         |null                                     |null       |
-|753  |3번글        |내용                 |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |0        |0         |null                                     |null       |
-|752  |4번글        |내용                 |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |0        |0         |null                                     |null       |
-|-----|-----------|-------------------|-----|--------------------|--------------------|----|----|---------|----------|-----------------------------------------|-----------|
-
-11:53:58.801 [main] INFO  BoardMapperTest - 파일 없음
-11:53:58.803 [main] INFO  BoardMapperTest - ㅁㅇㄹ
-11:53:58.804 [main] INFO  BoardMapperTest - 파일 업로드 테스트
-11:53:58.804 [main] INFO  BoardMapperTest - 첨부파일 테스트
-11:53:58.804 [main] INFO  BoardMapperTest - test
-11:53:58.804 [main] INFO  BoardMapperTest - 수정하기 2
-11:53:58.804 [main] INFO  BoardMapperTest - 1번글
-11:53:58.804 [main] INFO  BoardMapperTest - 2번글
-11:53:58.804 [main] INFO  BoardMapperTest - 3번글
-11:53:58.804 [main] INFO  BoardMapperTest - 4번글
-11:57:17.651 [main] INFO  sqltiming - select bno, title, content, id, regdate, moddate,cnt, cno, 
-  		(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt,
-  		(select count(*) from tbl_attach a where a.bno = b.bno) attachCnt,
-		(select uuid from tbl_attach a where a.bno = b.bno and image = 1 order by odr limit 1) uuid,
-		(select path from tbl_attach a where a.bno = b.bno and image =1 order by odr limit 1 ) path
-  		from tbl_board b
-
-  	 WHERE cno = 2 
-
-  		order by bno desc 
-  		limit 10 offset 0
- {executed in 9 msec}
-11:57:17.678 [main] INFO  resultsettable - 
-|-----|-----------|-------------------|-----|--------------------|--------------------|----|----|---------|----------|-----------------------------------------|-----------|
-|bno  |title      |content            |id   |regdate             |moddate             |cnt |cno |replycnt |attachcnt |uuid                                     |path       |
-|-----|-----------|-------------------|-----|--------------------|--------------------|----|----|---------|----------|-----------------------------------------|-----------|
-|1026 |파일 없음      |<p>파일 없음</p>
-     |test |2025-06-26 09:37:16 |2025-06-26 09:37:16 |0   |2   |0        |0         |null                                     |null       |
-|1025 |ㅁㅇㄹ        |<p>ㅁㅇㄹ</p>
-       |test |2025-06-25 13:14:06 |2025-06-25 13:14:06 |0   |2   |0        |3         |1b056280-9e60-46ec-9036-ca48e1a8b83b.png |2025/06/25 |
-|1024 |파일 업로드 테스트 |<p>파일업로드 테스트</p>
- |test |2025-06-25 13:11:48 |2025-06-25 13:11:48 |0   |2   |3        |2         |e4f49170-6058-449c-9643-848dc6a1edca.png |2025/06/25 |
-|1023 |첨부파일 테스트   |<p>첨부파일 테스트</p>
-  |test |2025-06-25 12:48:27 |2025-06-25 12:48:27 |0   |2   |0        |0         |null                                     |null       |
-|1016 |test       |<p>setset</p>
-    |test |2025-06-19 12:51:07 |2025-06-19 12:51:07 |0   |2   |18       |0         |null                                     |null       |
-|1012 |수정하기 2     |<p>수정하기 수정하기</p>
- |test |2025-06-19 12:06:57 |2025-06-19 16:08:28 |0   |2   |1        |0         |null                                     |null       |
-|755  |1번글        |내용                 |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |0        |0         |null                                     |null       |
-|754  |2번글        |내용                 |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |0        |0         |null                                     |null       |
-|753  |3번글        |내용                 |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |0        |0         |null                                     |null       |
-|752  |4번글        |내용                 |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |0        |0         |null                                     |null       |
-|-----|-----------|-------------------|-----|--------------------|--------------------|----|----|---------|----------|-----------------------------------------|-----------|
-
-11:57:17.686 [main] INFO  BoardMapperTest - 0 0 [Attach(uuid=null, path=null, image=false, origin=null, bno=1026, rno=null, odr=0)]
-11:57:17.698 [main] INFO  BoardMapperTest - 3 0 [Attach(uuid=1b056280-9e60-46ec-9036-ca48e1a8b83b.png, path=2025/06/25, image=false, origin=null, bno=1025, rno=null, odr=0)]
-11:57:17.698 [main] INFO  BoardMapperTest - 2 3 [Attach(uuid=e4f49170-6058-449c-9643-848dc6a1edca.png, path=2025/06/25, image=false, origin=null, bno=1024, rno=null, odr=0)]
-11:57:17.698 [main] INFO  BoardMapperTest - 0 0 [Attach(uuid=null, path=null, image=false, origin=null, bno=1023, rno=null, odr=0)]
-11:57:17.698 [main] INFO  BoardMapperTest - 0 18 [Attach(uuid=null, path=null, image=false, origin=null, bno=1016, rno=null, odr=0)]
-11:57:17.698 [main] INFO  BoardMapperTest - 0 1 [Attach(uuid=null, path=null, image=false, origin=null, bno=1012, rno=null, odr=0)]
-11:57:17.698 [main] INFO  BoardMapperTest - 0 0 [Attach(uuid=null, path=null, image=false, origin=null, bno=755, rno=null, odr=0)]
-11:57:17.699 [main] INFO  BoardMapperTest - 0 0 [Attach(uuid=null, path=null, image=false, origin=null, bno=754, rno=null, odr=0)]
-11:57:17.699 [main] INFO  BoardMapperTest - 0 0 [Attach(uuid=null, path=null, image=false, origin=null, bno=753, rno=null, odr=0)]
-11:57:17.699 [main] INFO  BoardMapperTest - 0 0 [Attach(uuid=null, path=null, image=false, origin=null, bno=752, rno=null, odr=0)]
-12:09:43.823 [main] INFO  sqltiming - select * 
-	from tbl_board 
-	left join tbl_attach ta using(bno)
-	where bno = 1;
- {executed in 9 msec}
-12:09:43.841 [main] INFO  resultsettable - 
-|----|------|--------|-----|--------------------|--------------------|----|----|-----|-----|-------|-------|---------|-------|
-|bno |title |content |id   |regdate             |moddate             |cnt |cno |uuid |path |image  |origin |rno      |odr    |
-|----|------|--------|-----|--------------------|--------------------|----|----|-----|-----|-------|-------|---------|-------|
-|1   |1번글   |내용      |test |2025-06-12 17:37:58 |2025-06-12 17:37:58 |0   |2   |null |null |[null] |null   |[unread] |[null] |
-|----|------|--------|-----|--------------------|--------------------|----|----|-----|-----|-------|-------|---------|-------|
-
-12:09:43.850 [main] INFO  BoardMapperTest - Board(bno=1, title=1번글, content=내용, id=test, regdate=2025-06-12 17:37:58, moddate=2025-06-12 17:37:58, cnt=0, cno=2, replyCnt=0, attachCnt=0, attachs=[Attach(uuid=null, path=null, image=false, origin=null, bno=1, rno=null, odr=0)])
-12:10:10.688 [main] INFO  sqltiming - select * 
-	from tbl_board 
-	left join tbl_attach ta using(bno)
-	where bno = 1;
- {executed in 9 msec}
-12:10:10.706 [main] INFO  resultsettable - 
-|----|------|--------|-----|--------------------|--------------------|----|----|-----|-----|-------|-------|---------|-------|
-|bno |title |content |id   |regdate             |moddate             |cnt |cno |uuid |path |image  |origin |rno      |odr    |
-|----|------|--------|-----|--------------------|--------------------|----|----|-----|-----|-------|-------|---------|-------|
-|1   |1번글   |내용      |test |2025-06-12 17:37:58 |2025-06-12 17:37:58 |0   |2   |null |null |[null] |null   |[unread] |[null] |
-|----|------|--------|-----|--------------------|--------------------|----|----|-----|-----|-------|-------|---------|-------|
-
-12:10:10.714 [main] INFO  BoardMapperTest - Board(bno=1, title=1번글, content=내용, id=test, regdate=2025-06-12 17:37:58, moddate=2025-06-12 17:37:58, cnt=0, cno=2, replyCnt=0, attachCnt=0, attachs=[Attach(uuid=null, path=null, image=false, origin=null, bno=1, rno=null, odr=0)])
-12:10:44.310 [main] INFO  sqltiming - select bno, title, content, id, regdate, moddate,cnt, cno, 
-  		(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt,
-  		(select count(*) from tbl_attach a where a.bno = b.bno) attachCnt,
-		(select uuid from tbl_attach a where a.bno = b.bno and image = 1 order by odr limit 1) uuid,
-		(select path from tbl_attach a where a.bno = b.bno and image =1 order by odr limit 1 ) path
-  		from tbl_board b
-
-  	 WHERE cno = 2 
-
-  		order by bno desc 
-  		limit 10 offset 0
- {executed in 8 msec}
-12:10:44.333 [main] INFO  resultsettable - 
-|-----|-----------|-------------------|-----|--------------------|--------------------|----|----|---------|----------|-----------------------------------------|-----------|
-|bno  |title      |content            |id   |regdate             |moddate             |cnt |cno |replycnt |attachcnt |uuid                                     |path       |
-|-----|-----------|-------------------|-----|--------------------|--------------------|----|----|---------|----------|-----------------------------------------|-----------|
-|1026 |파일 없음      |<p>파일 없음</p>
-     |test |2025-06-26 09:37:16 |2025-06-26 09:37:16 |0   |2   |0        |0         |null                                     |null       |
-|1025 |ㅁㅇㄹ        |<p>ㅁㅇㄹ</p>
-       |test |2025-06-25 13:14:06 |2025-06-25 13:14:06 |0   |2   |0        |3         |1b056280-9e60-46ec-9036-ca48e1a8b83b.png |2025/06/25 |
-|1024 |파일 업로드 테스트 |<p>파일업로드 테스트</p>
- |test |2025-06-25 13:11:48 |2025-06-25 13:11:48 |0   |2   |3        |2         |e4f49170-6058-449c-9643-848dc6a1edca.png |2025/06/25 |
-|1023 |첨부파일 테스트   |<p>첨부파일 테스트</p>
-  |test |2025-06-25 12:48:27 |2025-06-25 12:48:27 |0   |2   |0        |0         |null                                     |null       |
-|1016 |test       |<p>setset</p>
-    |test |2025-06-19 12:51:07 |2025-06-19 12:51:07 |0   |2   |18       |0         |null                                     |null       |
-|1012 |수정하기 2     |<p>수정하기 수정하기</p>
- |test |2025-06-19 12:06:57 |2025-06-19 16:08:28 |0   |2   |1        |0         |null                                     |null       |
-|755  |1번글        |내용                 |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |0        |0         |null                                     |null       |
-|753  |3번글        |내용                 |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |0        |0         |null                                     |null       |
-|752  |4번글        |내용                 |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |0        |0         |null                                     |null       |
-|751  |5번글        |내용                 |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |0        |0         |null                                     |null       |
-|-----|-----------|-------------------|-----|--------------------|--------------------|----|----|---------|----------|-----------------------------------------|-----------|
-
-12:10:44.341 [main] INFO  BoardMapperTest - 0 0 [Attach(uuid=null, path=null, image=false, origin=null, bno=1026, rno=null, odr=0)]
-12:10:44.349 [main] INFO  BoardMapperTest - 3 0 [Attach(uuid=1b056280-9e60-46ec-9036-ca48e1a8b83b.png, path=2025/06/25, image=false, origin=null, bno=1025, rno=null, odr=0)]
-12:10:44.349 [main] INFO  BoardMapperTest - 2 3 [Attach(uuid=e4f49170-6058-449c-9643-848dc6a1edca.png, path=2025/06/25, image=false, origin=null, bno=1024, rno=null, odr=0)]
-12:10:44.349 [main] INFO  BoardMapperTest - 0 0 [Attach(uuid=null, path=null, image=false, origin=null, bno=1023, rno=null, odr=0)]
-12:10:44.349 [main] INFO  BoardMapperTest - 0 18 [Attach(uuid=null, path=null, image=false, origin=null, bno=1016, rno=null, odr=0)]
-12:10:44.349 [main] INFO  BoardMapperTest - 0 1 [Attach(uuid=null, path=null, image=false, origin=null, bno=1012, rno=null, odr=0)]
-12:10:44.349 [main] INFO  BoardMapperTest - 0 0 [Attach(uuid=null, path=null, image=false, origin=null, bno=755, rno=null, odr=0)]
-12:10:44.350 [main] INFO  BoardMapperTest - 0 0 [Attach(uuid=null, path=null, image=false, origin=null, bno=753, rno=null, odr=0)]
-12:10:44.350 [main] INFO  BoardMapperTest - 0 0 [Attach(uuid=null, path=null, image=false, origin=null, bno=752, rno=null, odr=0)]
-12:10:44.350 [main] INFO  BoardMapperTest - 0 0 [Attach(uuid=null, path=null, image=false, origin=null, bno=751, rno=null, odr=0)]
-12:10:44.390 [main] INFO  sqltiming - select * 
-	from tbl_board 
-	left join tbl_attach ta using(bno)
-	where bno = 1025;
- {executed in 7 msec}
-12:10:44.394 [main] INFO  resultsettable - 
-|-----|---------|-------------|---------|--------------------|--------------------|---------|---------|-----------------------------------------|-----------|------|--------------------|---------|----|
-|bno  |title    |content      |id       |regdate             |moddate             |cnt      |cno      |uuid                                     |path       |image |origin              |rno      |odr |
-|-----|---------|-------------|---------|--------------------|--------------------|---------|---------|-----------------------------------------|-----------|------|--------------------|---------|----|
-|1025 |ㅁㅇㄹ      |<p>ㅁㅇㄹ</p>
- |test     |2025-06-25 13:14:06 |2025-06-25 13:14:06 |0        |2        |1b056280-9e60-46ec-9036-ca48e1a8b83b.png |2025/06/25 |true  |로그인.png             |[unread] |0   |
-|1025 |[unread] |[unread]     |[unread] |[unread]            |[unread]            |[unread] |[unread] |cab896ff-9d77-44ea-8141-4c796a158773.png |2025/06/25 |true  |image.png           |[unread] |1   |
-|1025 |[unread] |[unread]     |[unread] |[unread]            |[unread]            |[unread] |[unread] |2cf7aa92-c470-4126-b5fa-346f64c9d30f.pdf |2025/06/25 |false |클래니티 로고 폰트 참고사항.pdf |[unread] |2   |
-|-----|---------|-------------|---------|--------------------|--------------------|---------|---------|-----------------------------------------|-----------|------|--------------------|---------|----|
-
-12:10:44.395 [main] INFO  BoardMapperTest - Board(bno=1025, title=ㅁㅇㄹ, content=<p>ㅁㅇㄹ</p>
-, id=test, regdate=2025-06-25 13:14:06, moddate=2025-06-25 13:14:06, cnt=0, cno=2, replyCnt=0, attachCnt=0, attachs=[Attach(uuid=1b056280-9e60-46ec-9036-ca48e1a8b83b.png, path=2025/06/25, image=true, origin=로그인.png, bno=1025, rno=null, odr=0), Attach(uuid=cab896ff-9d77-44ea-8141-4c796a158773.png, path=2025/06/25, image=true, origin=image.png, bno=1025, rno=null, odr=1), Attach(uuid=2cf7aa92-c470-4126-b5fa-346f64c9d30f.pdf, path=2025/06/25, image=false, origin=클래니티 로고 폰트 참고사항.pdf, bno=1025, rno=null, odr=2)])
-12:10:44.408 [main] INFO  BoardMapperTest - [T, I]
-12:10:44.433 [main] INFO  sqltiming - select bno, title, content, id, regdate, moddate,cnt, cno, 
-  		(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt,
-  		(select count(*) from tbl_attach a where a.bno = b.bno) attachCnt,
-		(select uuid from tbl_attach a where a.bno = b.bno and image = 1 order by odr limit 1) uuid,
-		(select path from tbl_attach a where a.bno = b.bno and image =1 order by odr limit 1 ) path
-  		from tbl_board b
-
-  	 WHERE cno = 2
-
-  				and (
-
-  						title like concat('%', '제목', '%')
-
-  					or
-  						id like concat('%', '제목', '%')
-
-  				) 
-
-  		order by bno desc 
-  		limit 10 offset 0
- {executed in 5 msec}
-12:10:44.436 [main] INFO  resultsettable - 
-|----|------|--------|---|--------|--------|----|----|---------|----------|-----|-----|
-|bno |title |content |id |regdate |moddate |cnt |cno |replycnt |attachcnt |uuid |path |
-|----|------|--------|---|--------|--------|----|----|---------|----------|-----|-----|
-|----|------|--------|---|--------|--------|----|----|---------|----------|-----|-----|
-
-12:10:44.482 [main] INFO  sqltiming - select * 
-	from tbl_board 
-	left join tbl_attach ta using(bno)
-	where bno = 1020;
- {executed in 6 msec}
-12:10:44.484 [main] INFO  resultsettable - 
-|----|------|--------|---|--------|--------|----|----|-----|-----|------|-------|----|----|
-|bno |title |content |id |regdate |moddate |cnt |cno |uuid |path |image |origin |rno |odr |
-|----|------|--------|---|--------|--------|----|----|-----|-----|------|-------|----|----|
-|----|------|--------|---|--------|--------|----|----|-----|-----|------|-------|----|----|
-
-12:11:06.390 [main] INFO  sqltiming - select * 
-	from tbl_board 
-	left join tbl_attach ta using(bno)
-	where bno = 1025;
- {executed in 8 msec}
-12:11:06.410 [main] INFO  resultsettable - 
-|-----|---------|-------------|---------|--------------------|--------------------|---------|---------|-----------------------------------------|-----------|------|--------------------|---------|----|
-|bno  |title    |content      |id       |regdate             |moddate             |cnt      |cno      |uuid                                     |path       |image |origin              |rno      |odr |
-|-----|---------|-------------|---------|--------------------|--------------------|---------|---------|-----------------------------------------|-----------|------|--------------------|---------|----|
-|1025 |ㅁㅇㄹ      |<p>ㅁㅇㄹ</p>
- |test     |2025-06-25 13:14:06 |2025-06-25 13:14:06 |0        |2        |1b056280-9e60-46ec-9036-ca48e1a8b83b.png |2025/06/25 |true  |로그인.png             |[unread] |0   |
-|1025 |[unread] |[unread]     |[unread] |[unread]            |[unread]            |[unread] |[unread] |cab896ff-9d77-44ea-8141-4c796a158773.png |2025/06/25 |true  |image.png           |[unread] |1   |
-|1025 |[unread] |[unread]     |[unread] |[unread]            |[unread]            |[unread] |[unread] |2cf7aa92-c470-4126-b5fa-346f64c9d30f.pdf |2025/06/25 |false |클래니티 로고 폰트 참고사항.pdf |[unread] |2   |
-|-----|---------|-------------|---------|--------------------|--------------------|---------|---------|-----------------------------------------|-----------|------|--------------------|---------|----|
-
-12:11:06.422 [main] INFO  BoardMapperTest - Board(bno=1025, title=ㅁㅇㄹ, content=<p>ㅁㅇㄹ</p>
-, id=test, regdate=2025-06-25 13:14:06, moddate=2025-06-25 13:14:06, cnt=0, cno=2, replyCnt=0, attachCnt=0, attachs=[Attach(uuid=1b056280-9e60-46ec-9036-ca48e1a8b83b.png, path=2025/06/25, image=true, origin=로그인.png, bno=1025, rno=null, odr=0), Attach(uuid=cab896ff-9d77-44ea-8141-4c796a158773.png, path=2025/06/25, image=true, origin=image.png, bno=1025, rno=null, odr=1), Attach(uuid=2cf7aa92-c470-4126-b5fa-346f64c9d30f.pdf, path=2025/06/25, image=false, origin=클래니티 로고 폰트 참고사항.pdf, bno=1025, rno=null, odr=2)])
-12:48:46.758 [main] INFO  sqltiming - select *, a.bno a_bno
-	from tbl_board b
-	left join tbl_attach a using(bno)
-	where bno = 1025;
+11:31:02.494 [main] INFO  sqltiming - select * from tbl_category tc where tc.status = 'ACTIVE' order by odr
  {executed in 10 msec}
-12:48:46.785 [main] INFO  resultsettable - 
-|---------|---------|-------------|---------|--------------------|--------------------|---------|---------|-----------------------------------------|-----------|------|--------------------|---------|----|-----|
-|bno      |title    |content      |id       |regdate             |moddate             |cnt      |cno      |uuid                                     |path       |image |origin              |rno      |odr |bno  |
-|---------|---------|-------------|---------|--------------------|--------------------|---------|---------|-----------------------------------------|-----------|------|--------------------|---------|----|-----|
-|[unread] |ㅁㅇㄹ      |<p>ㅁㅇㄹ</p>
- |test     |2025-06-25 13:14:06 |2025-06-25 13:14:06 |0        |2        |1b056280-9e60-46ec-9036-ca48e1a8b83b.png |2025/06/25 |true  |로그인.png             |[unread] |0   |1025 |
-|[unread] |[unread] |[unread]     |[unread] |[unread]            |[unread]            |[unread] |[unread] |cab896ff-9d77-44ea-8141-4c796a158773.png |2025/06/25 |true  |image.png           |[unread] |1   |1025 |
-|[unread] |[unread] |[unread]     |[unread] |[unread]            |[unread]            |[unread] |[unread] |2cf7aa92-c470-4126-b5fa-346f64c9d30f.pdf |2025/06/25 |false |클래니티 로고 폰트 참고사항.pdf |[unread] |2   |1025 |
-|---------|---------|-------------|---------|--------------------|--------------------|---------|---------|-----------------------------------------|-----------|------|--------------------|---------|----|-----|
+11:31:02.519 [main] INFO  resultsettable - 
+|----|------|--------------------|------------|---------|---------|
+|cno |cname |regdate             |c_view_type |odr      |status   |
+|----|------|--------------------|------------|---------|---------|
+|2   |자유게시판 |2025-06-12 17:16:18 |LIST        |[unread] |[unread] |
+|----|------|--------------------|------------|---------|---------|
 
-12:48:46.798 [main] INFO  BoardMapperTest - Board(bno=1025, title=ㅁㅇㄹ, content=<p>ㅁㅇㄹ</p>
-, id=test, regdate=2025-06-25 13:14:06, moddate=2025-06-25 13:14:06, cnt=0, cno=2, replyCnt=0, attachCnt=0, attachs=[Attach(uuid=1b056280-9e60-46ec-9036-ca48e1a8b83b.png, path=2025/06/25, image=true, origin=로그인.png, bno=1025, rno=null, odr=0), Attach(uuid=cab896ff-9d77-44ea-8141-4c796a158773.png, path=2025/06/25, image=true, origin=image.png, bno=1025, rno=null, odr=1), Attach(uuid=2cf7aa92-c470-4126-b5fa-346f64c9d30f.pdf, path=2025/06/25, image=false, origin=클래니티 로고 폰트 참고사항.pdf, bno=1025, rno=null, odr=2)])
-12:49:46.714 [main] INFO  sqltiming - select *, a.bno a_bno
-	from tbl_board b
-	left join tbl_attach a using(bno)
-	where bno = 1025;
- {executed in 10 msec}
-12:49:46.740 [main] INFO  resultsettable - 
-|---------|---------|-------------|---------|--------------------|--------------------|---------|---------|-----------------------------------------|-----------|------|--------------------|---------|----|-----|
-|bno      |title    |content      |id       |regdate             |moddate             |cnt      |cno      |uuid                                     |path       |image |origin              |rno      |odr |bno  |
-|---------|---------|-------------|---------|--------------------|--------------------|---------|---------|-----------------------------------------|-----------|------|--------------------|---------|----|-----|
-|[unread] |ㅁㅇㄹ      |<p>ㅁㅇㄹ</p>
- |test     |2025-06-25 13:14:06 |2025-06-25 13:14:06 |0        |2        |1b056280-9e60-46ec-9036-ca48e1a8b83b.png |2025/06/25 |true  |로그인.png             |[unread] |0   |1025 |
-|[unread] |[unread] |[unread]     |[unread] |[unread]            |[unread]            |[unread] |[unread] |cab896ff-9d77-44ea-8141-4c796a158773.png |2025/06/25 |true  |image.png           |[unread] |1   |1025 |
-|[unread] |[unread] |[unread]     |[unread] |[unread]            |[unread]            |[unread] |[unread] |2cf7aa92-c470-4126-b5fa-346f64c9d30f.pdf |2025/06/25 |false |클래니티 로고 폰트 참고사항.pdf |[unread] |2   |1025 |
-|---------|---------|-------------|---------|--------------------|--------------------|---------|---------|-----------------------------------------|-----------|------|--------------------|---------|----|-----|
+11:32:40.986 [main] INFO  sqltiming - select * from tbl_category tc where tc.status = 'ACTIVE' order by odr
+ {executed in 11 msec}
+11:32:41.002 [main] INFO  resultsettable - 
+|----|------|--------------------|------------|---------|---------|
+|cno |cname |regdate             |c_view_type |odr      |status   |
+|----|------|--------------------|------------|---------|---------|
+|2   |자유게시판 |2025-06-12 17:16:18 |LIST        |[unread] |[unread] |
+|----|------|--------------------|------------|---------|---------|
 
-12:49:46.750 [main] INFO  BoardMapperTest - Board(bno=1025, title=ㅁㅇㄹ, content=<p>ㅁㅇㄹ</p>
-, id=test, regdate=2025-06-25 13:14:06, moddate=2025-06-25 13:14:06, cnt=0, cno=2, replyCnt=0, attachCnt=0, attachs=[Attach(uuid=1b056280-9e60-46ec-9036-ca48e1a8b83b.png, path=2025/06/25, image=true, origin=로그인.png, bno=1025, rno=null, odr=0), Attach(uuid=cab896ff-9d77-44ea-8141-4c796a158773.png, path=2025/06/25, image=true, origin=image.png, bno=1025, rno=null, odr=1), Attach(uuid=2cf7aa92-c470-4126-b5fa-346f64c9d30f.pdf, path=2025/06/25, image=false, origin=클래니티 로고 폰트 참고사항.pdf, bno=1025, rno=null, odr=2)])
-12:53:44.936 [main] INFO  sqltiming - select *, a.bno a_bno
-	from tbl_board b
-	left join tbl_attach a using(bno)
-	where bno = 1025;
+11:33:23.815 [main] INFO  sqltiming - select * from tbl_category tc where tc.status = 'ACTIVE' order by odr
+ {executed in 15 msec}
+11:33:23.832 [main] INFO  resultsettable - 
+|----|------|--------------------|------------|---------|---------|
+|cno |cname |regdate             |c_view_type |odr      |status   |
+|----|------|--------------------|------------|---------|---------|
+|2   |자유게시판 |2025-06-12 17:16:18 |LIST        |[unread] |[unread] |
+|----|------|--------------------|------------|---------|---------|
+
+11:34:27.176 [main] INFO  sqltiming - select * from tbl_category tc where tc.status = 'ACTIVE' order by odr
  {executed in 7 msec}
-12:53:44.956 [main] INFO  resultsettable - 
-|---------|---------|-------------|---------|--------------------|--------------------|---------|---------|-----------------------------------------|-----------|------|--------------------|---------|----|-----|
-|bno      |title    |content      |id       |regdate             |moddate             |cnt      |cno      |uuid                                     |path       |image |origin              |rno      |odr |bno  |
-|---------|---------|-------------|---------|--------------------|--------------------|---------|---------|-----------------------------------------|-----------|------|--------------------|---------|----|-----|
-|[unread] |ㅁㅇㄹ      |<p>ㅁㅇㄹ</p>
- |test     |2025-06-25 13:14:06 |2025-06-25 13:14:06 |0        |2        |1b056280-9e60-46ec-9036-ca48e1a8b83b.png |2025/06/25 |true  |로그인.png             |[unread] |0   |1025 |
-|[unread] |[unread] |[unread]     |[unread] |[unread]            |[unread]            |[unread] |[unread] |cab896ff-9d77-44ea-8141-4c796a158773.png |2025/06/25 |true  |image.png           |[unread] |1   |1025 |
-|[unread] |[unread] |[unread]     |[unread] |[unread]            |[unread]            |[unread] |[unread] |2cf7aa92-c470-4126-b5fa-346f64c9d30f.pdf |2025/06/25 |false |클래니티 로고 폰트 참고사항.pdf |[unread] |2   |1025 |
-|---------|---------|-------------|---------|--------------------|--------------------|---------|---------|-----------------------------------------|-----------|------|--------------------|---------|----|-----|
+11:34:27.192 [main] INFO  resultsettable - 
+|----|------|--------------------|------------|---------|---------|
+|cno |cname |regdate             |c_view_type |odr      |status   |
+|----|------|--------------------|------------|---------|---------|
+|2   |자유게시판 |2025-06-12 17:16:18 |LIST        |[unread] |[unread] |
+|----|------|--------------------|------------|---------|---------|
 
-12:53:44.970 [main] INFO  sqltiming - update tbl_board SET
-	cnt = 1025 +1
-	where bno = 1025;
- {executed in 7 msec}
-12:53:44.973 [main] INFO  BoardMapperTest - Board(bno=1025, title=ㅁㅇㄹ, content=<p>ㅁㅇㄹ</p>
-, id=test, regdate=2025-06-25 13:14:06, moddate=2025-06-25 13:14:06, cnt=0, cno=2, replyCnt=0, attachCnt=0, attachs=[Attach(uuid=1b056280-9e60-46ec-9036-ca48e1a8b83b.png, path=2025/06/25, image=true, origin=로그인.png, bno=1025, rno=null, odr=0), Attach(uuid=cab896ff-9d77-44ea-8141-4c796a158773.png, path=2025/06/25, image=true, origin=image.png, bno=1025, rno=null, odr=1), Attach(uuid=2cf7aa92-c470-4126-b5fa-346f64c9d30f.pdf, path=2025/06/25, image=false, origin=클래니티 로고 폰트 참고사항.pdf, bno=1025, rno=null, odr=2)])
-12:53:52.537 [main] INFO  sqltiming - select *, a.bno a_bno
-	from tbl_board b
-	left join tbl_attach a using(bno)
-	where bno = 1025;
- {executed in 9 msec}
-12:53:52.557 [main] INFO  resultsettable - 
-|---------|---------|-------------|---------|--------------------|--------------------|---------|---------|-----------------------------------------|-----------|------|--------------------|---------|----|-----|
-|bno      |title    |content      |id       |regdate             |moddate             |cnt      |cno      |uuid                                     |path       |image |origin              |rno      |odr |bno  |
-|---------|---------|-------------|---------|--------------------|--------------------|---------|---------|-----------------------------------------|-----------|------|--------------------|---------|----|-----|
-|[unread] |ㅁㅇㄹ      |<p>ㅁㅇㄹ</p>
- |test     |2025-06-25 13:14:06 |2025-06-25 13:14:06 |1026     |2        |1b056280-9e60-46ec-9036-ca48e1a8b83b.png |2025/06/25 |true  |로그인.png             |[unread] |0   |1025 |
-|[unread] |[unread] |[unread]     |[unread] |[unread]            |[unread]            |[unread] |[unread] |cab896ff-9d77-44ea-8141-4c796a158773.png |2025/06/25 |true  |image.png           |[unread] |1   |1025 |
-|[unread] |[unread] |[unread]     |[unread] |[unread]            |[unread]            |[unread] |[unread] |2cf7aa92-c470-4126-b5fa-346f64c9d30f.pdf |2025/06/25 |false |클래니티 로고 폰트 참고사항.pdf |[unread] |2   |1025 |
-|---------|---------|-------------|---------|--------------------|--------------------|---------|---------|-----------------------------------------|-----------|------|--------------------|---------|----|-----|
+11:36:21.148 [main] INFO  sqltiming - select * from tbl_category tc where tc.status = 'ACTIVE' order by odr
+ {executed in 11 msec}
+11:36:21.165 [main] INFO  resultsettable - 
+|----|------|--------------------|------------|----|-------|
+|cno |cname |regdate             |c_view_type |odr |status |
+|----|------|--------------------|------------|----|-------|
+|2   |자유게시판 |2025-06-12 17:16:18 |LIST        |0   |ACTIVE |
+|----|------|--------------------|------------|----|-------|
 
-12:53:52.572 [main] INFO  sqltiming - update tbl_board SET
-	cnt = 1025 +1
-	where bno = 1025;
- {executed in 6 msec}
-12:53:52.575 [main] INFO  BoardMapperTest - Board(bno=1025, title=ㅁㅇㄹ, content=<p>ㅁㅇㄹ</p>
-, id=test, regdate=2025-06-25 13:14:06, moddate=2025-06-25 13:14:06, cnt=1026, cno=2, replyCnt=0, attachCnt=0, attachs=[Attach(uuid=1b056280-9e60-46ec-9036-ca48e1a8b83b.png, path=2025/06/25, image=true, origin=로그인.png, bno=1025, rno=null, odr=0), Attach(uuid=cab896ff-9d77-44ea-8141-4c796a158773.png, path=2025/06/25, image=true, origin=image.png, bno=1025, rno=null, odr=1), Attach(uuid=2cf7aa92-c470-4126-b5fa-346f64c9d30f.pdf, path=2025/06/25, image=false, origin=클래니티 로고 폰트 참고사항.pdf, bno=1025, rno=null, odr=2)])
-12:55:10.789 [main] INFO  sqltiming - select *, a.bno a_bno
-	from tbl_board b
-	left join tbl_attach a using(bno)
-	where bno = 1024;
+11:38:54.648 [main] INFO  sqltiming - select * from tbl_category tc where tc.status = 'ACTIVE' order by odr
  {executed in 8 msec}
-12:55:10.810 [main] INFO  resultsettable - 
-|---------|-----------|-------------------|---------|--------------------|--------------------|---------|---------|-----------------------------------------|-----------|------|-------------------------|---------|----|-----|
-|bno      |title      |content            |id       |regdate             |moddate             |cnt      |cno      |uuid                                     |path       |image |origin                   |rno      |odr |bno  |
-|---------|-----------|-------------------|---------|--------------------|--------------------|---------|---------|-----------------------------------------|-----------|------|-------------------------|---------|----|-----|
-|[unread] |파일 업로드 테스트 |<p>파일업로드 테스트</p>
- |test     |2025-06-25 13:11:48 |2025-06-25 13:11:48 |1        |2        |e4f49170-6058-449c-9643-848dc6a1edca.png |2025/06/25 |true  |SamplePNGImage_1mbmb.png |[unread] |0   |1024 |
-|[unread] |[unread]   |[unread]           |[unread] |[unread]            |[unread]            |[unread] |[unread] |6f988dd6-3197-4015-af90-4f55ba0f7548.png |2025/06/25 |true  |SamplePNGImage_3mbmb.png |[unread] |1   |1024 |
-|---------|-----------|-------------------|---------|--------------------|--------------------|---------|---------|-----------------------------------------|-----------|------|-------------------------|---------|----|-----|
+11:38:54.671 [main] INFO  resultsettable - 
+|----|------|--------------------|------------|----|-------|
+|cno |cname |regdate             |c_view_type |odr |status |
+|----|------|--------------------|------------|----|-------|
+|2   |자유게시판 |2025-06-12 17:16:18 |LIST        |0   |ACTIVE |
+|1   |갤러리   |2025-06-12 17:16:17 |GALLERY     |1   |ACTIVE |
+|3   |QnA   |2025-06-12 17:16:19 |LIST        |2   |ACTIVE |
+|----|------|--------------------|------------|----|-------|
 
-12:55:10.824 [main] INFO  sqltiming - update tbl_board SET
-	cnt = 1024 +1
-	where bno = 1024;
- {executed in 7 msec}
-12:55:10.827 [main] INFO  BoardMapperTest - Board(bno=1024, title=파일 업로드 테스트, content=<p>파일업로드 테스트</p>
-, id=test, regdate=2025-06-25 13:11:48, moddate=2025-06-25 13:11:48, cnt=1, cno=2, replyCnt=0, attachCnt=0, attachs=[Attach(uuid=e4f49170-6058-449c-9643-848dc6a1edca.png, path=2025/06/25, image=true, origin=SamplePNGImage_1mbmb.png, bno=1024, rno=null, odr=0), Attach(uuid=6f988dd6-3197-4015-af90-4f55ba0f7548.png, path=2025/06/25, image=true, origin=SamplePNGImage_3mbmb.png, bno=1024, rno=null, odr=1)])
-12:56:19.241 [main] INFO  sqltiming - select *, a.bno a_bno
-	from tbl_board b
-	left join tbl_attach a using(bno)
-	where bno = 1024;
- {executed in 8 msec}
-12:56:19.263 [main] INFO  resultsettable - 
-|---------|-----------|-------------------|---------|--------------------|--------------------|---------|---------|-----------------------------------------|-----------|------|-------------------------|---------|----|-----|
-|bno      |title      |content            |id       |regdate             |moddate             |cnt      |cno      |uuid                                     |path       |image |origin                   |rno      |odr |bno  |
-|---------|-----------|-------------------|---------|--------------------|--------------------|---------|---------|-----------------------------------------|-----------|------|-------------------------|---------|----|-----|
-|[unread] |파일 업로드 테스트 |<p>파일업로드 테스트</p>
- |test     |2025-06-25 13:11:48 |2025-06-25 13:11:48 |1025     |2        |e4f49170-6058-449c-9643-848dc6a1edca.png |2025/06/25 |true  |SamplePNGImage_1mbmb.png |[unread] |0   |1024 |
-|[unread] |[unread]   |[unread]           |[unread] |[unread]            |[unread]            |[unread] |[unread] |6f988dd6-3197-4015-af90-4f55ba0f7548.png |2025/06/25 |true  |SamplePNGImage_3mbmb.png |[unread] |1   |1024 |
-|---------|-----------|-------------------|---------|--------------------|--------------------|---------|---------|-----------------------------------------|-----------|------|-------------------------|---------|----|-----|
-
-12:56:19.279 [main] INFO  sqltiming - update tbl_board SET
-	cnt = cnt +1
-	where bno = 1024;
- {executed in 8 msec}
-12:56:19.282 [main] INFO  BoardMapperTest - Board(bno=1024, title=파일 업로드 테스트, content=<p>파일업로드 테스트</p>
-, id=test, regdate=2025-06-25 13:11:48, moddate=2025-06-25 13:11:48, cnt=1025, cno=2, replyCnt=0, attachCnt=0, attachs=[Attach(uuid=e4f49170-6058-449c-9643-848dc6a1edca.png, path=2025/06/25, image=true, origin=SamplePNGImage_1mbmb.png, bno=1024, rno=null, odr=0), Attach(uuid=6f988dd6-3197-4015-af90-4f55ba0f7548.png, path=2025/06/25, image=true, origin=SamplePNGImage_3mbmb.png, bno=1024, rno=null, odr=1)])
-12:56:34.178 [main] INFO  sqltiming - select *, a.bno a_bno
-	from tbl_board b
-	left join tbl_attach a using(bno)
-	where bno = 1023;
- {executed in 9 msec}
-12:56:34.199 [main] INFO  resultsettable - 
-|---------|---------|------------------|-----|--------------------|--------------------|----|----|-----|-----|-------|-------|---------|-------|-------|
-|bno      |title    |content           |id   |regdate             |moddate             |cnt |cno |uuid |path |image  |origin |rno      |odr    |bno    |
-|---------|---------|------------------|-----|--------------------|--------------------|----|----|-----|-----|-------|-------|---------|-------|-------|
-|[unread] |첨부파일 테스트 |<p>첨부파일 테스트</p>
- |test |2025-06-25 12:48:27 |2025-06-25 12:48:27 |0   |2   |null |null |[null] |null   |[unread] |[null] |[null] |
-|---------|---------|------------------|-----|--------------------|--------------------|----|----|-----|-----|-------|-------|---------|-------|-------|
-
-12:56:34.214 [main] INFO  sqltiming - update tbl_board SET
-	cnt = cnt +1
-	where bno = 1023;
- {executed in 7 msec}
-12:56:34.218 [main] INFO  BoardMapperTest - Board(bno=1023, title=첨부파일 테스트, content=<p>첨부파일 테스트</p>
-, id=test, regdate=2025-06-25 12:48:27, moddate=2025-06-25 12:48:27, cnt=0, cno=2, replyCnt=0, attachCnt=0, attachs=[])
-12:56:41.518 [main] INFO  sqltiming - select *, a.bno a_bno
-	from tbl_board b
-	left join tbl_attach a using(bno)
-	where bno = 1023;
- {executed in 7 msec}
-12:56:41.536 [main] INFO  resultsettable - 
-|---------|---------|------------------|-----|--------------------|--------------------|----|----|-----|-----|-------|-------|---------|-------|-------|
-|bno      |title    |content           |id   |regdate             |moddate             |cnt |cno |uuid |path |image  |origin |rno      |odr    |bno    |
-|---------|---------|------------------|-----|--------------------|--------------------|----|----|-----|-----|-------|-------|---------|-------|-------|
-|[unread] |첨부파일 테스트 |<p>첨부파일 테스트</p>
- |test |2025-06-25 12:48:27 |2025-06-25 12:48:27 |1   |2   |null |null |[null] |null   |[unread] |[null] |[null] |
-|---------|---------|------------------|-----|--------------------|--------------------|----|----|-----|-----|-------|-------|---------|-------|-------|
-
-12:56:41.549 [main] INFO  sqltiming - update tbl_board SET
-	cnt = cnt +1
-	where bno = 1023;
- {executed in 7 msec}
-12:56:41.553 [main] INFO  BoardMapperTest - Board(bno=1023, title=첨부파일 테스트, content=<p>첨부파일 테스트</p>
-, id=test, regdate=2025-06-25 12:48:27, moddate=2025-06-25 12:48:27, cnt=1, cno=2, replyCnt=0, attachCnt=0, attachs=[])
+11:38:54.679 [main] INFO  CategoryMapperTest - Category(cno=2, cname=자유게시판, regdate=2025-06-12 17:16:18, c_view_type=LIST, odr=0, status=ACTIVE)
+11:38:54.687 [main] INFO  CategoryMapperTest - Category(cno=1, cname=갤러리, regdate=2025-06-12 17:16:17, c_view_type=GALLERY, odr=1, status=ACTIVE)
+11:38:54.687 [main] INFO  CategoryMapperTest - Category(cno=3, cname=QnA, regdate=2025-06-12 17:16:19, c_view_type=LIST, odr=2, status=ACTIVE)

@@ -21,7 +21,15 @@
             <div>
                 <div class="small border-bottom border-3 border-primary p-0 pb-2">
                 
-                    <a href="#" class="small"> <span class="test-primary">자유게시판</span><span class="text-dark">카테고리</span></a>
+                    <span class="test-primary">
+					<c:forEach items="${cate }" var="c">
+						<c:if test="${c.cno == cri.cno}">
+							${c.cname}
+						</c:if>
+					</c:forEach>
+					</span>
+                    
+                    <span class="text-dark">카테고리</span></a>
                 </div>
                 <div class="small p-0 py-2">
                     <span class="px-2 border-end border-1">잡담</span>
@@ -29,7 +37,7 @@
                     <div class="float-end small">
                     
                     <span class="text-muted"><i class="fa-solid fa-eye text-muted"></i>${board.cnt}</span>
-                    <span class="text-muted"><i class="fa-solid fa-comment-dots"></i>3</span>
+                    <span class="text-muted"><i class="fa-solid fa-comment-dots"></i>${board.replyCnt} </span>
                     </div>
                 </div>
 
@@ -70,7 +78,7 @@
 							data-path="${a.path}" 
 							data-size="${a.size}"
 							data-odr="${a.odr}">
-								<a href="/pbl/download?uuid=9055e8dc-1c2e-4aa7-a154-a11b32b14b97.png&amp;origin=로그인.png&amp;path=2025/06/26">로그인.png</a>
+								<a href="/pbl/download?uuid=${a.uuid}&amp;origin=${a.origin}&amp;path=${a.path}">${a.origin}</a>
 								<!--<i class="fa-regular fa-circle-xmark float-end text-danger"></i>-->
 							</li>
 							</c:forEach>

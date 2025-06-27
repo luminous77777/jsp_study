@@ -6,15 +6,28 @@
 <html>
 <head>
 <%@ include file="../common/head.jsp" %>
+<script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
 </head>
 <body>
 <%@ include file="../common/header.jsp" %>
 <%@ include file="../common/nav.jsp" %>
 	<div class="container p-0">
         <main>
-            <form method="post" action="modify" onsubmit="return confirm('수정하시겠습니까?')" id="modifyForm">
+            <form method="post" action="modify" id="modifyForm">
                 <div class="small border-bottom border-3 border-primary p-0 pb-2">
-                    <a href="#" class="small"> <span class="test-primary">자유게시판</span><span class="text-dark">카테고리</span></a>
+                    <a href="#" class="small"> 
+                    
+                    <span class="test-primary">
+					<c:forEach items="${cate }" var="c">
+						<c:if test="${c.cno == cri.cno}">
+							${c.cname}
+						</c:if>
+					</c:forEach>
+					</span>
+                    <span class="text-dark">
+                    카테고리
+                    </span>
+                    </a>
                 </div>
                 <div class="small p-0 py-2">
                     <input placeholder="title" class="form-control" name="title" id="title" value="${board.title}">
@@ -23,7 +36,7 @@
                     <textarea name="content" id="editor1" class="form-control resize-none" >${board.content}</textarea>
                 </div>
                 <div>
-                    <button class="btn btn-secondary btn-sm"> <i class="fa-solid fa-list-ul"></i> 목록</button>
+                    <a href="${cp}/board/list?${cri.qs2}" class="btn btn-secondary btn-sm"> <i class="fa-solid fa-list-ul"></i>목록</a>
                     <div class="float-end">
                         <button class="btn btn-outline-warning btn-sm"><i class="fa-solid fa-pen-fancy"></i>글 수정</button>
                     </div>
@@ -52,7 +65,7 @@
 							data-path="${a.path}" 
 							data-size="${a.size}"
 							data-odr="${a.odr}">
-								<a href="/pbl/download?uuid=9055e8dc-1c2e-4aa7-a154-a11b32b14b97.png&amp;origin=로그인.png&amp;path=2025/06/26">로그인.png</a>
+								<a href="/pbl/download?uuid=${a.uuid}&amp;origin=${a.origin}.png&amp;path=${a.path}">${a.origin}</a>
 								<i class="fa-regular fa-circle-xmark float-end text-danger"></i>
 							</li>
 							</c:forEach>
@@ -83,9 +96,13 @@
         }
         
     </script>
+    
+    
     <script>
     
 	$(function() {
+		$(".attach-list").sortable();
+	
 		//return  true/false
 		function validateFiles(files){
 			const MAX_COUNT = 5;
@@ -203,6 +220,11 @@
 	
 		$("#modifyForm").submit(function(){
 			event.preventDefault();
+			if(!confirm("수정하시겠습니까?")){
+				return;
+			}
+		
+			
 			const data = [];
 			$(".attach-list li").each(function(){
 				// console.log({...this.dataset});

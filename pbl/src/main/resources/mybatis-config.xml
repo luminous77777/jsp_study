@@ -7,9 +7,15 @@
 	<typeAliases>
 		<package name="domain"/>
 	</typeAliases>
+	
+	<typeHandlers>
+		<typeHandler  handler="mapper.handler.CategoryStatusTypeHandler" javaType="domain.en.CategoryStatus"/>
+		<typeHandler handler= "mapper.handler.CategoryViewTypeHandler" javaType="domain.en.CategoryViewType"/>
+	</typeHandlers>
 	<mappers>
 <!--  		<mapper class="mapper.ReviewMapper"/>
 		<mapper class="mapper.MemberMapper"/>-->
 		<package name="mapper"/>
 	</mappers>
+	
 </configuration>
