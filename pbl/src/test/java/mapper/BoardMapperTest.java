@@ -90,5 +90,13 @@ public class BoardMapperTest {
 		boardMapper.update(board);
 	}
 	
+	@Test
+	@DisplayName("maxSeq조회")
+	public void testSelectMaxSeq() {
+		Board parent = boardMapper.selectOne(1046L);
+		int maxSeq = boardMapper.selectMaxSeq(parent);
+		log.info("{}", maxSeq);
+	}
+	
 	
 }

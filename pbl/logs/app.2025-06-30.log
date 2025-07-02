@@ -1,0 +1,1663 @@
+09:54:29.548 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
+09:54:29.565 [main] INFO  ParamUtils - null
+09:55:02.454 [main] INFO  ParamUtils - null
+09:56:38.657 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
+09:56:38.664 [main] INFO  ParamUtils - null
+09:59:30.775 [main] INFO  ParamUtils - equals
+09:59:30.776 [main] INFO  ParamUtils - toString
+09:59:30.777 [main] INFO  ParamUtils - hashCode
+09:59:30.777 [main] INFO  ParamUtils - builder
+09:59:30.777 [main] INFO  ParamUtils - getId
+09:59:30.777 [main] INFO  ParamUtils - getContent
+09:59:30.777 [main] INFO  ParamUtils - getBno
+09:59:30.777 [main] INFO  ParamUtils - getRno
+09:59:30.777 [main] INFO  ParamUtils - setRegdate
+09:59:30.777 [main] INFO  ParamUtils - setId
+09:59:30.777 [main] INFO  ParamUtils - getRegdate
+09:59:30.777 [main] INFO  ParamUtils - setRno
+09:59:30.777 [main] INFO  ParamUtils - setContent
+09:59:30.777 [main] INFO  ParamUtils - setBno
+09:59:30.777 [main] INFO  ParamUtils - getClass
+09:59:30.778 [main] INFO  ParamUtils - notify
+09:59:30.778 [main] INFO  ParamUtils - notifyAll
+09:59:30.778 [main] INFO  ParamUtils - wait
+09:59:30.778 [main] INFO  ParamUtils - wait
+09:59:30.778 [main] INFO  ParamUtils - wait
+09:59:30.778 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
+09:59:30.784 [main] INFO  ParamUtils - null
+10:00:01.634 [main] INFO  ParamUtils - equals
+10:00:01.635 [main] INFO  ParamUtils - toString
+10:00:01.635 [main] INFO  ParamUtils - hashCode
+10:00:01.635 [main] INFO  ParamUtils - builder
+10:00:01.635 [main] INFO  ParamUtils - getId
+10:00:01.635 [main] INFO  ParamUtils - getContent
+10:00:01.635 [main] INFO  ParamUtils - setBno
+10:00:01.635 [main] INFO  ParamUtils - getBno
+10:00:01.635 [main] INFO  ParamUtils - getRegdate
+10:00:01.636 [main] INFO  ParamUtils - canEqual
+10:00:01.636 [main] INFO  ParamUtils - setRno
+10:00:01.636 [main] INFO  ParamUtils - getRno
+10:00:01.636 [main] INFO  ParamUtils - setId
+10:00:01.636 [main] INFO  ParamUtils - setRegdate
+10:00:01.636 [main] INFO  ParamUtils - setContent
+10:00:01.636 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
+10:00:01.643 [main] INFO  ParamUtils - null
+10:01:35.873 [main] INFO  ParamUtils - setBno
+10:01:35.875 [main] INFO  ParamUtils - equals
+10:01:35.875 [main] INFO  ParamUtils - toString
+10:01:35.875 [main] INFO  ParamUtils - hashCode
+10:01:35.875 [main] INFO  ParamUtils - builder
+10:01:35.875 [main] INFO  ParamUtils - getId
+10:01:35.875 [main] INFO  ParamUtils - getContent
+10:01:35.875 [main] INFO  ParamUtils - setId
+10:01:35.875 [main] INFO  ParamUtils - setRegdate
+10:01:35.875 [main] INFO  ParamUtils - canEqual
+10:01:35.875 [main] INFO  ParamUtils - getRno
+10:01:35.875 [main] INFO  ParamUtils - getRegdate
+10:01:35.875 [main] INFO  ParamUtils - getBno
+10:01:35.876 [main] INFO  ParamUtils - setRno
+10:01:35.876 [main] INFO  ParamUtils - setContent
+10:01:35.876 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=100)
+10:01:35.882 [main] INFO  ParamUtils - null
+10:04:38.874 [main] INFO  ParamUtils - rno
+10:04:38.875 [main] INFO  ParamUtils - content
+10:04:38.875 [main] INFO  ParamUtils - id
+10:04:38.876 [main] INFO  ParamUtils - regdate
+10:04:38.876 [main] INFO  ParamUtils - bno
+10:04:38.876 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
+10:05:25.904 [main] INFO  ParamUtils - class java.lang.Long, rno
+10:05:25.906 [main] INFO  ParamUtils - class java.lang.String, content
+10:05:25.906 [main] INFO  ParamUtils - class java.lang.String, id
+10:05:25.906 [main] INFO  ParamUtils - class java.lang.String, regdate
+10:05:25.906 [main] INFO  ParamUtils - class java.lang.Long, bno
+10:05:25.906 [main] INFO  ParamUtils - Reply(rno=null, content=null, id=null, regdate=null, bno=null)
+10:05:54.787 [main] INFO  ParamUtils - class java.lang.Long, bno
+10:05:54.790 [main] INFO  ParamUtils - class java.lang.String, title
+10:05:54.790 [main] INFO  ParamUtils - class java.lang.String, content
+10:05:54.790 [main] INFO  ParamUtils - class java.lang.String, id
+10:05:54.790 [main] INFO  ParamUtils - class java.lang.String, regdate
+10:05:54.790 [main] INFO  ParamUtils - class java.lang.String, moddate
+10:05:54.790 [main] INFO  ParamUtils - class java.lang.Integer, cnt
+10:05:54.790 [main] INFO  ParamUtils - class java.lang.Integer, cno
+10:05:54.790 [main] INFO  ParamUtils - int, replyCnt
+10:05:54.791 [main] INFO  ParamUtils - int, attachCnt
+10:05:54.791 [main] INFO  ParamUtils - interface java.util.List, attachs
+10:05:54.791 [main] INFO  ParamUtils - Board(bno=null, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
+10:08:20.771 [main] INFO  ParamUtils - class java.lang.Long, bno
+10:08:20.774 [main] INFO  ParamUtils - class java.lang.String, title
+10:08:20.774 [main] INFO  ParamUtils - class java.lang.String, content
+10:08:20.775 [main] INFO  ParamUtils - class java.lang.String, id
+10:08:20.775 [main] INFO  ParamUtils - class java.lang.String, regdate
+10:08:20.775 [main] INFO  ParamUtils - class java.lang.String, moddate
+10:08:20.775 [main] INFO  ParamUtils - class java.lang.Integer, cnt
+10:08:20.775 [main] INFO  ParamUtils - class java.lang.Integer, cno
+10:08:20.775 [main] INFO  ParamUtils - int, replyCnt
+10:08:20.775 [main] INFO  ParamUtils - int, attachCnt
+10:08:20.775 [main] INFO  ParamUtils - interface java.util.List, attachs
+10:08:20.775 [main] INFO  ParamUtils - Board(bno=10, title=null, content=null, id=null, regdate=null, moddate=null, cnt=null, cno=null, replyCnt=0, attachCnt=0, attachs=[])
+11:52:55.797 [main] INFO  ReplyMapperTest - Reply(rno=null, content=매퍼 테스트 등록 글, id=test, regdate=null, bno=1016)
+11:52:55.953 [main] WARN  ErrorPacket - Error: 1452-23000: Cannot add or update a child row: a foreign key constraint fails (`pbl`.`tbl_reply`, CONSTRAINT `tbl_reply_ibfk_2` FOREIGN KEY (`bno`) REFERENCES `tbl_board` (`bno`))
+11:52:55.955 [main] ERROR audit - 1. PreparedStatement.execute() insert into tbl_reply (content, id, bno) values ('매퍼 테스트 등록 글', 'test', 1016)
+
+java.sql.SQLIntegrityConstraintViolationException: (conn=7287) Cannot add or update a child row: a foreign key constraint fails (`pbl`.`tbl_reply`, CONSTRAINT `tbl_reply_ibfk_2` FOREIGN KEY (`bno`) REFERENCES `tbl_board` (`bno`))
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:297)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1364)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1303)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1222)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1146)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:87)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:232)
+	at net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy.execute(PreparedStatementSpy.java:443)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.insert(Unknown Source)
+	at mapper.ReplyMapperTest.testInset(ReplyMapperTest.java:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:775)
+	at org.junit.platform.commons.support.ReflectionSupport.invokeMethod(ReflectionSupport.java:479)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:161)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:152)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:91)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:112)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:94)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:87)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:216)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:212)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:201)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:170)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:94)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:59)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:142)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:94)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$2(InterceptingLauncher.java:47)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:46)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:70)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:100)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:520)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:748)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:443)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:211)
+11:52:55.961 [main] ERROR sqlonly - 1. PreparedStatement.execute() insert into tbl_reply (content, id, bno) values ('매퍼 테스트 등록 글', 'test', 1016)
+
+java.sql.SQLIntegrityConstraintViolationException: (conn=7287) Cannot add or update a child row: a foreign key constraint fails (`pbl`.`tbl_reply`, CONSTRAINT `tbl_reply_ibfk_2` FOREIGN KEY (`bno`) REFERENCES `tbl_board` (`bno`))
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:297)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1364)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1303)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1222)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1146)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:87)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:232)
+	at net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy.execute(PreparedStatementSpy.java:443)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.insert(Unknown Source)
+	at mapper.ReplyMapperTest.testInset(ReplyMapperTest.java:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:775)
+	at org.junit.platform.commons.support.ReflectionSupport.invokeMethod(ReflectionSupport.java:479)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:161)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:152)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:91)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:112)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:94)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:87)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:216)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:212)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:201)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:170)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:94)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:59)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:142)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:94)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$2(InterceptingLauncher.java:47)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:46)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:70)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:100)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:520)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:748)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:443)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:211)
+11:52:55.963 [main] ERROR sqltiming - 1. PreparedStatement.execute() FAILED! insert into tbl_reply (content, id, bno) values ('매퍼 테스트 등록 글', 'test', 1016)
+ {FAILED after 16 msec}
+java.sql.SQLIntegrityConstraintViolationException: (conn=7287) Cannot add or update a child row: a foreign key constraint fails (`pbl`.`tbl_reply`, CONSTRAINT `tbl_reply_ibfk_2` FOREIGN KEY (`bno`) REFERENCES `tbl_board` (`bno`))
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:297)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1364)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1303)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1222)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1146)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:87)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:232)
+	at net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy.execute(PreparedStatementSpy.java:443)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.insert(Unknown Source)
+	at mapper.ReplyMapperTest.testInset(ReplyMapperTest.java:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:775)
+	at org.junit.platform.commons.support.ReflectionSupport.invokeMethod(ReflectionSupport.java:479)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:161)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:152)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:91)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:112)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:94)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:87)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:216)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:212)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:201)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:170)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:94)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:59)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:142)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:94)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$2(InterceptingLauncher.java:47)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:46)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:70)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:100)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:520)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:748)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:443)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:211)
+11:52:56.059 [main] INFO  sqltiming - select * from tbl_reply where rno = 4;
+ {executed in 8 msec}
+11:52:56.089 [main] INFO  resultsettable - 
+|----|--------|---|--------|----|
+|rno |content |id |regdate |bno |
+|----|--------|---|--------|----|
+|----|--------|---|--------|----|
+
+11:52:56.108 [main] INFO  ReplyMapperTest - 단일 댓글 : null
+11:52:56.196 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016 
+
+  	and rno < 35 
+
+  	order by rno desc limit 5;
+ {executed in 7 msec}
+11:52:56.198 [main] INFO  resultsettable - 
+|----|--------|---|--------|----|
+|rno |content |id |regdate |bno |
+|----|--------|---|--------|----|
+|----|--------|---|--------|----|
+
+11:52:56.215 [main] INFO  sqltiming - select * from tbl_reply where bno = 1016 
+
+  	order by rno desc limit 5;
+ {executed in 6 msec}
+11:52:56.216 [main] INFO  resultsettable - 
+|----|--------|---|--------|----|
+|rno |content |id |regdate |bno |
+|----|--------|---|--------|----|
+|----|--------|---|--------|----|
+
+11:52:56.225 [main] INFO  sqltiming - delete from tbl_reply where rno =122
+ {executed in 5 msec}
+11:52:56.235 [main] INFO  sqltiming - select * from tbl_reply where rno = 4;
+ {executed in 7 msec}
+11:52:56.236 [main] INFO  resultsettable - 
+|----|--------|---|--------|----|
+|rno |content |id |regdate |bno |
+|----|--------|---|--------|----|
+|----|--------|---|--------|----|
+
+11:52:56.255 [main] INFO  sqltiming - select bno, title, content, id, regdate, moddate,cnt, cno, 
+  		(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt,
+  		(select count(*) from tbl_attach a where a.bno = b.bno) attachCnt,
+		(select uuid from tbl_attach a where a.bno = b.bno and image = 1 order by odr limit 1) uuid,
+		(select path from tbl_attach a where a.bno = b.bno and image =1 order by odr limit 1 ) path,
+		grp, odr, depth
+  		from tbl_board b
+
+  	 WHERE cno = 2 
+
+  		order by grp desc, odr 
+  		limit 10 offset 0
+ {executed in 8 msec}
+11:52:56.306 [main] INFO  resultsettable - 
+|-----|--------------|-------------|-----|--------------------|--------------------|----|----|---------|----------|-----------------------------------------|-----------|-----|----|------|
+|bno  |title         |content      |id   |regdate             |moddate             |cnt |cno |replycnt |attachcnt |uuid                                     |path       |grp  |odr |depth |
+|-----|--------------|-------------|-----|--------------------|--------------------|----|----|---------|----------|-----------------------------------------|-----------|-----|----|------|
+|1042 |파라미터 통합수집 테스트 |<p>테스트</p>
+ |test |2025-06-30 10:19:43 |2025-06-30 10:19:43 |6   |2   |0        |1         |32dc4e6f-9808-4de5-ac1a-3460e6789094.png |2025/06/30 |1042 |1   |1     |
+|1043 |1042의 답글      |             |test |2025-06-30 11:38:07 |2025-06-30 11:38:07 |0   |2   |0        |0         |null                                     |null       |1042 |2   |2     |
+|1046 |1043의 답글      |             |test |2025-06-30 11:45:30 |2025-06-30 11:45:30 |1   |2   |0        |0         |null                                     |null       |1042 |3   |3     |
+|1044 |1042의 답글      |             |test |2025-06-30 11:38:59 |2025-06-30 11:38:59 |1   |2   |0        |0         |null                                     |null       |1042 |4   |2     |
+|1041 |              |             |test |2025-06-27 15:59:16 |2025-06-27 15:59:16 |3   |2   |0        |3         |cf6b1e75-b6ab-43fd-9a5e-1940d5809207.gif |2025/06/27 |1041 |1   |1     |
+|1038 |              |             |test |2025-06-27 14:37:36 |2025-06-27 14:37:36 |21  |2   |0        |2         |a722a794-830c-4aff-bfb5-ba9ffa342b78.png |2025/06/27 |1038 |1   |1     |
+|755  |1번글           |내용           |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |22  |2   |0        |0         |null                                     |null       |755  |1   |1     |
+|753  |3번글           |내용           |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |8   |2   |0        |0         |null                                     |null       |753  |1   |1     |
+|752  |4번글           |내용           |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |0        |0         |null                                     |null       |752  |1   |1     |
+|744  |5번글           |내용           |test |2025-06-18 09:50:54 |2025-06-18 09:50:54 |0   |2   |0        |0         |null                                     |null       |744  |1   |1     |
+|-----|--------------|-------------|-----|--------------------|--------------------|----|----|---------|----------|-----------------------------------------|-----------|-----|----|------|
+
+11:52:56.309 [main] INFO  BoardMapperTest - 1 0 [Attach(uuid=32dc4e6f-9808-4de5-ac1a-3460e6789094.png, path=2025/06/30, image=false, origin=null, bno=null, rno=null, odr=1, size=0)]
+11:52:56.331 [main] INFO  BoardMapperTest - 0 0 [Attach(uuid=null, path=null, image=false, origin=null, bno=null, rno=null, odr=2, size=0)]
+11:52:56.331 [main] INFO  BoardMapperTest - 0 0 [Attach(uuid=null, path=null, image=false, origin=null, bno=null, rno=null, odr=3, size=0)]
+11:52:56.331 [main] INFO  BoardMapperTest - 0 0 [Attach(uuid=null, path=null, image=false, origin=null, bno=null, rno=null, odr=4, size=0)]
+11:52:56.331 [main] INFO  BoardMapperTest - 3 0 [Attach(uuid=cf6b1e75-b6ab-43fd-9a5e-1940d5809207.gif, path=2025/06/27, image=false, origin=null, bno=null, rno=null, odr=1, size=0)]
+11:52:56.332 [main] INFO  BoardMapperTest - 2 0 [Attach(uuid=a722a794-830c-4aff-bfb5-ba9ffa342b78.png, path=2025/06/27, image=false, origin=null, bno=null, rno=null, odr=1, size=0)]
+11:52:56.332 [main] INFO  BoardMapperTest - 0 0 [Attach(uuid=null, path=null, image=false, origin=null, bno=null, rno=null, odr=1, size=0)]
+11:52:56.332 [main] INFO  BoardMapperTest - 0 0 [Attach(uuid=null, path=null, image=false, origin=null, bno=null, rno=null, odr=1, size=0)]
+11:52:56.332 [main] INFO  BoardMapperTest - 0 0 [Attach(uuid=null, path=null, image=false, origin=null, bno=null, rno=null, odr=1, size=0)]
+11:52:56.332 [main] INFO  BoardMapperTest - 0 0 [Attach(uuid=null, path=null, image=false, origin=null, bno=null, rno=null, odr=1, size=0)]
+11:52:56.343 [main] WARN  ErrorPacket - Error: 1052-23000: Column 'odr' in ORDER BY is ambiguous
+11:52:56.343 [main] ERROR audit - 8. PreparedStatement.execute() select *, a.bno a_bno,
+  	(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt
+	from tbl_board b
+	left join tbl_attach a using(bno)
+	where bno = 1023
+	order by odr;
+
+java.sql.SQLIntegrityConstraintViolationException: (conn=7294) Column 'odr' in ORDER BY is ambiguous
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:297)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1364)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1303)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1222)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1146)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:87)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:232)
+	at net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy.execute(PreparedStatementSpy.java:443)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:90)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:75)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.selectOne(Unknown Source)
+	at mapper.BoardMapperTest.testViews(BoardMapperTest.java:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:775)
+	at org.junit.platform.commons.support.ReflectionSupport.invokeMethod(ReflectionSupport.java:479)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:161)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:152)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:91)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:112)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:94)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:87)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:216)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:212)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:201)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:170)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:94)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:59)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:142)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:94)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$2(InterceptingLauncher.java:47)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:46)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:70)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:100)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:520)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:748)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:443)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:211)
+11:52:56.344 [main] ERROR sqlonly - 8. PreparedStatement.execute() select *, a.bno a_bno,
+  	(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt
+	from tbl_board b
+	left join tbl_attach a using(bno)
+	where bno = 1023
+	order by odr;
+
+java.sql.SQLIntegrityConstraintViolationException: (conn=7294) Column 'odr' in ORDER BY is ambiguous
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:297)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1364)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1303)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1222)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1146)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:87)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:232)
+	at net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy.execute(PreparedStatementSpy.java:443)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:90)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:75)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.selectOne(Unknown Source)
+	at mapper.BoardMapperTest.testViews(BoardMapperTest.java:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:775)
+	at org.junit.platform.commons.support.ReflectionSupport.invokeMethod(ReflectionSupport.java:479)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:161)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:152)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:91)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:112)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:94)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:87)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:216)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:212)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:201)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:170)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:94)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:59)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:142)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:94)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$2(InterceptingLauncher.java:47)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:46)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:70)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:100)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:520)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:748)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:443)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:211)
+11:52:56.344 [main] ERROR sqltiming - 8. PreparedStatement.execute() FAILED! select *, a.bno a_bno,
+  	(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt
+	from tbl_board b
+	left join tbl_attach a using(bno)
+	where bno = 1023
+	order by odr;
+ {FAILED after 6 msec}
+java.sql.SQLIntegrityConstraintViolationException: (conn=7294) Column 'odr' in ORDER BY is ambiguous
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:297)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1364)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1303)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1222)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1146)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:87)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:232)
+	at net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy.execute(PreparedStatementSpy.java:443)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:90)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:75)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.selectOne(Unknown Source)
+	at mapper.BoardMapperTest.testViews(BoardMapperTest.java:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:775)
+	at org.junit.platform.commons.support.ReflectionSupport.invokeMethod(ReflectionSupport.java:479)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:161)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:152)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:91)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:112)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:94)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:87)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:216)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:212)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:201)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:170)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:94)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:59)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:142)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:94)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$2(InterceptingLauncher.java:47)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:46)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:70)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:100)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:520)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:748)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:443)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:211)
+11:52:56.363 [main] WARN  ErrorPacket - Error: 1052-23000: Column 'odr' in ORDER BY is ambiguous
+11:52:56.364 [main] ERROR audit - 9. PreparedStatement.execute() select *, a.bno a_bno,
+  	(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt
+	from tbl_board b
+	left join tbl_attach a using(bno)
+	where bno = 1025
+	order by odr;
+
+java.sql.SQLIntegrityConstraintViolationException: (conn=7295) Column 'odr' in ORDER BY is ambiguous
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:297)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1364)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1303)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1222)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1146)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:87)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:232)
+	at net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy.execute(PreparedStatementSpy.java:443)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:90)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:75)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.selectOne(Unknown Source)
+	at mapper.BoardMapperTest.testSelectOne(BoardMapperTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:775)
+	at org.junit.platform.commons.support.ReflectionSupport.invokeMethod(ReflectionSupport.java:479)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:161)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:152)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:91)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:112)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:94)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:87)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:216)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:212)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:201)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:170)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:94)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:59)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:142)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:94)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$2(InterceptingLauncher.java:47)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:46)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:70)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:100)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:520)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:748)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:443)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:211)
+11:52:56.364 [main] ERROR sqlonly - 9. PreparedStatement.execute() select *, a.bno a_bno,
+  	(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt
+	from tbl_board b
+	left join tbl_attach a using(bno)
+	where bno = 1025
+	order by odr;
+
+java.sql.SQLIntegrityConstraintViolationException: (conn=7295) Column 'odr' in ORDER BY is ambiguous
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:297)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1364)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1303)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1222)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1146)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:87)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:232)
+	at net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy.execute(PreparedStatementSpy.java:443)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:90)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:75)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.selectOne(Unknown Source)
+	at mapper.BoardMapperTest.testSelectOne(BoardMapperTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:775)
+	at org.junit.platform.commons.support.ReflectionSupport.invokeMethod(ReflectionSupport.java:479)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:161)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:152)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:91)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:112)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:94)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:87)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:216)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:212)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:201)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:170)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:94)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:59)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:142)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:94)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$2(InterceptingLauncher.java:47)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:46)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:70)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:100)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:520)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:748)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:443)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:211)
+11:52:56.365 [main] ERROR sqltiming - 9. PreparedStatement.execute() FAILED! select *, a.bno a_bno,
+  	(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt
+	from tbl_board b
+	left join tbl_attach a using(bno)
+	where bno = 1025
+	order by odr;
+ {FAILED after 7 msec}
+java.sql.SQLIntegrityConstraintViolationException: (conn=7295) Column 'odr' in ORDER BY is ambiguous
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:297)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:187)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:1364)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:1303)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:1222)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:1146)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:87)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:232)
+	at net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy.execute(PreparedStatementSpy.java:443)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:90)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:75)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.selectOne(Unknown Source)
+	at mapper.BoardMapperTest.testSelectOne(BoardMapperTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:775)
+	at org.junit.platform.commons.support.ReflectionSupport.invokeMethod(ReflectionSupport.java:479)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:161)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:152)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:91)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:112)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:94)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:87)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:216)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:212)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:201)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:170)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:94)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:59)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:142)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:94)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$2(InterceptingLauncher.java:47)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:46)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:70)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:100)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:520)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:748)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:443)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:211)
+11:52:56.369 [main] INFO  BoardMapperTest - [T, I]
+11:52:56.395 [main] INFO  sqltiming - select bno, title, content, id, regdate, moddate,cnt, cno, 
+  		(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt,
+  		(select count(*) from tbl_attach a where a.bno = b.bno) attachCnt,
+		(select uuid from tbl_attach a where a.bno = b.bno and image = 1 order by odr limit 1) uuid,
+		(select path from tbl_attach a where a.bno = b.bno and image =1 order by odr limit 1 ) path,
+		grp, odr, depth
+  		from tbl_board b
+
+  	 WHERE cno = 2
+
+  				and (
+
+  						title like concat('%', '제목', '%')
+
+  					or
+  						id like concat('%', '제목', '%')
+
+  				) 
+
+  		order by grp desc, odr 
+  		limit 10 offset 0
+ {executed in 8 msec}
+11:52:56.396 [main] INFO  resultsettable - 
+|----|------|--------|---|--------|--------|----|----|---------|----------|-----|-----|----|----|------|
+|bno |title |content |id |regdate |moddate |cnt |cno |replycnt |attachcnt |uuid |path |grp |odr |depth |
+|----|------|--------|---|--------|--------|----|----|---------|----------|-----|-----|----|----|------|
+|----|------|--------|---|--------|--------|----|----|---------|----------|-----|-----|----|----|------|
+
+15:00:41.045 [main] INFO  sqltiming - select *, a.bno a_bno,
+  	(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt
+	from tbl_board b
+	left join tbl_attach a using(bno)
+	where bno = 1061
+	order by odr;
+ {executed in 8 msec}
+15:00:41.066 [main] INFO  resultsettable - 
+|---------|-------|------------|-----|--------------------|--------------------|----|----|-----|----|------|-----|-----|-------|-------|---------|-------|-------|-------|---------|
+|bno      |title  |content     |id   |regdate             |moddate             |cnt |cno |grp  |seq |depth |uuid |path |image  |origin |rno      |odr    |size   |bno    |replycnt |
+|---------|-------|------------|-----|--------------------|--------------------|----|----|-----|----|------|-----|-----|-------|-------|---------|-------|-------|-------|---------|
+|[unread] |답글 테스트 |<p>ㅇㄻ</p>
+ |test |2025-06-30 14:56:14 |2025-06-30 14:56:14 |0   |2   |1061 |1   |1     |null |null |[null] |null   |[unread] |[null] |[null] |[null] |0        |
+|---------|-------|------------|-----|--------------------|--------------------|----|----|-----|----|------|-----|-----|-------|-------|---------|-------|-------|-------|---------|
+
+15:00:41.081 [main] INFO  sqltiming - select COALESCE (max(seq),1)
+	from tbl_board b
+	where grp = 1061
+	and seq  >= 1
+	and seq >= 1
+	and depth >= 1
+	and not exists (
+		select 1
+		from tbl_board mid
+		where grp = b.grp
+		and seq >=  1
+		and seq < b.seq  
+		and depth <= 1
+);
+ {executed in 5 msec}
+15:00:41.083 [main] INFO  resultsettable - 
+|----------------------|
+|coalesce (max(seq),1) |
+|----------------------|
+|1                     |
+|----------------------|
+
+15:00:41.084 [main] INFO  BoardMapperTest - 1
+15:00:57.455 [main] INFO  sqltiming - select *, a.bno a_bno,
+  	(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt
+	from tbl_board b
+	left join tbl_attach a using(bno)
+	where bno = 1060
+	order by odr;
+ {executed in 8 msec}
+15:00:57.474 [main] INFO  resultsettable - 
+|---------|------|-------------|-----|--------------------|--------------------|----|----|-----|----|------|-----|-----|-------|-------|---------|-------|-------|-------|---------|
+|bno      |title |content      |id   |regdate             |moddate             |cnt |cno |grp  |seq |depth |uuid |path |image  |origin |rno      |odr    |size   |bno    |replycnt |
+|---------|------|-------------|-----|--------------------|--------------------|----|----|-----|----|------|-----|-----|-------|-------|---------|-------|-------|-------|---------|
+|[unread] |원본 글  |<p>원본글</p>
+ |test |2025-06-30 14:41:17 |2025-06-30 14:41:17 |3   |2   |1060 |1   |1     |null |null |[null] |null   |[unread] |[null] |[null] |[null] |0        |
+|---------|------|-------------|-----|--------------------|--------------------|----|----|-----|----|------|-----|-----|-------|-------|---------|-------|-------|-------|---------|
+
+15:00:57.489 [main] INFO  sqltiming - select COALESCE (max(seq),1)
+	from tbl_board b
+	where grp = 1060
+	and seq  >= 1
+	and seq >= 1
+	and depth >= 1
+	and not exists (
+		select 1
+		from tbl_board mid
+		where grp = b.grp
+		and seq >=  1
+		and seq < b.seq  
+		and depth <= 1
+);
+ {executed in 6 msec}
+15:00:57.491 [main] INFO  resultsettable - 
+|----------------------|
+|coalesce (max(seq),1) |
+|----------------------|
+|1                     |
+|----------------------|
+
+15:00:57.492 [main] INFO  BoardMapperTest - 1
+15:01:11.194 [main] INFO  sqltiming - select *, a.bno a_bno,
+  	(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt
+	from tbl_board b
+	left join tbl_attach a using(bno)
+	where bno = 1058
+	order by odr;
+ {executed in 9 msec}
+15:01:11.214 [main] INFO  resultsettable - 
+|---------|---------|---------------|-----|--------------------|--------------------|----|----|-----|----|------|-----|-----|-------|-------|---------|-------|-------|-------|---------|
+|bno      |title    |content        |id   |regdate             |moddate             |cnt |cno |grp  |seq |depth |uuid |path |image  |origin |rno      |odr    |size   |bno    |replycnt |
+|---------|---------|---------------|-----|--------------------|--------------------|----|----|-----|----|------|-----|-----|-------|-------|---------|-------|-------|-------|---------|
+|[unread] |답글 테스트 2 |<p>답글테스트</p>
+ |test |2025-06-30 13:03:14 |2025-06-30 13:03:14 |0   |2   |1051 |2   |2     |null |null |[null] |null   |[unread] |[null] |[null] |[null] |0        |
+|---------|---------|---------------|-----|--------------------|--------------------|----|----|-----|----|------|-----|-----|-------|-------|---------|-------|-------|-------|---------|
+
+15:01:11.228 [main] INFO  sqltiming - select COALESCE (max(seq),1)
+	from tbl_board b
+	where grp = 1051
+	and seq  >= 2
+	and seq >= 2
+	and depth >= 2
+	and not exists (
+		select 1
+		from tbl_board mid
+		where grp = b.grp
+		and seq >=  2
+		and seq < b.seq  
+		and depth <= 2
+);
+ {executed in 6 msec}
+15:01:11.230 [main] INFO  resultsettable - 
+|----------------------|
+|coalesce (max(seq),1) |
+|----------------------|
+|2                     |
+|----------------------|
+
+15:01:11.231 [main] INFO  BoardMapperTest - 2
+15:01:11.277 [main] INFO  sqltiming - select bno, title, content, id, regdate, moddate,cnt, cno, 
+  		(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt,
+  		(select count(*) from tbl_attach a where a.bno = b.bno) attachCnt,
+		(select uuid from tbl_attach a where a.bno = b.bno and image = 1 order by odr limit 1) uuid,
+		(select path from tbl_attach a where a.bno = b.bno and image =1 order by odr limit 1 ) path,
+		grp, seq, depth
+  		from tbl_board b
+
+  	 WHERE cno = 2 
+
+  		order by grp desc, seq
+  		limit 10 offset 0
+ {executed in 8 msec}
+15:01:11.293 [main] INFO  resultsettable - 
+|-----|--------------|----------------|-----|--------------------|--------------------|----|----|---------|----------|-----------------------------------------|-----------|-----|----|------|
+|bno  |title         |content         |id   |regdate             |moddate             |cnt |cno |replycnt |attachcnt |uuid                                     |path       |grp  |seq |depth |
+|-----|--------------|----------------|-----|--------------------|--------------------|----|----|---------|----------|-----------------------------------------|-----------|-----|----|------|
+|1061 |답글 테스트        |<p>ㅇㄻ</p>
+     |test |2025-06-30 14:56:14 |2025-06-30 14:56:14 |0   |2   |0        |0         |null                                     |null       |1061 |1   |1     |
+|1060 |원본 글          |<p>원본글</p>
+    |test |2025-06-30 14:41:17 |2025-06-30 14:41:17 |3   |2   |0        |0         |null                                     |null       |1060 |1   |1     |
+|1059 |test          |<p>test</p>
+   |test |2025-06-30 14:41:06 |2025-06-30 14:41:06 |0   |2   |0        |0         |null                                     |null       |1059 |1   |1     |
+|1055 |다른 글 쓰기       |<p>1234</p>
+   |test |2025-06-30 12:56:00 |2025-06-30 12:56:00 |0   |2   |0        |0         |null                                     |null       |1055 |1   |1     |
+|1052 |답글 테스트        |<p>답글 테스트</p>
+ |test |2025-06-30 12:52:43 |2025-06-30 12:52:43 |0   |2   |0        |0         |null                                     |null       |1052 |1   |1     |
+|1051 |작성 테스트        |<p>작성 테스트</p>
+ |test |2025-06-30 12:52:32 |2025-06-30 12:52:32 |6   |2   |0        |0         |null                                     |null       |1051 |2   |1     |
+|1058 |답글 테스트 2      |<p>답글테스트</p>
+  |test |2025-06-30 13:03:14 |2025-06-30 13:03:14 |0   |2   |0        |0         |null                                     |null       |1051 |2   |2     |
+|1042 |파라미터 통합수집 테스트 |<p>테스트</p>
+    |test |2025-06-30 10:19:43 |2025-06-30 10:19:43 |17  |2   |0        |1         |32dc4e6f-9808-4de5-ac1a-3460e6789094.png |2025/06/30 |1042 |1   |1     |
+|1043 |1042의 답글      |                |test |2025-06-30 11:38:07 |2025-06-30 11:38:07 |8   |2   |0        |0         |null                                     |null       |1042 |2   |2     |
+|1046 |1043의 답글      |                |test |2025-06-30 11:45:30 |2025-06-30 11:45:30 |4   |2   |0        |0         |null                                     |null       |1042 |3   |3     |
+|-----|--------------|----------------|-----|--------------------|--------------------|----|----|---------|----------|-----------------------------------------|-----------|-----|----|------|
+
+15:01:11.295 [main] INFO  BoardMapperTest - 0 0 []
+15:01:11.295 [main] INFO  BoardMapperTest - 0 0 []
+15:01:11.295 [main] INFO  BoardMapperTest - 0 0 []
+15:01:11.295 [main] INFO  BoardMapperTest - 0 0 []
+15:01:11.295 [main] INFO  BoardMapperTest - 0 0 []
+15:01:11.295 [main] INFO  BoardMapperTest - 0 0 []
+15:01:11.295 [main] INFO  BoardMapperTest - 0 0 []
+15:01:11.295 [main] INFO  BoardMapperTest - 1 0 [Attach(uuid=32dc4e6f-9808-4de5-ac1a-3460e6789094.png, path=2025/06/30, image=false, origin=null, bno=null, rno=null, odr=0, size=0)]
+15:01:11.311 [main] INFO  BoardMapperTest - 0 0 []
+15:01:11.311 [main] INFO  BoardMapperTest - 0 0 []
+15:01:11.336 [main] INFO  sqltiming - select *, a.bno a_bno,
+  	(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt
+	from tbl_board b
+	left join tbl_attach a using(bno)
+	where bno = 1023
+	order by odr;
+ {executed in 7 msec}
+15:01:11.339 [main] INFO  resultsettable - 
+|----|------|--------|---|--------|--------|----|----|----|----|------|-----|-----|------|-------|----|----|-----|----|---------|
+|bno |title |content |id |regdate |moddate |cnt |cno |grp |seq |depth |uuid |path |image |origin |rno |odr |size |bno |replycnt |
+|----|------|--------|---|--------|--------|----|----|----|----|------|-----|-----|------|-------|----|----|-----|----|---------|
+|----|------|--------|---|--------|--------|----|----|----|----|------|-----|-----|------|-------|----|----|-----|----|---------|
+
+15:01:11.346 [main] INFO  sqltiming - update tbl_board SET
+	cnt = cnt +1
+	where bno = 1023
+ {executed in 6 msec}
+15:01:11.386 [main] INFO  sqltiming - select *, a.bno a_bno,
+  	(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt
+	from tbl_board b
+	left join tbl_attach a using(bno)
+	where bno = 1025
+	order by odr;
+ {executed in 5 msec}
+15:01:11.388 [main] INFO  resultsettable - 
+|----|------|--------|---|--------|--------|----|----|----|----|------|-----|-----|------|-------|----|----|-----|----|---------|
+|bno |title |content |id |regdate |moddate |cnt |cno |grp |seq |depth |uuid |path |image |origin |rno |odr |size |bno |replycnt |
+|----|------|--------|---|--------|--------|----|----|----|----|------|-----|-----|------|-------|----|----|-----|----|---------|
+|----|------|--------|---|--------|--------|----|----|----|----|------|-----|-----|------|-------|----|----|-----|----|---------|
+
+15:01:11.393 [main] INFO  BoardMapperTest - [T, I]
+15:01:11.435 [main] INFO  sqltiming - select bno, title, content, id, regdate, moddate,cnt, cno, 
+  		(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt,
+  		(select count(*) from tbl_attach a where a.bno = b.bno) attachCnt,
+		(select uuid from tbl_attach a where a.bno = b.bno and image = 1 order by odr limit 1) uuid,
+		(select path from tbl_attach a where a.bno = b.bno and image =1 order by odr limit 1 ) path,
+		grp, seq, depth
+  		from tbl_board b
+
+  	 WHERE cno = 2
+
+  				and (
+
+  						title like concat('%', '제목', '%')
+
+  					or
+  						id like concat('%', '제목', '%')
+
+  				) 
+
+  		order by grp desc, seq
+  		limit 10 offset 0
+ {executed in 8 msec}
+15:01:11.439 [main] INFO  resultsettable - 
+|----|------|--------|---|--------|--------|----|----|---------|----------|-----|-----|----|----|------|
+|bno |title |content |id |regdate |moddate |cnt |cno |replycnt |attachcnt |uuid |path |grp |seq |depth |
+|----|------|--------|---|--------|--------|----|----|---------|----------|-----|-----|----|----|------|
+|----|------|--------|---|--------|--------|----|----|---------|----------|-----|-----|----|----|------|
+
+15:01:11.479 [main] INFO  sqltiming - select *, a.bno a_bno,
+  	(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt
+	from tbl_board b
+	left join tbl_attach a using(bno)
+	where bno = 1020
+	order by odr;
+ {executed in 5 msec}
+15:01:11.480 [main] INFO  resultsettable - 
+|----|------|--------|---|--------|--------|----|----|----|----|------|-----|-----|------|-------|----|----|-----|----|---------|
+|bno |title |content |id |regdate |moddate |cnt |cno |grp |seq |depth |uuid |path |image |origin |rno |odr |size |bno |replycnt |
+|----|------|--------|---|--------|--------|----|----|----|----|------|-----|-----|------|-------|----|----|-----|----|---------|
+|----|------|--------|---|--------|--------|----|----|----|----|------|-----|-----|------|-------|----|----|-----|----|---------|
+
+15:01:55.008 [main] INFO  sqltiming - select *, a.bno a_bno,
+  	(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt
+	from tbl_board b
+	left join tbl_attach a using(bno)
+	where bno = 1046
+	order by odr;
+ {executed in 9 msec}
+15:01:55.029 [main] INFO  resultsettable - 
+|---------|---------|--------|-----|--------------------|--------------------|----|----|-----|----|------|-----|-----|-------|-------|---------|-------|-------|-------|---------|
+|bno      |title    |content |id   |regdate             |moddate             |cnt |cno |grp  |seq |depth |uuid |path |image  |origin |rno      |odr    |size   |bno    |replycnt |
+|---------|---------|--------|-----|--------------------|--------------------|----|----|-----|----|------|-----|-----|-------|-------|---------|-------|-------|-------|---------|
+|[unread] |1043의 답글 |        |test |2025-06-30 11:45:30 |2025-06-30 11:45:30 |4   |2   |1042 |3   |3     |null |null |[null] |null   |[unread] |[null] |[null] |[null] |0        |
+|---------|---------|--------|-----|--------------------|--------------------|----|----|-----|----|------|-----|-----|-------|-------|---------|-------|-------|-------|---------|
+
+15:01:55.044 [main] INFO  sqltiming - select COALESCE (max(seq),1)
+	from tbl_board b
+	where grp = 1042
+	and seq  >= 3
+	and seq >= 3
+	and depth >= 3
+	and not exists (
+		select 1
+		from tbl_board mid
+		where grp = b.grp
+		and seq >=  3
+		and seq < b.seq  
+		and depth <= 3
+);
+ {executed in 6 msec}
+15:01:55.047 [main] INFO  resultsettable - 
+|----------------------|
+|coalesce (max(seq),1) |
+|----------------------|
+|3                     |
+|----------------------|
+
+15:01:55.047 [main] INFO  BoardMapperTest - 3
+15:02:06.821 [main] INFO  sqltiming - select *, a.bno a_bno,
+  	(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt
+	from tbl_board b
+	left join tbl_attach a using(bno)
+	where bno = 1043
+	order by odr;
+ {executed in 9 msec}
+15:02:06.841 [main] INFO  resultsettable - 
+|---------|---------|--------|-----|--------------------|--------------------|----|----|-----|----|------|-----|-----|-------|-------|---------|-------|-------|-------|---------|
+|bno      |title    |content |id   |regdate             |moddate             |cnt |cno |grp  |seq |depth |uuid |path |image  |origin |rno      |odr    |size   |bno    |replycnt |
+|---------|---------|--------|-----|--------------------|--------------------|----|----|-----|----|------|-----|-----|-------|-------|---------|-------|-------|-------|---------|
+|[unread] |1042의 답글 |        |test |2025-06-30 11:38:07 |2025-06-30 11:38:07 |8   |2   |1042 |2   |2     |null |null |[null] |null   |[unread] |[null] |[null] |[null] |0        |
+|---------|---------|--------|-----|--------------------|--------------------|----|----|-----|----|------|-----|-----|-------|-------|---------|-------|-------|-------|---------|
+
+15:02:06.856 [main] INFO  sqltiming - select COALESCE (max(seq),1)
+	from tbl_board b
+	where grp = 1042
+	and seq  >= 2
+	and seq >= 2
+	and depth >= 2
+	and not exists (
+		select 1
+		from tbl_board mid
+		where grp = b.grp
+		and seq >=  2
+		and seq < b.seq  
+		and depth <= 2
+);
+ {executed in 7 msec}
+15:02:06.858 [main] INFO  resultsettable - 
+|----------------------|
+|coalesce (max(seq),1) |
+|----------------------|
+|2                     |
+|----------------------|
+
+15:02:06.858 [main] INFO  BoardMapperTest - 2
+15:02:06.900 [main] INFO  sqltiming - select bno, title, content, id, regdate, moddate,cnt, cno, 
+  		(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt,
+  		(select count(*) from tbl_attach a where a.bno = b.bno) attachCnt,
+		(select uuid from tbl_attach a where a.bno = b.bno and image = 1 order by odr limit 1) uuid,
+		(select path from tbl_attach a where a.bno = b.bno and image =1 order by odr limit 1 ) path,
+		grp, seq, depth
+  		from tbl_board b
+
+  	 WHERE cno = 2 
+
+  		order by grp desc, seq
+  		limit 10 offset 0
+ {executed in 7 msec}
+15:02:06.916 [main] INFO  resultsettable - 
+|-----|--------------|----------------|-----|--------------------|--------------------|----|----|---------|----------|-----------------------------------------|-----------|-----|----|------|
+|bno  |title         |content         |id   |regdate             |moddate             |cnt |cno |replycnt |attachcnt |uuid                                     |path       |grp  |seq |depth |
+|-----|--------------|----------------|-----|--------------------|--------------------|----|----|---------|----------|-----------------------------------------|-----------|-----|----|------|
+|1061 |답글 테스트        |<p>ㅇㄻ</p>
+     |test |2025-06-30 14:56:14 |2025-06-30 14:56:14 |0   |2   |0        |0         |null                                     |null       |1061 |1   |1     |
+|1060 |원본 글          |<p>원본글</p>
+    |test |2025-06-30 14:41:17 |2025-06-30 14:41:17 |3   |2   |0        |0         |null                                     |null       |1060 |1   |1     |
+|1059 |test          |<p>test</p>
+   |test |2025-06-30 14:41:06 |2025-06-30 14:41:06 |0   |2   |0        |0         |null                                     |null       |1059 |1   |1     |
+|1055 |다른 글 쓰기       |<p>1234</p>
+   |test |2025-06-30 12:56:00 |2025-06-30 12:56:00 |0   |2   |0        |0         |null                                     |null       |1055 |1   |1     |
+|1052 |답글 테스트        |<p>답글 테스트</p>
+ |test |2025-06-30 12:52:43 |2025-06-30 12:52:43 |0   |2   |0        |0         |null                                     |null       |1052 |1   |1     |
+|1051 |작성 테스트        |<p>작성 테스트</p>
+ |test |2025-06-30 12:52:32 |2025-06-30 12:52:32 |6   |2   |0        |0         |null                                     |null       |1051 |2   |1     |
+|1058 |답글 테스트 2      |<p>답글테스트</p>
+  |test |2025-06-30 13:03:14 |2025-06-30 13:03:14 |0   |2   |0        |0         |null                                     |null       |1051 |2   |2     |
+|1042 |파라미터 통합수집 테스트 |<p>테스트</p>
+    |test |2025-06-30 10:19:43 |2025-06-30 10:19:43 |17  |2   |0        |1         |32dc4e6f-9808-4de5-ac1a-3460e6789094.png |2025/06/30 |1042 |1   |1     |
+|1043 |1042의 답글      |                |test |2025-06-30 11:38:07 |2025-06-30 11:38:07 |8   |2   |0        |0         |null                                     |null       |1042 |2   |2     |
+|1046 |1043의 답글      |                |test |2025-06-30 11:45:30 |2025-06-30 11:45:30 |4   |2   |0        |0         |null                                     |null       |1042 |3   |3     |
+|-----|--------------|----------------|-----|--------------------|--------------------|----|----|---------|----------|-----------------------------------------|-----------|-----|----|------|
+
+15:02:06.917 [main] INFO  BoardMapperTest - 0 0 []
+15:02:06.917 [main] INFO  BoardMapperTest - 0 0 []
+15:02:06.917 [main] INFO  BoardMapperTest - 0 0 []
+15:02:06.917 [main] INFO  BoardMapperTest - 0 0 []
+15:02:06.917 [main] INFO  BoardMapperTest - 0 0 []
+15:02:06.917 [main] INFO  BoardMapperTest - 0 0 []
+15:02:06.918 [main] INFO  BoardMapperTest - 0 0 []
+15:02:06.918 [main] INFO  BoardMapperTest - 1 0 [Attach(uuid=32dc4e6f-9808-4de5-ac1a-3460e6789094.png, path=2025/06/30, image=false, origin=null, bno=null, rno=null, odr=0, size=0)]
+15:02:06.928 [main] INFO  BoardMapperTest - 0 0 []
+15:02:06.928 [main] INFO  BoardMapperTest - 0 0 []
+15:02:06.965 [main] INFO  sqltiming - select *, a.bno a_bno,
+  	(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt
+	from tbl_board b
+	left join tbl_attach a using(bno)
+	where bno = 1023
+	order by odr;
+ {executed in 6 msec}
+15:02:06.969 [main] INFO  resultsettable - 
+|----|------|--------|---|--------|--------|----|----|----|----|------|-----|-----|------|-------|----|----|-----|----|---------|
+|bno |title |content |id |regdate |moddate |cnt |cno |grp |seq |depth |uuid |path |image |origin |rno |odr |size |bno |replycnt |
+|----|------|--------|---|--------|--------|----|----|----|----|------|-----|-----|------|-------|----|----|-----|----|---------|
+|----|------|--------|---|--------|--------|----|----|----|----|------|-----|-----|------|-------|----|----|-----|----|---------|
+
+15:02:06.976 [main] INFO  sqltiming - update tbl_board SET
+	cnt = cnt +1
+	where bno = 1023
+ {executed in 6 msec}
+15:02:07.004 [main] INFO  sqltiming - select *, a.bno a_bno,
+  	(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt
+	from tbl_board b
+	left join tbl_attach a using(bno)
+	where bno = 1025
+	order by odr;
+ {executed in 6 msec}
+15:02:07.006 [main] INFO  resultsettable - 
+|----|------|--------|---|--------|--------|----|----|----|----|------|-----|-----|------|-------|----|----|-----|----|---------|
+|bno |title |content |id |regdate |moddate |cnt |cno |grp |seq |depth |uuid |path |image |origin |rno |odr |size |bno |replycnt |
+|----|------|--------|---|--------|--------|----|----|----|----|------|-----|-----|------|-------|----|----|-----|----|---------|
+|----|------|--------|---|--------|--------|----|----|----|----|------|-----|-----|------|-------|----|----|-----|----|---------|
+
+15:02:07.009 [main] INFO  BoardMapperTest - [T, I]
+15:02:07.051 [main] INFO  sqltiming - select bno, title, content, id, regdate, moddate,cnt, cno, 
+  		(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt,
+  		(select count(*) from tbl_attach a where a.bno = b.bno) attachCnt,
+		(select uuid from tbl_attach a where a.bno = b.bno and image = 1 order by odr limit 1) uuid,
+		(select path from tbl_attach a where a.bno = b.bno and image =1 order by odr limit 1 ) path,
+		grp, seq, depth
+  		from tbl_board b
+
+  	 WHERE cno = 2
+
+  				and (
+
+  						title like concat('%', '제목', '%')
+
+  					or
+  						id like concat('%', '제목', '%')
+
+  				) 
+
+  		order by grp desc, seq
+  		limit 10 offset 0
+ {executed in 7 msec}
+15:02:07.052 [main] INFO  resultsettable - 
+|----|------|--------|---|--------|--------|----|----|---------|----------|-----|-----|----|----|------|
+|bno |title |content |id |regdate |moddate |cnt |cno |replycnt |attachcnt |uuid |path |grp |seq |depth |
+|----|------|--------|---|--------|--------|----|----|---------|----------|-----|-----|----|----|------|
+|----|------|--------|---|--------|--------|----|----|---------|----------|-----|-----|----|----|------|
+
+15:02:07.100 [main] INFO  sqltiming - select *, a.bno a_bno,
+  	(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt
+	from tbl_board b
+	left join tbl_attach a using(bno)
+	where bno = 1020
+	order by odr;
+ {executed in 7 msec}
+15:02:07.101 [main] INFO  resultsettable - 
+|----|------|--------|---|--------|--------|----|----|----|----|------|-----|-----|------|-------|----|----|-----|----|---------|
+|bno |title |content |id |regdate |moddate |cnt |cno |grp |seq |depth |uuid |path |image |origin |rno |odr |size |bno |replycnt |
+|----|------|--------|---|--------|--------|----|----|----|----|------|-----|-----|------|-------|----|----|-----|----|---------|
+|----|------|--------|---|--------|--------|----|----|----|----|------|-----|-----|------|-------|----|----|-----|----|---------|
+
+15:07:22.881 [main] INFO  sqltiming - select *, a.bno a_bno,
+  	(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt
+	from tbl_board b
+	left join tbl_attach a using(bno)
+	where bno = 1043
+	order by odr;
+ {executed in 8 msec}
+15:07:22.900 [main] INFO  resultsettable - 
+|---------|---------|--------|-----|--------------------|--------------------|----|----|-----|----|------|-----|-----|-------|-------|---------|-------|-------|-------|---------|
+|bno      |title    |content |id   |regdate             |moddate             |cnt |cno |grp  |seq |depth |uuid |path |image  |origin |rno      |odr    |size   |bno    |replycnt |
+|---------|---------|--------|-----|--------------------|--------------------|----|----|-----|----|------|-----|-----|-------|-------|---------|-------|-------|-------|---------|
+|[unread] |1042의 답글 |        |test |2025-06-30 11:38:07 |2025-06-30 11:38:07 |8   |2   |1042 |2   |2     |null |null |[null] |null   |[unread] |[null] |[null] |[null] |0        |
+|---------|---------|--------|-----|--------------------|--------------------|----|----|-----|----|------|-----|-----|-------|-------|---------|-------|-------|-------|---------|
+
+15:07:22.912 [main] INFO  sqltiming - select COALESCE (max(seq),1)
+	from tbl_board b
+	where grp = 1042
+	and seq  > 2
+	and depth > 2
+	and not exists (
+		select 1
+		from tbl_board mid
+		where grp = b.grp
+		and seq >  2
+		and seq < b.seq  
+		and depth <= 2
+);
+ {executed in 5 msec}
+15:07:22.914 [main] INFO  resultsettable - 
+|----------------------|
+|coalesce (max(seq),1) |
+|----------------------|
+|3                     |
+|----------------------|
+
+15:07:22.915 [main] INFO  BoardMapperTest - 3
+15:07:37.400 [main] INFO  sqltiming - select *, a.bno a_bno,
+  	(select count(*) from tbl_reply r where r.bno = b.bno) replyCnt
+	from tbl_board b
+	left join tbl_attach a using(bno)
+	where bno = 1046
+	order by odr;
+ {executed in 8 msec}
+15:07:37.424 [main] INFO  resultsettable - 
+|---------|---------|--------|-----|--------------------|--------------------|----|----|-----|----|------|-----|-----|-------|-------|---------|-------|-------|-------|---------|
+|bno      |title    |content |id   |regdate             |moddate             |cnt |cno |grp  |seq |depth |uuid |path |image  |origin |rno      |odr    |size   |bno    |replycnt |
+|---------|---------|--------|-----|--------------------|--------------------|----|----|-----|----|------|-----|-----|-------|-------|---------|-------|-------|-------|---------|
+|[unread] |1043의 답글 |        |test |2025-06-30 11:45:30 |2025-06-30 11:45:30 |4   |2   |1042 |3   |3     |null |null |[null] |null   |[unread] |[null] |[null] |[null] |0        |
+|---------|---------|--------|-----|--------------------|--------------------|----|----|-----|----|------|-----|-----|-------|-------|---------|-------|-------|-------|---------|
+
+15:07:37.441 [main] INFO  sqltiming - select COALESCE (max(seq),1)
+	from tbl_board b
+	where grp = 1042
+	and seq  > 3
+	and depth > 3
+	and not exists (
+		select 1
+		from tbl_board mid
+		where grp = b.grp
+		and seq >  3
+		and seq < b.seq  
+		and depth <= 3
+);
+ {executed in 6 msec}
+15:07:37.444 [main] INFO  resultsettable - 
+|----------------------|
+|coalesce (max(seq),1) |
+|----------------------|
+|1                     |
+|----------------------|
+
+15:07:37.445 [main] INFO  BoardMapperTest - 1

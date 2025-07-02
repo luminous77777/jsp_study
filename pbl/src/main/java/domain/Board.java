@@ -27,6 +27,15 @@ public class Board {
 	private int replyCnt;
 	private int attachCnt;
 	
+	//답글을 위한 3개의 필드
+	private Long grp;
+	
+	@Builder.Default
+	private int seq = 1;
+	@Builder.Default  //빌더 패턴에서 제거
+	private int depth = 1;
+	
+	
 	public Board(Long bno, String title, String content, String id, String regdate, String moddate, Integer cnt,
 			Integer cno, int attachCnt) {
 		super();

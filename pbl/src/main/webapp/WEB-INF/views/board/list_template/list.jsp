@@ -32,8 +32,12 @@
 						<div class="row text-center align-items-center small text-muted">
 							<div class="col-1 small">${board.bno}</div>
 							<div class="col-1 small">${board.cno}</div>
-							<div class="col text-start fw-bold text-black">${board.title}<span
-									class="small text-danger fw-bold">  ${board.replyCnt}</span>
+							<div class="col text-start fw-bold text-black">
+							<c:if test="${board.bno != board.grp}">
+							<i class="fa-solid fa-reply " style="transform:rotate(180deg); margin-left: ${(board.depth-2)*14}px"></i>
+							</c:if>
+							${board.title}
+							<span class="small text-danger fw-bold">  ${board.replyCnt}</span>
 									<c:if test="${board.attachCnt > 0}">
 									<i class="fa-solid fa-paperclip text-nyted"></i>
 									</c:if>

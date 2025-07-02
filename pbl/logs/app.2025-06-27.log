@@ -1,0 +1,59 @@
+11:31:02.494 [main] INFO  sqltiming - select * from tbl_category tc where tc.status = 'ACTIVE' order by odr
+ {executed in 10 msec}
+11:31:02.519 [main] INFO  resultsettable - 
+|----|------|--------------------|------------|---------|---------|
+|cno |cname |regdate             |c_view_type |odr      |status   |
+|----|------|--------------------|------------|---------|---------|
+|2   |자유게시판 |2025-06-12 17:16:18 |LIST        |[unread] |[unread] |
+|----|------|--------------------|------------|---------|---------|
+
+11:32:40.986 [main] INFO  sqltiming - select * from tbl_category tc where tc.status = 'ACTIVE' order by odr
+ {executed in 11 msec}
+11:32:41.002 [main] INFO  resultsettable - 
+|----|------|--------------------|------------|---------|---------|
+|cno |cname |regdate             |c_view_type |odr      |status   |
+|----|------|--------------------|------------|---------|---------|
+|2   |자유게시판 |2025-06-12 17:16:18 |LIST        |[unread] |[unread] |
+|----|------|--------------------|------------|---------|---------|
+
+11:33:23.815 [main] INFO  sqltiming - select * from tbl_category tc where tc.status = 'ACTIVE' order by odr
+ {executed in 15 msec}
+11:33:23.832 [main] INFO  resultsettable - 
+|----|------|--------------------|------------|---------|---------|
+|cno |cname |regdate             |c_view_type |odr      |status   |
+|----|------|--------------------|------------|---------|---------|
+|2   |자유게시판 |2025-06-12 17:16:18 |LIST        |[unread] |[unread] |
+|----|------|--------------------|------------|---------|---------|
+
+11:34:27.176 [main] INFO  sqltiming - select * from tbl_category tc where tc.status = 'ACTIVE' order by odr
+ {executed in 7 msec}
+11:34:27.192 [main] INFO  resultsettable - 
+|----|------|--------------------|------------|---------|---------|
+|cno |cname |regdate             |c_view_type |odr      |status   |
+|----|------|--------------------|------------|---------|---------|
+|2   |자유게시판 |2025-06-12 17:16:18 |LIST        |[unread] |[unread] |
+|----|------|--------------------|------------|---------|---------|
+
+11:36:21.148 [main] INFO  sqltiming - select * from tbl_category tc where tc.status = 'ACTIVE' order by odr
+ {executed in 11 msec}
+11:36:21.165 [main] INFO  resultsettable - 
+|----|------|--------------------|------------|----|-------|
+|cno |cname |regdate             |c_view_type |odr |status |
+|----|------|--------------------|------------|----|-------|
+|2   |자유게시판 |2025-06-12 17:16:18 |LIST        |0   |ACTIVE |
+|----|------|--------------------|------------|----|-------|
+
+11:38:54.648 [main] INFO  sqltiming - select * from tbl_category tc where tc.status = 'ACTIVE' order by odr
+ {executed in 8 msec}
+11:38:54.671 [main] INFO  resultsettable - 
+|----|------|--------------------|------------|----|-------|
+|cno |cname |regdate             |c_view_type |odr |status |
+|----|------|--------------------|------------|----|-------|
+|2   |자유게시판 |2025-06-12 17:16:18 |LIST        |0   |ACTIVE |
+|1   |갤러리   |2025-06-12 17:16:17 |GALLERY     |1   |ACTIVE |
+|3   |QnA   |2025-06-12 17:16:19 |LIST        |2   |ACTIVE |
+|----|------|--------------------|------------|----|-------|
+
+11:38:54.679 [main] INFO  CategoryMapperTest - Category(cno=2, cname=자유게시판, regdate=2025-06-12 17:16:18, c_view_type=LIST, odr=0, status=ACTIVE)
+11:38:54.687 [main] INFO  CategoryMapperTest - Category(cno=1, cname=갤러리, regdate=2025-06-12 17:16:17, c_view_type=GALLERY, odr=1, status=ACTIVE)
+11:38:54.687 [main] INFO  CategoryMapperTest - Category(cno=3, cname=QnA, regdate=2025-06-12 17:16:19, c_view_type=LIST, odr=2, status=ACTIVE)

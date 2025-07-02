@@ -58,9 +58,13 @@
 				</div>
 				<input type="hidden" name="id" value="${member.id}" /> 
 				<input type="hidden" name="cno" value="${cri.cno}" />
-				<input type="hidden" name="encodedStr" value=""/>
                 <input type="hidden" name="page" value="1" />
                 <input type="hidden" name="amount" value="${cri.amount}" />
+                <input type="hidden" name="encodedStr" value=""/>
+                <c:if test="${not empty param.bno}">
+                <input type="hidden" name="bno" value="${param.bno}"/>
+                </c:if>
+                
 			</form>
 		</main>
 	</div>

@@ -1,59 +1,491 @@
-11:31:02.494 [main] INFO  sqltiming - select * from tbl_category tc where tc.status = 'ACTIVE' order by odr
- {executed in 10 msec}
-11:31:02.519 [main] INFO  resultsettable - 
-|----|------|--------------------|------------|---------|---------|
-|cno |cname |regdate             |c_view_type |odr      |status   |
-|----|------|--------------------|------------|---------|---------|
-|2   |자유게시판 |2025-06-12 17:16:18 |LIST        |[unread] |[unread] |
-|----|------|--------------------|------------|---------|---------|
+09:55:11.947 [main] INFO  StdSchedulerFactory - Using default implementation for ThreadExecutor
+09:55:11.956 [main] INFO  SimpleThreadPool - Job execution threads will use class loader of thread: main
+09:55:11.973 [main] INFO  SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+09:55:11.978 [main] INFO  QuartzScheduler - Quartz Scheduler v2.5.0 created.
+09:55:11.979 [main] INFO  RAMJobStore - RAMJobStore initialized.
+09:55:11.981 [main] INFO  QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-11:32:40.986 [main] INFO  sqltiming - select * from tbl_category tc where tc.status = 'ACTIVE' order by odr
+09:55:11.982 [main] INFO  StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+09:55:11.986 [main] INFO  StdSchedulerFactory - Quartz scheduler version: 2.5.0
+09:55:11.999 [main] INFO  QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+09:55:15.009 [DefaultQuartzScheduler_Worker-1] INFO  TimerJob - Tue Jul 01 09:55:15 KST 2025
+09:55:20.002 [DefaultQuartzScheduler_Worker-2] INFO  TimerJob - Tue Jul 01 09:55:20 KST 2025
+09:55:25.003 [DefaultQuartzScheduler_Worker-3] INFO  TimerJob - Tue Jul 01 09:55:25 KST 2025
+09:55:30.001 [DefaultQuartzScheduler_Worker-4] INFO  TimerJob - Tue Jul 01 09:55:30 KST 2025
+09:55:35.001 [DefaultQuartzScheduler_Worker-5] INFO  TimerJob - Tue Jul 01 09:55:35 KST 2025
+09:55:40.001 [DefaultQuartzScheduler_Worker-6] INFO  TimerJob - Tue Jul 01 09:55:40 KST 2025
+09:55:45.000 [DefaultQuartzScheduler_Worker-7] INFO  TimerJob - Tue Jul 01 09:55:45 KST 2025
+09:55:50.012 [DefaultQuartzScheduler_Worker-8] INFO  TimerJob - Tue Jul 01 09:55:50 KST 2025
+09:55:55.001 [DefaultQuartzScheduler_Worker-9] INFO  TimerJob - Tue Jul 01 09:55:55 KST 2025
+09:56:00.001 [DefaultQuartzScheduler_Worker-10] INFO  TimerJob - Tue Jul 01 09:56:00 KST 2025
+09:56:05.001 [DefaultQuartzScheduler_Worker-1] INFO  TimerJob - Tue Jul 01 09:56:05 KST 2025
+09:56:10.001 [DefaultQuartzScheduler_Worker-2] INFO  TimerJob - Tue Jul 01 09:56:10 KST 2025
+09:56:12.003 [main] INFO  QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+09:56:12.004 [main] INFO  QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+09:56:12.005 [main] INFO  QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+10:08:53.912 [main] INFO  GhostFileCleanupJob - Tue Jul 01 10:08:53 KST 2025
+10:35:13.930 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025
+10:36:43.650 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\07\01, false
+10:41:46.801 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30, true
+10:41:46.804 [main] INFO  GhostFileCleanupJob - [32dc4e6f-9808-4de5-ac1a-3460e6789094.png, 986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif, 9d53b02b-9ec8-414f-bcf8-8dfa0db525e8.jpg, b530f522-17b3-4ee4-965e-a5af92332724.bmp, c3b2cfc1-8b68-426b-a2dd-1cf83cfd5aa5.bmp, c3e385a5-1b8b-4a3a-96b1-0b978a950d9c.bmp, cf6b1e75-b6ab-43fd-9a5e-1940d5809207.gif, d04ee861-1aa9-41f3-8dd1-4e6a8c11329e.jpg, e6f4aadb-14e4-4e35-af89-3e96113fb603.png, edbc04a1-a03a-438f-9ce5-311507ec5c45.png, t_22109df4-aea3-4321-ad47-5ec64ad867ee.bmp, t_27f2712a-1018-4313-bcf8-31448b1d7081.png, t_32dc4e6f-9808-4de5-ac1a-3460e6789094.png, t_49540573-c327-4b10-8c8a-a45be85c97c0.jpg, t_54283a6b-08be-4ec4-bef1-bbe3f439056c.bmp, t_5c684644-3320-4e2b-9631-0c188e4f3f68.jpg, t_5ddaed5c-58fd-4593-84db-9ce324e6a2b2.png, t_7bf19dce-7b8a-4968-bac4-4fd778631dde.png, t_8ae8eb0d-2ecc-4cfb-85da-131cd8c392b5.png, t_95a385c0-8739-40e7-bee5-53156b9ee984.png, t_9d53b02b-9ec8-414f-bcf8-8dfa0db525e8.jpg, t_a1a4c0a9-7d27-4314-9dea-e19ca0fc8aff.png, t_a505f7d6-7c66-4adf-9b6d-a4b52b0930c0.png, t_a722a794-830c-4aff-bfb5-ba9ffa342b78.png, t_c3e385a5-1b8b-4a3a-96b1-0b978a950d9c.bmp, t_cf6b1e75-b6ab-43fd-9a5e-1940d5809207.gif, t_d04ee861-1aa9-41f3-8dd1-4e6a8c11329e.jpg, t_e6f4aadb-14e4-4e35-af89-3e96113fb603.png, t_edbc04a1-a03a-438f-9ce5-311507ec5c45.png]
+10:44:35.200 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30, true
+10:44:35.203 [main] INFO  GhostFileCleanupJob - [32dc4e6f-9808-4de5-ac1a-3460e6789094.png, 986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif, 9d53b02b-9ec8-414f-bcf8-8dfa0db525e8.jpg, b530f522-17b3-4ee4-965e-a5af92332724.bmp, c3b2cfc1-8b68-426b-a2dd-1cf83cfd5aa5.bmp, c3e385a5-1b8b-4a3a-96b1-0b978a950d9c.bmp, cf6b1e75-b6ab-43fd-9a5e-1940d5809207.gif, d04ee861-1aa9-41f3-8dd1-4e6a8c11329e.jpg, e6f4aadb-14e4-4e35-af89-3e96113fb603.png, edbc04a1-a03a-438f-9ce5-311507ec5c45.png, t_22109df4-aea3-4321-ad47-5ec64ad867ee.bmp, t_27f2712a-1018-4313-bcf8-31448b1d7081.png, t_32dc4e6f-9808-4de5-ac1a-3460e6789094.png, t_49540573-c327-4b10-8c8a-a45be85c97c0.jpg, t_54283a6b-08be-4ec4-bef1-bbe3f439056c.bmp, t_5c684644-3320-4e2b-9631-0c188e4f3f68.jpg, t_5ddaed5c-58fd-4593-84db-9ce324e6a2b2.png, t_7bf19dce-7b8a-4968-bac4-4fd778631dde.png, t_8ae8eb0d-2ecc-4cfb-85da-131cd8c392b5.png, t_95a385c0-8739-40e7-bee5-53156b9ee984.png, t_9d53b02b-9ec8-414f-bcf8-8dfa0db525e8.jpg, t_a1a4c0a9-7d27-4314-9dea-e19ca0fc8aff.png, t_a505f7d6-7c66-4adf-9b6d-a4b52b0930c0.png, t_a722a794-830c-4aff-bfb5-ba9ffa342b78.png, t_c3e385a5-1b8b-4a3a-96b1-0b978a950d9c.bmp, t_cf6b1e75-b6ab-43fd-9a5e-1940d5809207.gif, t_d04ee861-1aa9-41f3-8dd1-4e6a8c11329e.jpg, t_e6f4aadb-14e4-4e35-af89-3e96113fb603.png, t_edbc04a1-a03a-438f-9ce5-311507ec5c45.png]
+10:44:35.203 [main] INFO  GhostFileCleanupJob - [a.txt]
+10:47:44.770 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30, true
+10:47:44.773 [main] INFO  GhostFileCleanupJob - [32dc4e6f-9808-4de5-ac1a-3460e6789094.png, 986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif, 9d53b02b-9ec8-414f-bcf8-8dfa0db525e8.jpg, b530f522-17b3-4ee4-965e-a5af92332724.bmp, c3b2cfc1-8b68-426b-a2dd-1cf83cfd5aa5.bmp, c3e385a5-1b8b-4a3a-96b1-0b978a950d9c.bmp, cf6b1e75-b6ab-43fd-9a5e-1940d5809207.gif, d04ee861-1aa9-41f3-8dd1-4e6a8c11329e.jpg, e6f4aadb-14e4-4e35-af89-3e96113fb603.png, edbc04a1-a03a-438f-9ce5-311507ec5c45.png, t_22109df4-aea3-4321-ad47-5ec64ad867ee.bmp, t_27f2712a-1018-4313-bcf8-31448b1d7081.png, t_32dc4e6f-9808-4de5-ac1a-3460e6789094.png, t_49540573-c327-4b10-8c8a-a45be85c97c0.jpg, t_54283a6b-08be-4ec4-bef1-bbe3f439056c.bmp, t_5c684644-3320-4e2b-9631-0c188e4f3f68.jpg, t_5ddaed5c-58fd-4593-84db-9ce324e6a2b2.png, t_7bf19dce-7b8a-4968-bac4-4fd778631dde.png, t_8ae8eb0d-2ecc-4cfb-85da-131cd8c392b5.png, t_95a385c0-8739-40e7-bee5-53156b9ee984.png, t_9d53b02b-9ec8-414f-bcf8-8dfa0db525e8.jpg, t_a1a4c0a9-7d27-4314-9dea-e19ca0fc8aff.png, t_a505f7d6-7c66-4adf-9b6d-a4b52b0930c0.png, t_a722a794-830c-4aff-bfb5-ba9ffa342b78.png, t_c3e385a5-1b8b-4a3a-96b1-0b978a950d9c.bmp, t_cf6b1e75-b6ab-43fd-9a5e-1940d5809207.gif, t_d04ee861-1aa9-41f3-8dd1-4e6a8c11329e.jpg, t_e6f4aadb-14e4-4e35-af89-3e96113fb603.png, t_edbc04a1-a03a-438f-9ce5-311507ec5c45.png]
+10:47:44.773 [main] INFO  GhostFileCleanupJob - [a.txt]
+10:59:58.426 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30, true
+10:59:58.429 [main] INFO  GhostFileCleanupJob - [32dc4e6f-9808-4de5-ac1a-3460e6789094.png, 986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif, 9d53b02b-9ec8-414f-bcf8-8dfa0db525e8.jpg, b530f522-17b3-4ee4-965e-a5af92332724.bmp, c3b2cfc1-8b68-426b-a2dd-1cf83cfd5aa5.bmp, c3e385a5-1b8b-4a3a-96b1-0b978a950d9c.bmp, cf6b1e75-b6ab-43fd-9a5e-1940d5809207.gif, d04ee861-1aa9-41f3-8dd1-4e6a8c11329e.jpg, e6f4aadb-14e4-4e35-af89-3e96113fb603.png, edbc04a1-a03a-438f-9ce5-311507ec5c45.png, t_22109df4-aea3-4321-ad47-5ec64ad867ee.bmp, t_27f2712a-1018-4313-bcf8-31448b1d7081.png, t_32dc4e6f-9808-4de5-ac1a-3460e6789094.png, t_49540573-c327-4b10-8c8a-a45be85c97c0.jpg, t_54283a6b-08be-4ec4-bef1-bbe3f439056c.bmp, t_5c684644-3320-4e2b-9631-0c188e4f3f68.jpg, t_5ddaed5c-58fd-4593-84db-9ce324e6a2b2.png, t_7bf19dce-7b8a-4968-bac4-4fd778631dde.png, t_8ae8eb0d-2ecc-4cfb-85da-131cd8c392b5.png, t_95a385c0-8739-40e7-bee5-53156b9ee984.png, t_9d53b02b-9ec8-414f-bcf8-8dfa0db525e8.jpg, t_a1a4c0a9-7d27-4314-9dea-e19ca0fc8aff.png, t_a505f7d6-7c66-4adf-9b6d-a4b52b0930c0.png, t_a722a794-830c-4aff-bfb5-ba9ffa342b78.png, t_c3e385a5-1b8b-4a3a-96b1-0b978a950d9c.bmp, t_cf6b1e75-b6ab-43fd-9a5e-1940d5809207.gif, t_d04ee861-1aa9-41f3-8dd1-4e6a8c11329e.jpg, t_e6f4aadb-14e4-4e35-af89-3e96113fb603.png, t_edbc04a1-a03a-438f-9ce5-311507ec5c45.png]
+10:59:58.430 [main] INFO  GhostFileCleanupJob - [10\a.txt, b.txt]
+11:00:07.585 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30, true
+11:00:07.587 [main] INFO  GhostFileCleanupJob - [32dc4e6f-9808-4de5-ac1a-3460e6789094.png, 986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif, 9d53b02b-9ec8-414f-bcf8-8dfa0db525e8.jpg, b530f522-17b3-4ee4-965e-a5af92332724.bmp, c3b2cfc1-8b68-426b-a2dd-1cf83cfd5aa5.bmp, c3e385a5-1b8b-4a3a-96b1-0b978a950d9c.bmp, cf6b1e75-b6ab-43fd-9a5e-1940d5809207.gif, d04ee861-1aa9-41f3-8dd1-4e6a8c11329e.jpg, e6f4aadb-14e4-4e35-af89-3e96113fb603.png, edbc04a1-a03a-438f-9ce5-311507ec5c45.png, t_22109df4-aea3-4321-ad47-5ec64ad867ee.bmp, t_27f2712a-1018-4313-bcf8-31448b1d7081.png, t_32dc4e6f-9808-4de5-ac1a-3460e6789094.png, t_49540573-c327-4b10-8c8a-a45be85c97c0.jpg, t_54283a6b-08be-4ec4-bef1-bbe3f439056c.bmp, t_5c684644-3320-4e2b-9631-0c188e4f3f68.jpg, t_5ddaed5c-58fd-4593-84db-9ce324e6a2b2.png, t_7bf19dce-7b8a-4968-bac4-4fd778631dde.png, t_8ae8eb0d-2ecc-4cfb-85da-131cd8c392b5.png, t_95a385c0-8739-40e7-bee5-53156b9ee984.png, t_9d53b02b-9ec8-414f-bcf8-8dfa0db525e8.jpg, t_a1a4c0a9-7d27-4314-9dea-e19ca0fc8aff.png, t_a505f7d6-7c66-4adf-9b6d-a4b52b0930c0.png, t_a722a794-830c-4aff-bfb5-ba9ffa342b78.png, t_c3e385a5-1b8b-4a3a-96b1-0b978a950d9c.bmp, t_cf6b1e75-b6ab-43fd-9a5e-1940d5809207.gif, t_d04ee861-1aa9-41f3-8dd1-4e6a8c11329e.jpg, t_e6f4aadb-14e4-4e35-af89-3e96113fb603.png, t_edbc04a1-a03a-438f-9ce5-311507ec5c45.png]
+11:00:07.588 [main] INFO  GhostFileCleanupJob - [b.txt]
+11:01:11.440 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30, true
+11:01:11.442 [main] INFO  GhostFileCleanupJob - [D:\upload\files\2025\06\30\32dc4e6f-9808-4de5-ac1a-3460e6789094.png, D:\upload\files\2025\06\30\986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif, D:\upload\files\2025\06\30\9d53b02b-9ec8-414f-bcf8-8dfa0db525e8.jpg, D:\upload\files\2025\06\30\b530f522-17b3-4ee4-965e-a5af92332724.bmp, D:\upload\files\2025\06\30\c3b2cfc1-8b68-426b-a2dd-1cf83cfd5aa5.bmp, D:\upload\files\2025\06\30\c3e385a5-1b8b-4a3a-96b1-0b978a950d9c.bmp, D:\upload\files\2025\06\30\cf6b1e75-b6ab-43fd-9a5e-1940d5809207.gif, D:\upload\files\2025\06\30\d04ee861-1aa9-41f3-8dd1-4e6a8c11329e.jpg, D:\upload\files\2025\06\30\e6f4aadb-14e4-4e35-af89-3e96113fb603.png, D:\upload\files\2025\06\30\edbc04a1-a03a-438f-9ce5-311507ec5c45.png, D:\upload\files\2025\06\30\t_22109df4-aea3-4321-ad47-5ec64ad867ee.bmp, D:\upload\files\2025\06\30\t_27f2712a-1018-4313-bcf8-31448b1d7081.png, D:\upload\files\2025\06\30\t_32dc4e6f-9808-4de5-ac1a-3460e6789094.png, D:\upload\files\2025\06\30\t_49540573-c327-4b10-8c8a-a45be85c97c0.jpg, D:\upload\files\2025\06\30\t_54283a6b-08be-4ec4-bef1-bbe3f439056c.bmp, D:\upload\files\2025\06\30\t_5c684644-3320-4e2b-9631-0c188e4f3f68.jpg, D:\upload\files\2025\06\30\t_5ddaed5c-58fd-4593-84db-9ce324e6a2b2.png, D:\upload\files\2025\06\30\t_7bf19dce-7b8a-4968-bac4-4fd778631dde.png, D:\upload\files\2025\06\30\t_8ae8eb0d-2ecc-4cfb-85da-131cd8c392b5.png, D:\upload\files\2025\06\30\t_95a385c0-8739-40e7-bee5-53156b9ee984.png, D:\upload\files\2025\06\30\t_9d53b02b-9ec8-414f-bcf8-8dfa0db525e8.jpg, D:\upload\files\2025\06\30\t_a1a4c0a9-7d27-4314-9dea-e19ca0fc8aff.png, D:\upload\files\2025\06\30\t_a505f7d6-7c66-4adf-9b6d-a4b52b0930c0.png, D:\upload\files\2025\06\30\t_a722a794-830c-4aff-bfb5-ba9ffa342b78.png, D:\upload\files\2025\06\30\t_c3e385a5-1b8b-4a3a-96b1-0b978a950d9c.bmp, D:\upload\files\2025\06\30\t_cf6b1e75-b6ab-43fd-9a5e-1940d5809207.gif, D:\upload\files\2025\06\30\t_d04ee861-1aa9-41f3-8dd1-4e6a8c11329e.jpg, D:\upload\files\2025\06\30\t_e6f4aadb-14e4-4e35-af89-3e96113fb603.png, D:\upload\files\2025\06\30\t_edbc04a1-a03a-438f-9ce5-311507ec5c45.png]
+11:01:11.443 [main] INFO  GhostFileCleanupJob - [b.txt]
+11:18:58.758 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30, true
+11:18:59.431 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d');
  {executed in 11 msec}
-11:32:41.002 [main] INFO  resultsettable - 
-|----|------|--------------------|------------|---------|---------|
-|cno |cname |regdate             |c_view_type |odr      |status   |
-|----|------|--------------------|------------|---------|---------|
-|2   |자유게시판 |2025-06-12 17:16:18 |LIST        |[unread] |[unread] |
-|----|------|--------------------|------------|---------|---------|
+11:18:59.453 [main] INFO  resultsettable - 
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|uuid                                      |path       |image |origin                    |bno  |rno    |odr |size     |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg  |2025/06/30 |true  |SampleJPGImage_2mbmb.jpg  |1074 |[null] |1   |2101546  |
+|32dc4e6f-9808-4de5-ac1a-3460e6789094.png  |2025/06/30 |true  |SamplePNGImage_10mbmb.png |1042 |[null] |0   |10473459 |
+|60bffb13-5e01-488c-9212-84b8ca21b284.bmp  |2025/06/30 |true  |sample_640×426 - 복사본.bmp  |1074 |[null] |0   |818058   |
+|986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif |2025/06/30 |false |sample.avif               |1047 |[null] |0   |13348    |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
 
-11:33:23.815 [main] INFO  sqltiming - select * from tbl_category tc where tc.status = 'ACTIVE' order by odr
- {executed in 15 msec}
-11:33:23.832 [main] INFO  resultsettable - 
-|----|------|--------------------|------------|---------|---------|
-|cno |cname |regdate             |c_view_type |odr      |status   |
-|----|------|--------------------|------------|---------|---------|
-|2   |자유게시판 |2025-06-12 17:16:18 |LIST        |[unread] |[unread] |
-|----|------|--------------------|------------|---------|---------|
+11:18:59.470 [main] INFO  GhostFileCleanupJob - [D:\upload\files\2025\06\30\9d53b02b-9ec8-414f-bcf8-8dfa0db525e8.jpg, D:\upload\files\2025\06\30\b530f522-17b3-4ee4-965e-a5af92332724.bmp, D:\upload\files\2025\06\30\c3b2cfc1-8b68-426b-a2dd-1cf83cfd5aa5.bmp, D:\upload\files\2025\06\30\c3e385a5-1b8b-4a3a-96b1-0b978a950d9c.bmp, D:\upload\files\2025\06\30\cf6b1e75-b6ab-43fd-9a5e-1940d5809207.gif, D:\upload\files\2025\06\30\d04ee861-1aa9-41f3-8dd1-4e6a8c11329e.jpg, D:\upload\files\2025\06\30\e6f4aadb-14e4-4e35-af89-3e96113fb603.png, D:\upload\files\2025\06\30\edbc04a1-a03a-438f-9ce5-311507ec5c45.png, D:\upload\files\2025\06\30\t_22109df4-aea3-4321-ad47-5ec64ad867ee.bmp, D:\upload\files\2025\06\30\t_27f2712a-1018-4313-bcf8-31448b1d7081.png, D:\upload\files\2025\06\30\t_32dc4e6f-9808-4de5-ac1a-3460e6789094.png, D:\upload\files\2025\06\30\t_49540573-c327-4b10-8c8a-a45be85c97c0.jpg, D:\upload\files\2025\06\30\t_54283a6b-08be-4ec4-bef1-bbe3f439056c.bmp, D:\upload\files\2025\06\30\t_5c684644-3320-4e2b-9631-0c188e4f3f68.jpg, D:\upload\files\2025\06\30\t_5ddaed5c-58fd-4593-84db-9ce324e6a2b2.png, D:\upload\files\2025\06\30\t_7bf19dce-7b8a-4968-bac4-4fd778631dde.png, D:\upload\files\2025\06\30\t_8ae8eb0d-2ecc-4cfb-85da-131cd8c392b5.png, D:\upload\files\2025\06\30\t_95a385c0-8739-40e7-bee5-53156b9ee984.png, D:\upload\files\2025\06\30\t_9d53b02b-9ec8-414f-bcf8-8dfa0db525e8.jpg, D:\upload\files\2025\06\30\t_a1a4c0a9-7d27-4314-9dea-e19ca0fc8aff.png, D:\upload\files\2025\06\30\t_a505f7d6-7c66-4adf-9b6d-a4b52b0930c0.png, D:\upload\files\2025\06\30\t_a722a794-830c-4aff-bfb5-ba9ffa342b78.png, D:\upload\files\2025\06\30\t_c3e385a5-1b8b-4a3a-96b1-0b978a950d9c.bmp, D:\upload\files\2025\06\30\t_cf6b1e75-b6ab-43fd-9a5e-1940d5809207.gif, D:\upload\files\2025\06\30\t_d04ee861-1aa9-41f3-8dd1-4e6a8c11329e.jpg, D:\upload\files\2025\06\30\t_e6f4aadb-14e4-4e35-af89-3e96113fb603.png, D:\upload\files\2025\06\30\t_edbc04a1-a03a-438f-9ce5-311507ec5c45.png]
+11:19:03.716 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30, true
+11:19:04.377 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d');
+ {executed in 14 msec}
+11:19:04.397 [main] INFO  resultsettable - 
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|uuid                                      |path       |image |origin                    |bno  |rno    |odr |size     |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg  |2025/06/30 |true  |SampleJPGImage_2mbmb.jpg  |1074 |[null] |1   |2101546  |
+|32dc4e6f-9808-4de5-ac1a-3460e6789094.png  |2025/06/30 |true  |SamplePNGImage_10mbmb.png |1042 |[null] |0   |10473459 |
+|60bffb13-5e01-488c-9212-84b8ca21b284.bmp  |2025/06/30 |true  |sample_640×426 - 복사본.bmp  |1074 |[null] |0   |818058   |
+|986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif |2025/06/30 |false |sample.avif               |1047 |[null] |0   |13348    |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
 
-11:34:27.176 [main] INFO  sqltiming - select * from tbl_category tc where tc.status = 'ACTIVE' order by odr
+11:19:04.412 [main] INFO  GhostFileCleanupJob - [D:\upload\files\2025\06\30\9d53b02b-9ec8-414f-bcf8-8dfa0db525e8.jpg, D:\upload\files\2025\06\30\b530f522-17b3-4ee4-965e-a5af92332724.bmp, D:\upload\files\2025\06\30\c3b2cfc1-8b68-426b-a2dd-1cf83cfd5aa5.bmp, D:\upload\files\2025\06\30\c3e385a5-1b8b-4a3a-96b1-0b978a950d9c.bmp, D:\upload\files\2025\06\30\cf6b1e75-b6ab-43fd-9a5e-1940d5809207.gif, D:\upload\files\2025\06\30\d04ee861-1aa9-41f3-8dd1-4e6a8c11329e.jpg, D:\upload\files\2025\06\30\e6f4aadb-14e4-4e35-af89-3e96113fb603.png, D:\upload\files\2025\06\30\edbc04a1-a03a-438f-9ce5-311507ec5c45.png, D:\upload\files\2025\06\30\t_22109df4-aea3-4321-ad47-5ec64ad867ee.bmp, D:\upload\files\2025\06\30\t_27f2712a-1018-4313-bcf8-31448b1d7081.png, D:\upload\files\2025\06\30\t_32dc4e6f-9808-4de5-ac1a-3460e6789094.png, D:\upload\files\2025\06\30\t_49540573-c327-4b10-8c8a-a45be85c97c0.jpg, D:\upload\files\2025\06\30\t_54283a6b-08be-4ec4-bef1-bbe3f439056c.bmp, D:\upload\files\2025\06\30\t_5c684644-3320-4e2b-9631-0c188e4f3f68.jpg, D:\upload\files\2025\06\30\t_5ddaed5c-58fd-4593-84db-9ce324e6a2b2.png, D:\upload\files\2025\06\30\t_7bf19dce-7b8a-4968-bac4-4fd778631dde.png, D:\upload\files\2025\06\30\t_8ae8eb0d-2ecc-4cfb-85da-131cd8c392b5.png, D:\upload\files\2025\06\30\t_95a385c0-8739-40e7-bee5-53156b9ee984.png, D:\upload\files\2025\06\30\t_9d53b02b-9ec8-414f-bcf8-8dfa0db525e8.jpg, D:\upload\files\2025\06\30\t_a1a4c0a9-7d27-4314-9dea-e19ca0fc8aff.png, D:\upload\files\2025\06\30\t_a505f7d6-7c66-4adf-9b6d-a4b52b0930c0.png, D:\upload\files\2025\06\30\t_a722a794-830c-4aff-bfb5-ba9ffa342b78.png, D:\upload\files\2025\06\30\t_c3e385a5-1b8b-4a3a-96b1-0b978a950d9c.bmp, D:\upload\files\2025\06\30\t_cf6b1e75-b6ab-43fd-9a5e-1940d5809207.gif, D:\upload\files\2025\06\30\t_d04ee861-1aa9-41f3-8dd1-4e6a8c11329e.jpg, D:\upload\files\2025\06\30\t_e6f4aadb-14e4-4e35-af89-3e96113fb603.png, D:\upload\files\2025\06\30\t_edbc04a1-a03a-438f-9ce5-311507ec5c45.png]
+11:19:37.111 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30, true
+11:19:37.719 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d');
  {executed in 7 msec}
-11:34:27.192 [main] INFO  resultsettable - 
-|----|------|--------------------|------------|---------|---------|
-|cno |cname |regdate             |c_view_type |odr      |status   |
-|----|------|--------------------|------------|---------|---------|
-|2   |자유게시판 |2025-06-12 17:16:18 |LIST        |[unread] |[unread] |
-|----|------|--------------------|------------|---------|---------|
+11:19:37.742 [main] INFO  resultsettable - 
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|uuid                                      |path       |image |origin                    |bno  |rno    |odr |size     |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg  |2025/06/30 |true  |SampleJPGImage_2mbmb.jpg  |1074 |[null] |1   |2101546  |
+|32dc4e6f-9808-4de5-ac1a-3460e6789094.png  |2025/06/30 |true  |SamplePNGImage_10mbmb.png |1042 |[null] |0   |10473459 |
+|60bffb13-5e01-488c-9212-84b8ca21b284.bmp  |2025/06/30 |true  |sample_640×426 - 복사본.bmp  |1074 |[null] |0   |818058   |
+|986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif |2025/06/30 |false |sample.avif               |1047 |[null] |0   |13348    |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
 
-11:36:21.148 [main] INFO  sqltiming - select * from tbl_category tc where tc.status = 'ACTIVE' order by odr
- {executed in 11 msec}
-11:36:21.165 [main] INFO  resultsettable - 
-|----|------|--------------------|------------|----|-------|
-|cno |cname |regdate             |c_view_type |odr |status |
-|----|------|--------------------|------------|----|-------|
-|2   |자유게시판 |2025-06-12 17:16:18 |LIST        |0   |ACTIVE |
-|----|------|--------------------|------------|----|-------|
+11:19:37.762 [main] INFO  GhostFileCleanupJob - [D:\upload\files\2025\06\30\9d53b02b-9ec8-414f-bcf8-8dfa0db525e8.jpg, D:\upload\files\2025\06\30\b530f522-17b3-4ee4-965e-a5af92332724.bmp, D:\upload\files\2025\06\30\c3b2cfc1-8b68-426b-a2dd-1cf83cfd5aa5.bmp, D:\upload\files\2025\06\30\c3e385a5-1b8b-4a3a-96b1-0b978a950d9c.bmp, D:\upload\files\2025\06\30\cf6b1e75-b6ab-43fd-9a5e-1940d5809207.gif, D:\upload\files\2025\06\30\d04ee861-1aa9-41f3-8dd1-4e6a8c11329e.jpg, D:\upload\files\2025\06\30\e6f4aadb-14e4-4e35-af89-3e96113fb603.png, D:\upload\files\2025\06\30\edbc04a1-a03a-438f-9ce5-311507ec5c45.png, D:\upload\files\2025\06\30\t_22109df4-aea3-4321-ad47-5ec64ad867ee.bmp, D:\upload\files\2025\06\30\t_27f2712a-1018-4313-bcf8-31448b1d7081.png, D:\upload\files\2025\06\30\t_32dc4e6f-9808-4de5-ac1a-3460e6789094.png, D:\upload\files\2025\06\30\t_49540573-c327-4b10-8c8a-a45be85c97c0.jpg, D:\upload\files\2025\06\30\t_54283a6b-08be-4ec4-bef1-bbe3f439056c.bmp, D:\upload\files\2025\06\30\t_5c684644-3320-4e2b-9631-0c188e4f3f68.jpg, D:\upload\files\2025\06\30\t_5ddaed5c-58fd-4593-84db-9ce324e6a2b2.png, D:\upload\files\2025\06\30\t_7bf19dce-7b8a-4968-bac4-4fd778631dde.png, D:\upload\files\2025\06\30\t_8ae8eb0d-2ecc-4cfb-85da-131cd8c392b5.png, D:\upload\files\2025\06\30\t_95a385c0-8739-40e7-bee5-53156b9ee984.png, D:\upload\files\2025\06\30\t_9d53b02b-9ec8-414f-bcf8-8dfa0db525e8.jpg, D:\upload\files\2025\06\30\t_a1a4c0a9-7d27-4314-9dea-e19ca0fc8aff.png, D:\upload\files\2025\06\30\t_a505f7d6-7c66-4adf-9b6d-a4b52b0930c0.png, D:\upload\files\2025\06\30\t_a722a794-830c-4aff-bfb5-ba9ffa342b78.png, D:\upload\files\2025\06\30\t_c3e385a5-1b8b-4a3a-96b1-0b978a950d9c.bmp, D:\upload\files\2025\06\30\t_cf6b1e75-b6ab-43fd-9a5e-1940d5809207.gif, D:\upload\files\2025\06\30\t_d04ee861-1aa9-41f3-8dd1-4e6a8c11329e.jpg, D:\upload\files\2025\06\30\t_e6f4aadb-14e4-4e35-af89-3e96113fb603.png, D:\upload\files\2025\06\30\t_edbc04a1-a03a-438f-9ce5-311507ec5c45.png]
+11:20:14.406 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30, true
+11:20:15.040 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d');
+ {executed in 7 msec}
+11:20:15.060 [main] INFO  resultsettable - 
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|uuid                                      |path       |image |origin                    |bno  |rno    |odr |size     |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg  |2025/06/30 |true  |SampleJPGImage_2mbmb.jpg  |1074 |[null] |1   |2101546  |
+|32dc4e6f-9808-4de5-ac1a-3460e6789094.png  |2025/06/30 |true  |SamplePNGImage_10mbmb.png |1042 |[null] |0   |10473459 |
+|60bffb13-5e01-488c-9212-84b8ca21b284.bmp  |2025/06/30 |true  |sample_640×426 - 복사본.bmp  |1074 |[null] |0   |818058   |
+|986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif |2025/06/30 |false |sample.avif               |1047 |[null] |0   |13348    |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
 
-11:38:54.648 [main] INFO  sqltiming - select * from tbl_category tc where tc.status = 'ACTIVE' order by odr
+11:20:15.076 [main] INFO  GhostFileCleanupJob - [D:\upload\files\2025\06\30\0439f44a-3bc1-4df7-adf2-d2c42934838c.bmp, D:\upload\files\2025\06\30\22109df4-aea3-4321-ad47-5ec64ad867ee.bmp, D:\upload\files\2025\06\30\276f1714-ef7f-4134-8b92-0c082067af45.bmp, D:\upload\files\2025\06\30\27f2712a-1018-4313-bcf8-31448b1d7081.png, D:\upload\files\2025\06\30\54283a6b-08be-4ec4-bef1-bbe3f439056c.bmp, D:\upload\files\2025\06\30\8ae8eb0d-2ecc-4cfb-85da-131cd8c392b5.png, D:\upload\files\2025\06\30\95a385c0-8739-40e7-bee5-53156b9ee984.png]
+11:42:35.878 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30, true
+11:42:36.510 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d');
+ {executed in 7 msec}
+11:42:36.531 [main] INFO  resultsettable - 
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|uuid                                      |path       |image |origin                    |bno  |rno    |odr |size     |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg  |2025/06/30 |true  |SampleJPGImage_2mbmb.jpg  |1074 |[null] |1   |2101546  |
+|32dc4e6f-9808-4de5-ac1a-3460e6789094.png  |2025/06/30 |true  |SamplePNGImage_10mbmb.png |1042 |[null] |0   |10473459 |
+|60bffb13-5e01-488c-9212-84b8ca21b284.bmp  |2025/06/30 |true  |sample_640×426 - 복사본.bmp  |1074 |[null] |0   |818058   |
+|986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif |2025/06/30 |false |sample.avif               |1047 |[null] |0   |13348    |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+
+11:42:36.537 [main] INFO  GhostFileCleanupJob - [Attach(uuid=0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1074, rno=null, odr=1, size=2101546), Attach(uuid=32dc4e6f-9808-4de5-ac1a-3460e6789094.png, path=2025/06/30, image=true, origin=SamplePNGImage_10mbmb.png, bno=1042, rno=null, odr=0, size=10473459), Attach(uuid=60bffb13-5e01-488c-9212-84b8ca21b284.bmp, path=2025/06/30, image=true, origin=sample_640×426 - 복사본.bmp, bno=1074, rno=null, odr=0, size=818058), Attach(uuid=986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif, path=2025/06/30, image=false, origin=sample.avif, bno=1047, rno=null, odr=0, size=13348)]
+11:42:36.557 [main] INFO  GhostFileCleanupJob - [D:\upload\files\2025\06\30\0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg, D:\upload\files\2025\06\30\32dc4e6f-9808-4de5-ac1a-3460e6789094.png, D:\upload\files\2025\06\30\60bffb13-5e01-488c-9212-84b8ca21b284.bmp, D:\upload\files\2025\06\30\986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif]
+11:43:43.441 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30, true
+11:43:44.089 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d');
  {executed in 8 msec}
-11:38:54.671 [main] INFO  resultsettable - 
-|----|------|--------------------|------------|----|-------|
-|cno |cname |regdate             |c_view_type |odr |status |
-|----|------|--------------------|------------|----|-------|
-|2   |자유게시판 |2025-06-12 17:16:18 |LIST        |0   |ACTIVE |
-|1   |갤러리   |2025-06-12 17:16:17 |GALLERY     |1   |ACTIVE |
-|3   |QnA   |2025-06-12 17:16:19 |LIST        |2   |ACTIVE |
-|----|------|--------------------|------------|----|-------|
+11:43:44.111 [main] INFO  resultsettable - 
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|uuid                                      |path       |image |origin                    |bno  |rno    |odr |size     |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg  |2025/06/30 |true  |SampleJPGImage_2mbmb.jpg  |1074 |[null] |1   |2101546  |
+|32dc4e6f-9808-4de5-ac1a-3460e6789094.png  |2025/06/30 |true  |SamplePNGImage_10mbmb.png |1042 |[null] |0   |10473459 |
+|60bffb13-5e01-488c-9212-84b8ca21b284.bmp  |2025/06/30 |true  |sample_640×426 - 복사본.bmp  |1074 |[null] |0   |818058   |
+|986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif |2025/06/30 |false |sample.avif               |1047 |[null] |0   |13348    |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
 
-11:38:54.679 [main] INFO  CategoryMapperTest - Category(cno=2, cname=자유게시판, regdate=2025-06-12 17:16:18, c_view_type=LIST, odr=0, status=ACTIVE)
-11:38:54.687 [main] INFO  CategoryMapperTest - Category(cno=1, cname=갤러리, regdate=2025-06-12 17:16:17, c_view_type=GALLERY, odr=1, status=ACTIVE)
-11:38:54.687 [main] INFO  CategoryMapperTest - Category(cno=3, cname=QnA, regdate=2025-06-12 17:16:19, c_view_type=LIST, odr=2, status=ACTIVE)
+11:43:44.115 [main] INFO  GhostFileCleanupJob - 파일:[Attach(uuid=0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1074, rno=null, odr=1, size=2101546), Attach(uuid=32dc4e6f-9808-4de5-ac1a-3460e6789094.png, path=2025/06/30, image=true, origin=SamplePNGImage_10mbmb.png, bno=1042, rno=null, odr=0, size=10473459), Attach(uuid=60bffb13-5e01-488c-9212-84b8ca21b284.bmp, path=2025/06/30, image=true, origin=sample_640×426 - 복사본.bmp, bno=1074, rno=null, odr=0, size=818058), Attach(uuid=986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif, path=2025/06/30, image=false, origin=sample.avif, bno=1047, rno=null, odr=0, size=13348)]
+11:43:44.139 [main] INFO  GhostFileCleanupJob - []
+11:47:25.355 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30, true
+11:47:25.978 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d');
+ {executed in 6 msec}
+11:47:25.999 [main] INFO  resultsettable - 
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|uuid                                      |path       |image |origin                    |bno  |rno    |odr |size     |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg  |2025/06/30 |true  |SampleJPGImage_2mbmb.jpg  |1074 |[null] |1   |2101546  |
+|32dc4e6f-9808-4de5-ac1a-3460e6789094.png  |2025/06/30 |true  |SamplePNGImage_10mbmb.png |1042 |[null] |0   |10473459 |
+|60bffb13-5e01-488c-9212-84b8ca21b284.bmp  |2025/06/30 |true  |sample_640×426 - 복사본.bmp  |1074 |[null] |0   |818058   |
+|986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif |2025/06/30 |false |sample.avif               |1047 |[null] |0   |13348    |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+
+11:47:26.006 [main] INFO  GhostFileCleanupJob - -1, -1
+11:47:26.014 [main] INFO  GhostFileCleanupJob - []
+12:00:32.575 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30, true
+12:00:33.199 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d');
+ {executed in 7 msec}
+12:00:33.220 [main] INFO  resultsettable - 
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|uuid                                      |path       |image |origin                    |bno  |rno    |odr |size     |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg  |2025/06/30 |true  |SampleJPGImage_2mbmb.jpg  |1074 |[null] |1   |2101546  |
+|32dc4e6f-9808-4de5-ac1a-3460e6789094.png  |2025/06/30 |true  |SamplePNGImage_10mbmb.png |1042 |[null] |0   |10473459 |
+|60bffb13-5e01-488c-9212-84b8ca21b284.bmp  |2025/06/30 |true  |sample_640×426 - 복사본.bmp  |1074 |[null] |0   |818058   |
+|986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif |2025/06/30 |false |sample.avif               |1047 |[null] |0   |13348    |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+
+12:00:33.228 [main] INFO  GhostFileCleanupJob - {} {}
+12:00:33.238 [main] INFO  GhostFileCleanupJob - []
+12:03:14.403 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30, true
+12:03:15.059 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d');
+ {executed in 7 msec}
+12:03:15.080 [main] INFO  resultsettable - 
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|uuid                                      |path       |image |origin                    |bno  |rno    |odr |size     |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg  |2025/06/30 |true  |SampleJPGImage_2mbmb.jpg  |1074 |[null] |1   |2101546  |
+|32dc4e6f-9808-4de5-ac1a-3460e6789094.png  |2025/06/30 |true  |SamplePNGImage_10mbmb.png |1042 |[null] |0   |10473459 |
+|60bffb13-5e01-488c-9212-84b8ca21b284.bmp  |2025/06/30 |true  |sample_640×426 - 복사본.bmp  |1074 |[null] |0   |818058   |
+|986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif |2025/06/30 |false |sample.avif               |1047 |[null] |0   |13348    |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+
+12:03:15.087 [main] INFO  GhostFileCleanupJob - attachs [Attach(uuid=0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1074, rno=null, odr=1, size=2101546), Attach(uuid=32dc4e6f-9808-4de5-ac1a-3460e6789094.png, path=2025/06/30, image=true, origin=SamplePNGImage_10mbmb.png, bno=1042, rno=null, odr=0, size=10473459), Attach(uuid=60bffb13-5e01-488c-9212-84b8ca21b284.bmp, path=2025/06/30, image=true, origin=sample_640×426 - 복사본.bmp, bno=1074, rno=null, odr=0, size=818058), Attach(uuid=986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif, path=2025/06/30, image=false, origin=sample.avif, bno=1047, rno=null, odr=0, size=13348)]
+12:03:15.104 [main] INFO  GhostFileCleanupJob -  thumbs[Attach(uuid=t_0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1074, rno=null, odr=1, size=2101546), Attach(uuid=t_32dc4e6f-9808-4de5-ac1a-3460e6789094.png, path=2025/06/30, image=true, origin=SamplePNGImage_10mbmb.png, bno=1042, rno=null, odr=0, size=10473459), Attach(uuid=t_60bffb13-5e01-488c-9212-84b8ca21b284.bmp, path=2025/06/30, image=true, origin=sample_640×426 - 복사본.bmp, bno=1074, rno=null, odr=0, size=818058)]
+12:03:15.105 [main] INFO  GhostFileCleanupJob -  dbListFiles[D:\upload\files\2025\06\30\t_0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg, D:\upload\files\2025\06\30\t_32dc4e6f-9808-4de5-ac1a-3460e6789094.png, D:\upload\files\2025\06\30\t_60bffb13-5e01-488c-9212-84b8ca21b284.bmp, D:\upload\files\2025\06\30\986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif]
+12:03:15.113 [main] INFO  GhostFileCleanupJob - []
+12:03:37.373 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30, true
+12:03:38.042 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d');
+ {executed in 13 msec}
+12:03:38.063 [main] INFO  resultsettable - 
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|uuid                                      |path       |image |origin                    |bno  |rno    |odr |size     |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg  |2025/06/30 |true  |SampleJPGImage_2mbmb.jpg  |1074 |[null] |1   |2101546  |
+|32dc4e6f-9808-4de5-ac1a-3460e6789094.png  |2025/06/30 |true  |SamplePNGImage_10mbmb.png |1042 |[null] |0   |10473459 |
+|60bffb13-5e01-488c-9212-84b8ca21b284.bmp  |2025/06/30 |true  |sample_640×426 - 복사본.bmp  |1074 |[null] |0   |818058   |
+|986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif |2025/06/30 |false |sample.avif               |1047 |[null] |0   |13348    |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+
+12:03:38.071 [main] INFO  GhostFileCleanupJob - attachs [Attach(uuid=0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1074, rno=null, odr=1, size=2101546), Attach(uuid=32dc4e6f-9808-4de5-ac1a-3460e6789094.png, path=2025/06/30, image=true, origin=SamplePNGImage_10mbmb.png, bno=1042, rno=null, odr=0, size=10473459), Attach(uuid=60bffb13-5e01-488c-9212-84b8ca21b284.bmp, path=2025/06/30, image=true, origin=sample_640×426 - 복사본.bmp, bno=1074, rno=null, odr=0, size=818058), Attach(uuid=986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif, path=2025/06/30, image=false, origin=sample.avif, bno=1047, rno=null, odr=0, size=13348)]
+12:03:38.090 [main] INFO  GhostFileCleanupJob -  thumbs[Attach(uuid=t_0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1074, rno=null, odr=1, size=2101546), Attach(uuid=t_32dc4e6f-9808-4de5-ac1a-3460e6789094.png, path=2025/06/30, image=true, origin=SamplePNGImage_10mbmb.png, bno=1042, rno=null, odr=0, size=10473459), Attach(uuid=t_60bffb13-5e01-488c-9212-84b8ca21b284.bmp, path=2025/06/30, image=true, origin=sample_640×426 - 복사본.bmp, bno=1074, rno=null, odr=0, size=818058)]
+12:03:38.091 [main] INFO  GhostFileCleanupJob -  dbListFiles[D:\upload\files\2025\06\30\t_0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg, D:\upload\files\2025\06\30\t_32dc4e6f-9808-4de5-ac1a-3460e6789094.png, D:\upload\files\2025\06\30\t_60bffb13-5e01-488c-9212-84b8ca21b284.bmp, D:\upload\files\2025\06\30\986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif]
+12:03:38.103 [main] INFO  GhostFileCleanupJob - [D:\upload\files\2025\06\30\0439f44a-3bc1-4df7-adf2-d2c42934838c.bmp, D:\upload\files\2025\06\30\0b6fdaed-eeaf-42ba-944c-d694e01edbed.bmp, D:\upload\files\2025\06\30\22109df4-aea3-4321-ad47-5ec64ad867ee.bmp, D:\upload\files\2025\06\30\276f1714-ef7f-4134-8b92-0c082067af45.bmp, D:\upload\files\2025\06\30\27f2712a-1018-4313-bcf8-31448b1d7081.png, D:\upload\files\2025\06\30\2fa37d2d-17a5-4d54-b5e3-902a23b444c8.png, D:\upload\files\2025\06\30\49540573-c327-4b10-8c8a-a45be85c97c0.jpg, D:\upload\files\2025\06\30\54283a6b-08be-4ec4-bef1-bbe3f439056c.bmp, D:\upload\files\2025\06\30\5c684644-3320-4e2b-9631-0c188e4f3f68.jpg, D:\upload\files\2025\06\30\5ddaed5c-58fd-4593-84db-9ce324e6a2b2.png, D:\upload\files\2025\06\30\7bf19dce-7b8a-4968-bac4-4fd778631dde.png, D:\upload\files\2025\06\30\8ae8eb0d-2ecc-4cfb-85da-131cd8c392b5.png, D:\upload\files\2025\06\30\95a385c0-8739-40e7-bee5-53156b9ee984.png, D:\upload\files\2025\06\30\a1a4c0a9-7d27-4314-9dea-e19ca0fc8aff.png, D:\upload\files\2025\06\30\a505f7d6-7c66-4adf-9b6d-a4b52b0930c0.png, D:\upload\files\2025\06\30\a722a794-830c-4aff-bfb5-ba9ffa342b78.png, D:\upload\files\2025\06\30\b530f522-17b3-4ee4-965e-a5af92332724.bmp, D:\upload\files\2025\06\30\c3b2cfc1-8b68-426b-a2dd-1cf83cfd5aa5.bmp, D:\upload\files\2025\06\30\c3e385a5-1b8b-4a3a-96b1-0b978a950d9c.bmp, D:\upload\files\2025\06\30\cf6b1e75-b6ab-43fd-9a5e-1940d5809207.gif, D:\upload\files\2025\06\30\d04ee861-1aa9-41f3-8dd1-4e6a8c11329e.jpg, D:\upload\files\2025\06\30\e6f4aadb-14e4-4e35-af89-3e96113fb603.png, D:\upload\files\2025\06\30\t_0439f44a-3bc1-4df7-adf2-d2c42934838c.bmp, D:\upload\files\2025\06\30\t_0b6fdaed-eeaf-42ba-944c-d694e01edbed.bmp, D:\upload\files\2025\06\30\t_22109df4-aea3-4321-ad47-5ec64ad867ee.bmp, D:\upload\files\2025\06\30\t_276f1714-ef7f-4134-8b92-0c082067af45.bmp, D:\upload\files\2025\06\30\t_27f2712a-1018-4313-bcf8-31448b1d7081.png, D:\upload\files\2025\06\30\t_2fa37d2d-17a5-4d54-b5e3-902a23b444c8.png, D:\upload\files\2025\06\30\t_49540573-c327-4b10-8c8a-a45be85c97c0.jpg, D:\upload\files\2025\06\30\t_54283a6b-08be-4ec4-bef1-bbe3f439056c.bmp, D:\upload\files\2025\06\30\t_5c684644-3320-4e2b-9631-0c188e4f3f68.jpg, D:\upload\files\2025\06\30\t_5ddaed5c-58fd-4593-84db-9ce324e6a2b2.png, D:\upload\files\2025\06\30\t_7bf19dce-7b8a-4968-bac4-4fd778631dde.png, D:\upload\files\2025\06\30\t_8ae8eb0d-2ecc-4cfb-85da-131cd8c392b5.png, D:\upload\files\2025\06\30\t_95a385c0-8739-40e7-bee5-53156b9ee984.png, D:\upload\files\2025\06\30\t_a1a4c0a9-7d27-4314-9dea-e19ca0fc8aff.png, D:\upload\files\2025\06\30\t_a505f7d6-7c66-4adf-9b6d-a4b52b0930c0.png, D:\upload\files\2025\06\30\t_a722a794-830c-4aff-bfb5-ba9ffa342b78.png, D:\upload\files\2025\06\30\t_b530f522-17b3-4ee4-965e-a5af92332724.bmp, D:\upload\files\2025\06\30\t_c3b2cfc1-8b68-426b-a2dd-1cf83cfd5aa5.bmp, D:\upload\files\2025\06\30\t_c3e385a5-1b8b-4a3a-96b1-0b978a950d9c.bmp, D:\upload\files\2025\06\30\t_cf6b1e75-b6ab-43fd-9a5e-1940d5809207.gif, D:\upload\files\2025\06\30\t_d04ee861-1aa9-41f3-8dd1-4e6a8c11329e.jpg, D:\upload\files\2025\06\30\t_e6f4aadb-14e4-4e35-af89-3e96113fb603.png]
+12:14:21.251 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30, true
+12:14:22.943 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d');
+ {executed in 10 msec}
+12:14:22.965 [main] INFO  resultsettable - 
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|uuid                                      |path       |image |origin                    |bno  |rno    |odr |size     |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg  |2025/06/30 |true  |SampleJPGImage_2mbmb.jpg  |1074 |[null] |1   |2101546  |
+|32dc4e6f-9808-4de5-ac1a-3460e6789094.png  |2025/06/30 |true  |SamplePNGImage_10mbmb.png |1042 |[null] |0   |10473459 |
+|5bd597f2-fa3d-47e0-9fac-7e0fe79b0b84.jpg  |2025/06/30 |true  |SampleJPGImage_2mbmb.jpg  |1075 |[null] |2   |2101546  |
+|5bf3684c-5863-47d3-8d2f-7849401acd83.jpg  |2025/06/30 |true  |SampleJPGImage_5mbmb.jpg  |1075 |[null] |3   |5266467  |
+|60bffb13-5e01-488c-9212-84b8ca21b284.bmp  |2025/06/30 |true  |sample_640×426 - 복사본.bmp  |1074 |[null] |0   |818058   |
+|6b42a7d5-ff8b-40b7-935a-6f9c0d0bbef9.bmp  |2025/06/30 |true  |sample_640×426.bmp        |1075 |[null] |1   |818058   |
+|8ae45783-2c3b-487e-b6a5-3bdea33aa24d.png  |2025/06/30 |true  |SamplePNGImage_10mbmb.png |1075 |[null] |4   |10473459 |
+|986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif |2025/06/30 |false |sample.avif               |1047 |[null] |0   |13348    |
+|c2f98c49-69c4-43e5-a6b9-2870f6bae3e8.bmp  |2025/06/30 |true  |sample_640×426 - 복사본.bmp  |1075 |[null] |0   |818058   |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+
+12:14:22.973 [main] INFO  GhostFileCleanupJob - ============attachs ==============
+12:14:22.973 [main] INFO  GhostFileCleanupJob - Attach(uuid=0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1074, rno=null, odr=1, size=2101546), 
+12:14:22.982 [main] INFO  GhostFileCleanupJob - Attach(uuid=32dc4e6f-9808-4de5-ac1a-3460e6789094.png, path=2025/06/30, image=true, origin=SamplePNGImage_10mbmb.png, bno=1042, rno=null, odr=0, size=10473459), 
+12:14:22.982 [main] INFO  GhostFileCleanupJob - Attach(uuid=5bd597f2-fa3d-47e0-9fac-7e0fe79b0b84.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1075, rno=null, odr=2, size=2101546), 
+12:14:22.982 [main] INFO  GhostFileCleanupJob - Attach(uuid=5bf3684c-5863-47d3-8d2f-7849401acd83.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_5mbmb.jpg, bno=1075, rno=null, odr=3, size=5266467), 
+12:14:22.982 [main] INFO  GhostFileCleanupJob - Attach(uuid=60bffb13-5e01-488c-9212-84b8ca21b284.bmp, path=2025/06/30, image=true, origin=sample_640×426 - 복사본.bmp, bno=1074, rno=null, odr=0, size=818058), 
+12:14:22.983 [main] INFO  GhostFileCleanupJob - Attach(uuid=6b42a7d5-ff8b-40b7-935a-6f9c0d0bbef9.bmp, path=2025/06/30, image=true, origin=sample_640×426.bmp, bno=1075, rno=null, odr=1, size=818058), 
+12:14:22.983 [main] INFO  GhostFileCleanupJob - Attach(uuid=8ae45783-2c3b-487e-b6a5-3bdea33aa24d.png, path=2025/06/30, image=true, origin=SamplePNGImage_10mbmb.png, bno=1075, rno=null, odr=4, size=10473459), 
+12:14:22.983 [main] INFO  GhostFileCleanupJob - Attach(uuid=986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif, path=2025/06/30, image=false, origin=sample.avif, bno=1047, rno=null, odr=0, size=13348), 
+12:14:22.983 [main] INFO  GhostFileCleanupJob - Attach(uuid=c2f98c49-69c4-43e5-a6b9-2870f6bae3e8.bmp, path=2025/06/30, image=true, origin=sample_640×426 - 복사본.bmp, bno=1075, rno=null, odr=0, size=818058), 
+12:14:22.985 [main] INFO  GhostFileCleanupJob - ============thumbs ==============
+12:14:22.987 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1074, rno=null, odr=1, size=2101546), 
+12:14:22.987 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_32dc4e6f-9808-4de5-ac1a-3460e6789094.png, path=2025/06/30, image=true, origin=SamplePNGImage_10mbmb.png, bno=1042, rno=null, odr=0, size=10473459), 
+12:14:22.987 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_5bd597f2-fa3d-47e0-9fac-7e0fe79b0b84.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1075, rno=null, odr=2, size=2101546), 
+12:14:22.987 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_5bf3684c-5863-47d3-8d2f-7849401acd83.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_5mbmb.jpg, bno=1075, rno=null, odr=3, size=5266467), 
+12:14:22.987 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_60bffb13-5e01-488c-9212-84b8ca21b284.bmp, path=2025/06/30, image=true, origin=sample_640×426 - 복사본.bmp, bno=1074, rno=null, odr=0, size=818058), 
+12:14:22.987 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_6b42a7d5-ff8b-40b7-935a-6f9c0d0bbef9.bmp, path=2025/06/30, image=true, origin=sample_640×426.bmp, bno=1075, rno=null, odr=1, size=818058), 
+12:14:22.987 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_8ae45783-2c3b-487e-b6a5-3bdea33aa24d.png, path=2025/06/30, image=true, origin=SamplePNGImage_10mbmb.png, bno=1075, rno=null, odr=4, size=10473459), 
+12:14:22.988 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_c2f98c49-69c4-43e5-a6b9-2870f6bae3e8.bmp, path=2025/06/30, image=true, origin=sample_640×426 - 복사본.bmp, bno=1075, rno=null, odr=0, size=818058), 
+12:14:22.988 [main] INFO  GhostFileCleanupJob - ============dbListFiles ==============
+12:14:22.989 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg, 
+12:14:22.989 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\32dc4e6f-9808-4de5-ac1a-3460e6789094.png, 
+12:14:22.989 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\5bd597f2-fa3d-47e0-9fac-7e0fe79b0b84.jpg, 
+12:14:22.990 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\5bf3684c-5863-47d3-8d2f-7849401acd83.jpg, 
+12:14:22.990 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\60bffb13-5e01-488c-9212-84b8ca21b284.bmp, 
+12:14:22.990 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\6b42a7d5-ff8b-40b7-935a-6f9c0d0bbef9.bmp, 
+12:14:22.990 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\8ae45783-2c3b-487e-b6a5-3bdea33aa24d.png, 
+12:14:22.990 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif, 
+12:14:22.990 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\c2f98c49-69c4-43e5-a6b9-2870f6bae3e8.bmp, 
+12:14:22.997 [main] INFO  GhostFileCleanupJob - [D:\upload\files\2025\06\30\t_5bd597f2-fa3d-47e0-9fac-7e0fe79b0b84.jpg, D:\upload\files\2025\06\30\t_5bf3684c-5863-47d3-8d2f-7849401acd83.jpg, D:\upload\files\2025\06\30\t_8ae45783-2c3b-487e-b6a5-3bdea33aa24d.png, D:\upload\files\2025\06\30\t_c2f98c49-69c4-43e5-a6b9-2870f6bae3e8.bmp]
+12:15:26.858 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30, true
+12:15:27.532 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d');
+ {executed in 6 msec}
+12:15:27.560 [main] INFO  resultsettable - 
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|uuid                                      |path       |image |origin                    |bno  |rno    |odr |size     |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg  |2025/06/30 |true  |SampleJPGImage_2mbmb.jpg  |1074 |[null] |1   |2101546  |
+|32dc4e6f-9808-4de5-ac1a-3460e6789094.png  |2025/06/30 |true  |SamplePNGImage_10mbmb.png |1042 |[null] |0   |10473459 |
+|4a3f9ef6-b609-4270-be4f-16e3e7cabf2b.bmp  |2025/06/30 |true  |sample_640×426 - 복사본.bmp  |1076 |[null] |0   |818058   |
+|5bd597f2-fa3d-47e0-9fac-7e0fe79b0b84.jpg  |2025/06/30 |true  |SampleJPGImage_2mbmb.jpg  |1075 |[null] |2   |2101546  |
+|5bf3684c-5863-47d3-8d2f-7849401acd83.jpg  |2025/06/30 |true  |SampleJPGImage_5mbmb.jpg  |1075 |[null] |3   |5266467  |
+|60bffb13-5e01-488c-9212-84b8ca21b284.bmp  |2025/06/30 |true  |sample_640×426 - 복사본.bmp  |1074 |[null] |0   |818058   |
+|6b42a7d5-ff8b-40b7-935a-6f9c0d0bbef9.bmp  |2025/06/30 |true  |sample_640×426.bmp        |1075 |[null] |1   |818058   |
+|824aa1c4-933f-4efb-843c-29eb6afbf933.jpg  |2025/06/30 |true  |SampleJPGImage_2mbmb.jpg  |1076 |[null] |2   |2101546  |
+|849b4f46-3ac4-4058-b6ae-5ab81fd6d593.png  |2025/06/30 |true  |SamplePNGImage_10mbmb.png |1076 |[null] |3   |10473459 |
+|8ae45783-2c3b-487e-b6a5-3bdea33aa24d.png  |2025/06/30 |true  |SamplePNGImage_10mbmb.png |1075 |[null] |4   |10473459 |
+|986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif |2025/06/30 |false |sample.avif               |1047 |[null] |0   |13348    |
+|c2f98c49-69c4-43e5-a6b9-2870f6bae3e8.bmp  |2025/06/30 |true  |sample_640×426 - 복사본.bmp  |1075 |[null] |0   |818058   |
+|e906e823-2ee4-45f0-8fc2-97230cadef28.bmp  |2025/06/30 |true  |sample_640×426.bmp        |1076 |[null] |1   |818058   |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+
+12:15:27.570 [main] INFO  GhostFileCleanupJob - ============attachs ==============
+12:15:27.570 [main] INFO  GhostFileCleanupJob - Attach(uuid=0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1074, rno=null, odr=1, size=2101546), 
+12:15:27.583 [main] INFO  GhostFileCleanupJob - Attach(uuid=32dc4e6f-9808-4de5-ac1a-3460e6789094.png, path=2025/06/30, image=true, origin=SamplePNGImage_10mbmb.png, bno=1042, rno=null, odr=0, size=10473459), 
+12:15:27.586 [main] INFO  GhostFileCleanupJob - Attach(uuid=4a3f9ef6-b609-4270-be4f-16e3e7cabf2b.bmp, path=2025/06/30, image=true, origin=sample_640×426 - 복사본.bmp, bno=1076, rno=null, odr=0, size=818058), 
+12:15:27.586 [main] INFO  GhostFileCleanupJob - Attach(uuid=5bd597f2-fa3d-47e0-9fac-7e0fe79b0b84.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1075, rno=null, odr=2, size=2101546), 
+12:15:27.586 [main] INFO  GhostFileCleanupJob - Attach(uuid=5bf3684c-5863-47d3-8d2f-7849401acd83.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_5mbmb.jpg, bno=1075, rno=null, odr=3, size=5266467), 
+12:15:27.587 [main] INFO  GhostFileCleanupJob - Attach(uuid=60bffb13-5e01-488c-9212-84b8ca21b284.bmp, path=2025/06/30, image=true, origin=sample_640×426 - 복사본.bmp, bno=1074, rno=null, odr=0, size=818058), 
+12:15:27.587 [main] INFO  GhostFileCleanupJob - Attach(uuid=6b42a7d5-ff8b-40b7-935a-6f9c0d0bbef9.bmp, path=2025/06/30, image=true, origin=sample_640×426.bmp, bno=1075, rno=null, odr=1, size=818058), 
+12:15:27.587 [main] INFO  GhostFileCleanupJob - Attach(uuid=824aa1c4-933f-4efb-843c-29eb6afbf933.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1076, rno=null, odr=2, size=2101546), 
+12:15:27.587 [main] INFO  GhostFileCleanupJob - Attach(uuid=849b4f46-3ac4-4058-b6ae-5ab81fd6d593.png, path=2025/06/30, image=true, origin=SamplePNGImage_10mbmb.png, bno=1076, rno=null, odr=3, size=10473459), 
+12:15:27.587 [main] INFO  GhostFileCleanupJob - Attach(uuid=8ae45783-2c3b-487e-b6a5-3bdea33aa24d.png, path=2025/06/30, image=true, origin=SamplePNGImage_10mbmb.png, bno=1075, rno=null, odr=4, size=10473459), 
+12:15:27.587 [main] INFO  GhostFileCleanupJob - Attach(uuid=986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif, path=2025/06/30, image=false, origin=sample.avif, bno=1047, rno=null, odr=0, size=13348), 
+12:15:27.588 [main] INFO  GhostFileCleanupJob - Attach(uuid=c2f98c49-69c4-43e5-a6b9-2870f6bae3e8.bmp, path=2025/06/30, image=true, origin=sample_640×426 - 복사본.bmp, bno=1075, rno=null, odr=0, size=818058), 
+12:15:27.589 [main] INFO  GhostFileCleanupJob - Attach(uuid=e906e823-2ee4-45f0-8fc2-97230cadef28.bmp, path=2025/06/30, image=true, origin=sample_640×426.bmp, bno=1076, rno=null, odr=1, size=818058), 
+12:15:27.592 [main] INFO  GhostFileCleanupJob - ============thumbs ==============
+12:15:27.592 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1074, rno=null, odr=1, size=2101546), 
+12:15:27.593 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_32dc4e6f-9808-4de5-ac1a-3460e6789094.png, path=2025/06/30, image=true, origin=SamplePNGImage_10mbmb.png, bno=1042, rno=null, odr=0, size=10473459), 
+12:15:27.593 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_4a3f9ef6-b609-4270-be4f-16e3e7cabf2b.bmp, path=2025/06/30, image=true, origin=sample_640×426 - 복사본.bmp, bno=1076, rno=null, odr=0, size=818058), 
+12:15:27.593 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_5bd597f2-fa3d-47e0-9fac-7e0fe79b0b84.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1075, rno=null, odr=2, size=2101546), 
+12:15:27.593 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_5bf3684c-5863-47d3-8d2f-7849401acd83.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_5mbmb.jpg, bno=1075, rno=null, odr=3, size=5266467), 
+12:15:27.594 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_60bffb13-5e01-488c-9212-84b8ca21b284.bmp, path=2025/06/30, image=true, origin=sample_640×426 - 복사본.bmp, bno=1074, rno=null, odr=0, size=818058), 
+12:15:27.594 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_6b42a7d5-ff8b-40b7-935a-6f9c0d0bbef9.bmp, path=2025/06/30, image=true, origin=sample_640×426.bmp, bno=1075, rno=null, odr=1, size=818058), 
+12:15:27.594 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_824aa1c4-933f-4efb-843c-29eb6afbf933.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1076, rno=null, odr=2, size=2101546), 
+12:15:27.595 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_849b4f46-3ac4-4058-b6ae-5ab81fd6d593.png, path=2025/06/30, image=true, origin=SamplePNGImage_10mbmb.png, bno=1076, rno=null, odr=3, size=10473459), 
+12:15:27.597 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_8ae45783-2c3b-487e-b6a5-3bdea33aa24d.png, path=2025/06/30, image=true, origin=SamplePNGImage_10mbmb.png, bno=1075, rno=null, odr=4, size=10473459), 
+12:15:27.597 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_c2f98c49-69c4-43e5-a6b9-2870f6bae3e8.bmp, path=2025/06/30, image=true, origin=sample_640×426 - 복사본.bmp, bno=1075, rno=null, odr=0, size=818058), 
+12:15:27.597 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_e906e823-2ee4-45f0-8fc2-97230cadef28.bmp, path=2025/06/30, image=true, origin=sample_640×426.bmp, bno=1076, rno=null, odr=1, size=818058), 
+12:15:27.597 [main] INFO  GhostFileCleanupJob - ============dbListFiles ==============
+12:15:27.598 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg, 
+12:15:27.599 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\32dc4e6f-9808-4de5-ac1a-3460e6789094.png, 
+12:15:27.600 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\4a3f9ef6-b609-4270-be4f-16e3e7cabf2b.bmp, 
+12:15:27.602 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\5bd597f2-fa3d-47e0-9fac-7e0fe79b0b84.jpg, 
+12:15:27.603 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\5bf3684c-5863-47d3-8d2f-7849401acd83.jpg, 
+12:15:27.603 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\60bffb13-5e01-488c-9212-84b8ca21b284.bmp, 
+12:15:27.603 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\6b42a7d5-ff8b-40b7-935a-6f9c0d0bbef9.bmp, 
+12:15:27.603 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\824aa1c4-933f-4efb-843c-29eb6afbf933.jpg, 
+12:15:27.603 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\849b4f46-3ac4-4058-b6ae-5ab81fd6d593.png, 
+12:15:27.603 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\8ae45783-2c3b-487e-b6a5-3bdea33aa24d.png, 
+12:15:27.603 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif, 
+12:15:27.603 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\c2f98c49-69c4-43e5-a6b9-2870f6bae3e8.bmp, 
+12:15:27.604 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\e906e823-2ee4-45f0-8fc2-97230cadef28.bmp, 
+12:15:27.611 [main] INFO  GhostFileCleanupJob - [D:\upload\files\2025\06\30\7eb9e873-6b50-49c4-9715-f073a1f3abb7.bmp, D:\upload\files\2025\06\30\t_4a3f9ef6-b609-4270-be4f-16e3e7cabf2b.bmp, D:\upload\files\2025\06\30\t_7eb9e873-6b50-49c4-9715-f073a1f3abb7.bmp, D:\upload\files\2025\06\30\t_824aa1c4-933f-4efb-843c-29eb6afbf933.jpg, D:\upload\files\2025\06\30\t_849b4f46-3ac4-4058-b6ae-5ab81fd6d593.png, D:\upload\files\2025\06\30\t_e906e823-2ee4-45f0-8fc2-97230cadef28.bmp]
+12:16:21.477 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30, true
+12:16:23.528 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d');
+ {executed in 7 msec}
+12:16:23.551 [main] INFO  resultsettable - 
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|uuid                                      |path       |image |origin                    |bno  |rno    |odr |size     |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg  |2025/06/30 |true  |SampleJPGImage_2mbmb.jpg  |1074 |[null] |1   |2101546  |
+|32dc4e6f-9808-4de5-ac1a-3460e6789094.png  |2025/06/30 |true  |SamplePNGImage_10mbmb.png |1042 |[null] |0   |10473459 |
+|5bd597f2-fa3d-47e0-9fac-7e0fe79b0b84.jpg  |2025/06/30 |true  |SampleJPGImage_2mbmb.jpg  |1075 |[null] |2   |2101546  |
+|5bf3684c-5863-47d3-8d2f-7849401acd83.jpg  |2025/06/30 |true  |SampleJPGImage_5mbmb.jpg  |1075 |[null] |3   |5266467  |
+|60bffb13-5e01-488c-9212-84b8ca21b284.bmp  |2025/06/30 |true  |sample_640×426 - 복사본.bmp  |1074 |[null] |0   |818058   |
+|6b42a7d5-ff8b-40b7-935a-6f9c0d0bbef9.bmp  |2025/06/30 |true  |sample_640×426.bmp        |1075 |[null] |1   |818058   |
+|8ae45783-2c3b-487e-b6a5-3bdea33aa24d.png  |2025/06/30 |true  |SamplePNGImage_10mbmb.png |1075 |[null] |4   |10473459 |
+|986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif |2025/06/30 |false |sample.avif               |1047 |[null] |0   |13348    |
+|c2f98c49-69c4-43e5-a6b9-2870f6bae3e8.bmp  |2025/06/30 |true  |sample_640×426 - 복사본.bmp  |1075 |[null] |0   |818058   |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+
+12:16:23.557 [main] INFO  GhostFileCleanupJob - ============attachs ==============
+12:16:23.558 [main] INFO  GhostFileCleanupJob - Attach(uuid=0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1074, rno=null, odr=1, size=2101546), 
+12:16:23.568 [main] INFO  GhostFileCleanupJob - Attach(uuid=32dc4e6f-9808-4de5-ac1a-3460e6789094.png, path=2025/06/30, image=true, origin=SamplePNGImage_10mbmb.png, bno=1042, rno=null, odr=0, size=10473459), 
+12:16:23.568 [main] INFO  GhostFileCleanupJob - Attach(uuid=5bd597f2-fa3d-47e0-9fac-7e0fe79b0b84.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1075, rno=null, odr=2, size=2101546), 
+12:16:23.569 [main] INFO  GhostFileCleanupJob - Attach(uuid=5bf3684c-5863-47d3-8d2f-7849401acd83.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_5mbmb.jpg, bno=1075, rno=null, odr=3, size=5266467), 
+12:16:23.569 [main] INFO  GhostFileCleanupJob - Attach(uuid=60bffb13-5e01-488c-9212-84b8ca21b284.bmp, path=2025/06/30, image=true, origin=sample_640×426 - 복사본.bmp, bno=1074, rno=null, odr=0, size=818058), 
+12:16:23.569 [main] INFO  GhostFileCleanupJob - Attach(uuid=6b42a7d5-ff8b-40b7-935a-6f9c0d0bbef9.bmp, path=2025/06/30, image=true, origin=sample_640×426.bmp, bno=1075, rno=null, odr=1, size=818058), 
+12:16:23.569 [main] INFO  GhostFileCleanupJob - Attach(uuid=8ae45783-2c3b-487e-b6a5-3bdea33aa24d.png, path=2025/06/30, image=true, origin=SamplePNGImage_10mbmb.png, bno=1075, rno=null, odr=4, size=10473459), 
+12:16:23.569 [main] INFO  GhostFileCleanupJob - Attach(uuid=986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif, path=2025/06/30, image=false, origin=sample.avif, bno=1047, rno=null, odr=0, size=13348), 
+12:16:23.569 [main] INFO  GhostFileCleanupJob - Attach(uuid=c2f98c49-69c4-43e5-a6b9-2870f6bae3e8.bmp, path=2025/06/30, image=true, origin=sample_640×426 - 복사본.bmp, bno=1075, rno=null, odr=0, size=818058), 
+12:16:23.571 [main] INFO  GhostFileCleanupJob - ============thumbs ==============
+12:16:23.571 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1074, rno=null, odr=1, size=2101546), 
+12:16:23.572 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_32dc4e6f-9808-4de5-ac1a-3460e6789094.png, path=2025/06/30, image=true, origin=SamplePNGImage_10mbmb.png, bno=1042, rno=null, odr=0, size=10473459), 
+12:16:23.572 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_5bd597f2-fa3d-47e0-9fac-7e0fe79b0b84.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1075, rno=null, odr=2, size=2101546), 
+12:16:23.572 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_5bf3684c-5863-47d3-8d2f-7849401acd83.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_5mbmb.jpg, bno=1075, rno=null, odr=3, size=5266467), 
+12:16:23.572 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_60bffb13-5e01-488c-9212-84b8ca21b284.bmp, path=2025/06/30, image=true, origin=sample_640×426 - 복사본.bmp, bno=1074, rno=null, odr=0, size=818058), 
+12:16:23.572 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_6b42a7d5-ff8b-40b7-935a-6f9c0d0bbef9.bmp, path=2025/06/30, image=true, origin=sample_640×426.bmp, bno=1075, rno=null, odr=1, size=818058), 
+12:16:23.572 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_8ae45783-2c3b-487e-b6a5-3bdea33aa24d.png, path=2025/06/30, image=true, origin=SamplePNGImage_10mbmb.png, bno=1075, rno=null, odr=4, size=10473459), 
+12:16:23.572 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_c2f98c49-69c4-43e5-a6b9-2870f6bae3e8.bmp, path=2025/06/30, image=true, origin=sample_640×426 - 복사본.bmp, bno=1075, rno=null, odr=0, size=818058), 
+12:16:23.573 [main] INFO  GhostFileCleanupJob - ============dbListFiles ==============
+12:16:23.574 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg, 
+12:16:23.574 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\32dc4e6f-9808-4de5-ac1a-3460e6789094.png, 
+12:16:23.575 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\5bd597f2-fa3d-47e0-9fac-7e0fe79b0b84.jpg, 
+12:16:23.575 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\5bf3684c-5863-47d3-8d2f-7849401acd83.jpg, 
+12:16:23.575 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\60bffb13-5e01-488c-9212-84b8ca21b284.bmp, 
+12:16:23.575 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\6b42a7d5-ff8b-40b7-935a-6f9c0d0bbef9.bmp, 
+12:16:23.575 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\8ae45783-2c3b-487e-b6a5-3bdea33aa24d.png, 
+12:16:23.575 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif, 
+12:16:23.575 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\c2f98c49-69c4-43e5-a6b9-2870f6bae3e8.bmp, 
+12:16:23.582 [main] INFO  GhostFileCleanupJob - [D:\upload\files\2025\06\30\4a3f9ef6-b609-4270-be4f-16e3e7cabf2b.bmp, D:\upload\files\2025\06\30\824aa1c4-933f-4efb-843c-29eb6afbf933.jpg, D:\upload\files\2025\06\30\849b4f46-3ac4-4058-b6ae-5ab81fd6d593.png, D:\upload\files\2025\06\30\e906e823-2ee4-45f0-8fc2-97230cadef28.bmp]
+12:18:16.263 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30, true
+12:18:16.949 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d');
+ {executed in 6 msec}
+12:18:16.972 [main] INFO  resultsettable - 
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|uuid                                      |path       |image |origin                    |bno  |rno    |odr |size     |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+|03d3e7c0-fb7c-48eb-9341-9a2ee89add0c.png  |2025/06/30 |true  |SamplePNGImage_1mbmb.png  |1077 |[null] |1   |1068158  |
+|0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg  |2025/06/30 |true  |SampleJPGImage_2mbmb.jpg  |1074 |[null] |1   |2101546  |
+|32dc4e6f-9808-4de5-ac1a-3460e6789094.png  |2025/06/30 |true  |SamplePNGImage_10mbmb.png |1042 |[null] |0   |10473459 |
+|5bd597f2-fa3d-47e0-9fac-7e0fe79b0b84.jpg  |2025/06/30 |true  |SampleJPGImage_2mbmb.jpg  |1075 |[null] |2   |2101546  |
+|5bf3684c-5863-47d3-8d2f-7849401acd83.jpg  |2025/06/30 |true  |SampleJPGImage_5mbmb.jpg  |1075 |[null] |3   |5266467  |
+|5da77dcb-4bf9-4269-aa45-1f15a8ff5a3f.jpg  |2025/06/30 |true  |SampleJPGImage_2mbmb.jpg  |1077 |[null] |0   |2101546  |
+|60bffb13-5e01-488c-9212-84b8ca21b284.bmp  |2025/06/30 |true  |sample_640×426 - 복사본.bmp  |1074 |[null] |0   |818058   |
+|6b42a7d5-ff8b-40b7-935a-6f9c0d0bbef9.bmp  |2025/06/30 |true  |sample_640×426.bmp        |1075 |[null] |1   |818058   |
+|8ae45783-2c3b-487e-b6a5-3bdea33aa24d.png  |2025/06/30 |true  |SamplePNGImage_10mbmb.png |1075 |[null] |4   |10473459 |
+|986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif |2025/06/30 |false |sample.avif               |1047 |[null] |0   |13348    |
+|c2f98c49-69c4-43e5-a6b9-2870f6bae3e8.bmp  |2025/06/30 |true  |sample_640×426 - 복사본.bmp  |1075 |[null] |0   |818058   |
+|f233fe6b-e3c8-4a8c-960d-ac30ffe0e447.png  |2025/06/30 |true  |SamplePNGImage_10mbmb.png |1077 |[null] |2   |10473459 |
+|------------------------------------------|-----------|------|--------------------------|-----|-------|----|---------|
+
+12:18:16.979 [main] INFO  GhostFileCleanupJob - ============attachs ==============
+12:18:16.979 [main] INFO  GhostFileCleanupJob - Attach(uuid=03d3e7c0-fb7c-48eb-9341-9a2ee89add0c.png, path=2025/06/30, image=true, origin=SamplePNGImage_1mbmb.png, bno=1077, rno=null, odr=1, size=1068158), 
+12:18:16.992 [main] INFO  GhostFileCleanupJob - Attach(uuid=0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1074, rno=null, odr=1, size=2101546), 
+12:18:16.992 [main] INFO  GhostFileCleanupJob - Attach(uuid=32dc4e6f-9808-4de5-ac1a-3460e6789094.png, path=2025/06/30, image=true, origin=SamplePNGImage_10mbmb.png, bno=1042, rno=null, odr=0, size=10473459), 
+12:18:16.992 [main] INFO  GhostFileCleanupJob - Attach(uuid=5bd597f2-fa3d-47e0-9fac-7e0fe79b0b84.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1075, rno=null, odr=2, size=2101546), 
+12:18:16.992 [main] INFO  GhostFileCleanupJob - Attach(uuid=5bf3684c-5863-47d3-8d2f-7849401acd83.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_5mbmb.jpg, bno=1075, rno=null, odr=3, size=5266467), 
+12:18:16.992 [main] INFO  GhostFileCleanupJob - Attach(uuid=5da77dcb-4bf9-4269-aa45-1f15a8ff5a3f.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1077, rno=null, odr=0, size=2101546), 
+12:18:16.992 [main] INFO  GhostFileCleanupJob - Attach(uuid=60bffb13-5e01-488c-9212-84b8ca21b284.bmp, path=2025/06/30, image=true, origin=sample_640×426 - 복사본.bmp, bno=1074, rno=null, odr=0, size=818058), 
+12:18:16.992 [main] INFO  GhostFileCleanupJob - Attach(uuid=6b42a7d5-ff8b-40b7-935a-6f9c0d0bbef9.bmp, path=2025/06/30, image=true, origin=sample_640×426.bmp, bno=1075, rno=null, odr=1, size=818058), 
+12:18:16.992 [main] INFO  GhostFileCleanupJob - Attach(uuid=8ae45783-2c3b-487e-b6a5-3bdea33aa24d.png, path=2025/06/30, image=true, origin=SamplePNGImage_10mbmb.png, bno=1075, rno=null, odr=4, size=10473459), 
+12:18:16.992 [main] INFO  GhostFileCleanupJob - Attach(uuid=986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif, path=2025/06/30, image=false, origin=sample.avif, bno=1047, rno=null, odr=0, size=13348), 
+12:18:16.993 [main] INFO  GhostFileCleanupJob - Attach(uuid=c2f98c49-69c4-43e5-a6b9-2870f6bae3e8.bmp, path=2025/06/30, image=true, origin=sample_640×426 - 복사본.bmp, bno=1075, rno=null, odr=0, size=818058), 
+12:18:16.993 [main] INFO  GhostFileCleanupJob - Attach(uuid=f233fe6b-e3c8-4a8c-960d-ac30ffe0e447.png, path=2025/06/30, image=true, origin=SamplePNGImage_10mbmb.png, bno=1077, rno=null, odr=2, size=10473459), 
+12:18:16.996 [main] INFO  GhostFileCleanupJob - ============thumbs ==============
+12:18:16.997 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_03d3e7c0-fb7c-48eb-9341-9a2ee89add0c.png, path=2025/06/30, image=true, origin=SamplePNGImage_1mbmb.png, bno=1077, rno=null, odr=1, size=1068158), 
+12:18:16.999 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1074, rno=null, odr=1, size=2101546), 
+12:18:16.999 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_32dc4e6f-9808-4de5-ac1a-3460e6789094.png, path=2025/06/30, image=true, origin=SamplePNGImage_10mbmb.png, bno=1042, rno=null, odr=0, size=10473459), 
+12:18:16.999 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_5bd597f2-fa3d-47e0-9fac-7e0fe79b0b84.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1075, rno=null, odr=2, size=2101546), 
+12:18:16.999 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_5bf3684c-5863-47d3-8d2f-7849401acd83.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_5mbmb.jpg, bno=1075, rno=null, odr=3, size=5266467), 
+12:18:16.999 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_5da77dcb-4bf9-4269-aa45-1f15a8ff5a3f.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1077, rno=null, odr=0, size=2101546), 
+12:18:16.999 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_60bffb13-5e01-488c-9212-84b8ca21b284.bmp, path=2025/06/30, image=true, origin=sample_640×426 - 복사본.bmp, bno=1074, rno=null, odr=0, size=818058), 
+12:18:17.000 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_6b42a7d5-ff8b-40b7-935a-6f9c0d0bbef9.bmp, path=2025/06/30, image=true, origin=sample_640×426.bmp, bno=1075, rno=null, odr=1, size=818058), 
+12:18:17.000 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_8ae45783-2c3b-487e-b6a5-3bdea33aa24d.png, path=2025/06/30, image=true, origin=SamplePNGImage_10mbmb.png, bno=1075, rno=null, odr=4, size=10473459), 
+12:18:17.000 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_c2f98c49-69c4-43e5-a6b9-2870f6bae3e8.bmp, path=2025/06/30, image=true, origin=sample_640×426 - 복사본.bmp, bno=1075, rno=null, odr=0, size=818058), 
+12:18:17.000 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_f233fe6b-e3c8-4a8c-960d-ac30ffe0e447.png, path=2025/06/30, image=true, origin=SamplePNGImage_10mbmb.png, bno=1077, rno=null, odr=2, size=10473459), 
+12:18:17.000 [main] INFO  GhostFileCleanupJob - ============dbListFiles ==============
+12:18:17.001 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\03d3e7c0-fb7c-48eb-9341-9a2ee89add0c.png, 
+12:18:17.001 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\0892fe14-f3a3-4137-a11a-867f9c361dd1.jpg, 
+12:18:17.001 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\32dc4e6f-9808-4de5-ac1a-3460e6789094.png, 
+12:18:17.001 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\5bd597f2-fa3d-47e0-9fac-7e0fe79b0b84.jpg, 
+12:18:17.002 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\5bf3684c-5863-47d3-8d2f-7849401acd83.jpg, 
+12:18:17.002 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\5da77dcb-4bf9-4269-aa45-1f15a8ff5a3f.jpg, 
+12:18:17.002 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\60bffb13-5e01-488c-9212-84b8ca21b284.bmp, 
+12:18:17.002 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\6b42a7d5-ff8b-40b7-935a-6f9c0d0bbef9.bmp, 
+12:18:17.002 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\8ae45783-2c3b-487e-b6a5-3bdea33aa24d.png, 
+12:18:17.002 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\986171c9-306d-4d0b-99ed-8cc1d58d6ae8.avif, 
+12:18:17.002 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\c2f98c49-69c4-43e5-a6b9-2870f6bae3e8.bmp, 
+12:18:17.002 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\f233fe6b-e3c8-4a8c-960d-ac30ffe0e447.png, 
+12:18:17.011 [main] INFO  GhostFileCleanupJob - [D:\upload\files\2025\06\30\2c354acd-a20c-4111-81c5-e02fe4002fb4.png, D:\upload\files\2025\06\30\68d423dd-0570-490c-b3e6-a387d19fb8ac.bmp, D:\upload\files\2025\06\30\8afbe1d5-0a25-4071-8ebc-5a5e9e66067d.png, D:\upload\files\2025\06\30\a1e4f733-7e92-473a-80b6-86d9faab6992.jpg, D:\upload\files\2025\06\30\c678405e-25b3-4665-94bc-6817fdfbd6bb.bmp, D:\upload\files\2025\06\30\t_03d3e7c0-fb7c-48eb-9341-9a2ee89add0c.png, D:\upload\files\2025\06\30\t_2c354acd-a20c-4111-81c5-e02fe4002fb4.png, D:\upload\files\2025\06\30\t_5da77dcb-4bf9-4269-aa45-1f15a8ff5a3f.jpg, D:\upload\files\2025\06\30\t_68d423dd-0570-490c-b3e6-a387d19fb8ac.bmp, D:\upload\files\2025\06\30\t_8afbe1d5-0a25-4071-8ebc-5a5e9e66067d.png, D:\upload\files\2025\06\30\t_a1e4f733-7e92-473a-80b6-86d9faab6992.jpg, D:\upload\files\2025\06\30\t_c678405e-25b3-4665-94bc-6817fdfbd6bb.bmp, D:\upload\files\2025\06\30\t_f233fe6b-e3c8-4a8c-960d-ac30ffe0e447.png]
+12:21:03.107 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30, true
+12:21:03.754 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d');
+ {executed in 8 msec}
+12:21:03.773 [main] INFO  resultsettable - 
+|-----------------------------------------|-----------|------|-------------------------|-----|-------|----|--------|
+|uuid                                     |path       |image |origin                   |bno  |rno    |odr |size    |
+|-----------------------------------------|-----------|------|-------------------------|-----|-------|----|--------|
+|9f87d500-21da-41c6-93ab-0f5422281552.jpg |2025/06/30 |true  |SampleJPGImage_2mbmb.jpg |1078 |[null] |0   |2101546 |
+|-----------------------------------------|-----------|------|-------------------------|-----|-------|----|--------|
+
+12:21:03.780 [main] INFO  GhostFileCleanupJob - ============attachs ==============
+12:21:03.781 [main] INFO  GhostFileCleanupJob - Attach(uuid=9f87d500-21da-41c6-93ab-0f5422281552.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1078, rno=null, odr=0, size=2101546), 
+12:21:03.798 [main] INFO  GhostFileCleanupJob - ============thumbs ==============
+12:21:03.799 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_9f87d500-21da-41c6-93ab-0f5422281552.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1078, rno=null, odr=0, size=2101546), 
+12:21:03.799 [main] INFO  GhostFileCleanupJob - ============dbListFiles ==============
+12:21:03.800 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\9f87d500-21da-41c6-93ab-0f5422281552.jpg, 
+12:21:03.810 [main] INFO  GhostFileCleanupJob - [D:\upload\files\2025\06\30\e282c011-e24f-4083-81c8-fe9e84b819cb.bmp, D:\upload\files\2025\06\30\t_9f87d500-21da-41c6-93ab-0f5422281552.jpg, D:\upload\files\2025\06\30\t_e282c011-e24f-4083-81c8-fe9e84b819cb.bmp]
+12:25:37.686 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30, true
+12:25:38.323 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d');
+ {executed in 8 msec}
+12:25:38.335 [main] INFO  resultsettable - 
+|-----|-----|------|-------|----|----|----|-----|
+|uuid |path |image |origin |bno |rno |odr |size |
+|-----|-----|------|-------|----|----|----|-----|
+|-----|-----|------|-------|----|----|----|-----|
+
+12:25:38.342 [main] INFO  GhostFileCleanupJob - ============attachs ==============
+12:25:38.344 [main] INFO  GhostFileCleanupJob - ============thumbs ==============
+12:25:38.344 [main] INFO  GhostFileCleanupJob - ============dbListFiles ==============
+12:25:38.354 [main] INFO  GhostFileCleanupJob - [D:\upload\files\2025\06\30\9f87d500-21da-41c6-93ab-0f5422281552.jpg]
+12:26:52.268 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30, true
+12:26:52.883 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d');
+ {executed in 6 msec}
+12:26:52.903 [main] INFO  resultsettable - 
+|-----------------------------------------|-----------|------|-------------------------|-----|-------|----|--------|
+|uuid                                     |path       |image |origin                   |bno  |rno    |odr |size    |
+|-----------------------------------------|-----------|------|-------------------------|-----|-------|----|--------|
+|d2d430db-affb-4d54-920c-7148602a6bd3.png |2025/06/30 |true  |SamplePNGImage_5mbmb.png |1079 |[null] |0   |5249494 |
+|-----------------------------------------|-----------|------|-------------------------|-----|-------|----|--------|
+
+12:26:52.909 [main] INFO  GhostFileCleanupJob - ============attachs ==============
+12:26:52.910 [main] INFO  GhostFileCleanupJob - Attach(uuid=d2d430db-affb-4d54-920c-7148602a6bd3.png, path=2025/06/30, image=true, origin=SamplePNGImage_5mbmb.png, bno=1079, rno=null, odr=0, size=5249494), 
+12:26:52.926 [main] INFO  GhostFileCleanupJob - ============thumbs ==============
+12:26:52.927 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_d2d430db-affb-4d54-920c-7148602a6bd3.png, path=2025/06/30, image=true, origin=SamplePNGImage_5mbmb.png, bno=1079, rno=null, odr=0, size=5249494), 
+12:26:52.927 [main] INFO  GhostFileCleanupJob - ============dbListFiles ==============
+12:26:52.928 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\d2d430db-affb-4d54-920c-7148602a6bd3.png, 
+12:26:52.940 [main] INFO  GhostFileCleanupJob - [D:\upload\files\2025\06\30\b1593f1d-94d3-4a43-a6b8-0d073f562391.bmp, D:\upload\files\2025\06\30\t_b1593f1d-94d3-4a43-a6b8-0d073f562391.bmp, D:\upload\files\2025\06\30\t_d2d430db-affb-4d54-920c-7148602a6bd3.png]
+12:35:42.112 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30, true
+12:35:42.743 [main] INFO  sqltiming - select * from tbl_attach ta where path = DATE_FORMAT(DATE_SUB(now(), INTERVAL 1 DAY), '%Y/%m/%d');
+ {executed in 8 msec}
+12:35:42.767 [main] INFO  resultsettable - 
+|-----------------------------------------|-----------|------|-------------------------|-----|-------|----|--------|
+|uuid                                     |path       |image |origin                   |bno  |rno    |odr |size    |
+|-----------------------------------------|-----------|------|-------------------------|-----|-------|----|--------|
+|36e3d547-5ec4-4c83-b799-dba45860f936.jpg |2025/06/30 |true  |SampleJPGImage_2mbmb.jpg |1080 |[null] |0   |2101546 |
+|d2d430db-affb-4d54-920c-7148602a6bd3.png |2025/06/30 |true  |SamplePNGImage_5mbmb.png |1079 |[null] |0   |5249494 |
+|-----------------------------------------|-----------|------|-------------------------|-----|-------|----|--------|
+
+12:35:42.774 [main] INFO  GhostFileCleanupJob - ============attachs ==============
+12:35:42.774 [main] INFO  GhostFileCleanupJob - Attach(uuid=36e3d547-5ec4-4c83-b799-dba45860f936.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1080, rno=null, odr=0, size=2101546), 
+12:35:42.799 [main] INFO  GhostFileCleanupJob - Attach(uuid=d2d430db-affb-4d54-920c-7148602a6bd3.png, path=2025/06/30, image=true, origin=SamplePNGImage_5mbmb.png, bno=1079, rno=null, odr=0, size=5249494), 
+12:35:42.801 [main] INFO  GhostFileCleanupJob - ============thumbs ==============
+12:35:42.802 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_36e3d547-5ec4-4c83-b799-dba45860f936.jpg, path=2025/06/30, image=true, origin=SampleJPGImage_2mbmb.jpg, bno=1080, rno=null, odr=0, size=2101546), 
+12:35:42.802 [main] INFO  GhostFileCleanupJob - Attach(uuid=t_d2d430db-affb-4d54-920c-7148602a6bd3.png, path=2025/06/30, image=true, origin=SamplePNGImage_5mbmb.png, bno=1079, rno=null, odr=0, size=5249494), 
+12:35:42.803 [main] INFO  GhostFileCleanupJob - ============dbListFiles ==============
+12:35:42.804 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\36e3d547-5ec4-4c83-b799-dba45860f936.jpg, 
+12:35:42.804 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\d2d430db-affb-4d54-920c-7148602a6bd3.png, 
+12:35:42.804 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\t_36e3d547-5ec4-4c83-b799-dba45860f936.jpg, 
+12:35:42.804 [main] INFO  GhostFileCleanupJob - D:\upload\files\2025\06\30\t_d2d430db-affb-4d54-920c-7148602a6bd3.png, 
+12:35:42.814 [main] INFO  GhostFileCleanupJob - [D:\upload\files\2025\06\30\662483d8-132b-4c84-b337-f70316cfc9fb.bmp, D:\upload\files\2025\06\30\t_662483d8-132b-4c84-b337-f70316cfc9fb.bmp]
