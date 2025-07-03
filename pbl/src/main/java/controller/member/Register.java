@@ -39,7 +39,7 @@ public class Register extends HttpServlet{
 		//3.service.register(member호출)
 		new MemberService().register(member);
 		//4.index로 리디렉션
-		resp.sendRedirect("../index");
+		resp.sendRedirect("/index");
 	}
 	
 }
